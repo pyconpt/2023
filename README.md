@@ -1,6 +1,6 @@
 <img src="pycon_portugal_2023/static/images/logo/logo_mobile.svg" alt="PyCon Portugal 2022" height="120px" />
 
-🌍 [2022.pycon.pt](https://2022.pycon.pt/) \
+🌍 [2023.pycon.pt](https://2023.pycon.pt/) \
 📍 Hybrid from Porto, Portugal 🇵🇹 \
 📅 September 24th
 
