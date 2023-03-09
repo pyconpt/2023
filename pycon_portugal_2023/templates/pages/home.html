@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% load static markdown_extras %}
+{% block content %}
+  {# BANNER #}
+  <div class="container-fluid home-header">
+    <div class="container">
+      <div class="row justify-content-center align-content-center home-banner pt-5">
+        <div class="col-10">
+          {# HOME-ABOUT #}
+          {% include 'modules/default.html' with content=files.0 %}
+
+          <img src="{% static 'images/logo/home-banner.png' %}" alt="Home banner" class="img-fluid">
+
+          {% with content=files.1|markdown %}
+            <div class="home-title-block text-center mt-5 text-white">
+              {{ content.html | safe }}
+            </div>
+          {% endwith %}
+          <div class="text-center my-5">
+            <button type="button"
+                    class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase">I want a
+              ticket
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid tickets py-5">
+    <div class="container">
+      <h2 class="text-white ms-4">Tickets</h2>
+      <div class="row pt-3 gx-5">
+        {# TICKETS #}
+        {% include 'modules/tickets.html' %}
+      </div>
+      <div class="my-5">
+        <button type="button"
+                class="ms-4 btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase">
+          Buy ticket now <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid dates py-5">
+    <div class="container">
+      <h2 class="ms-4">Important Dates</h2>
+      <div class="row pt-5 gx-lg-5">
+        {% include 'modules/dates.html' %}
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid previous-edition py-5">
+    <div class="container">
+      <h2 class="ms-4">Previous Edition</h2>
+      <div class="row pt-5 gx-5">
+        {% include 'modules/previous_edition.html' %}
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid sponsors py-5">
+    <div class="container">
+      <h2 class="ms-4 text-white">Sponsors</h2>
+      <div class="row pt-5 gx-1">
+        {% include 'modules/sponsors.html' with content=files.7 %}
+      </div>
+    </div>
+  </div>
+
+{% endblock content %}

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block nav_css %}black-nav{% endblock %}
+
+{% block nav_brand %}{% static 'images/logo/logo_black.png' %}{% endblock %}
+
+{% block content %}
+  <div class="container-fluid content py-5">
+    <div class="container">
+      {% for file in files %}
+        <div class="row">
+          <div class="content-container">
+            {% include 'modules/default.html' with content=file %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+{% endblock content %}
+
+
+{% block hashtag_content %}content-page-hashtag{% endblock %}
+{% block newsletter_content %}content-newsletter{% endblock %}
+

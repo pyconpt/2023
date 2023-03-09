@@ -1,0 +1,43 @@
+{% load static markdown_extras %}
+
+
+<div class="col-12 col-md-6 col-lg-4 mt-3">
+  {% with content=files.2|markdown %}
+    <div class="card h-100">
+      <div class="card-body py-5 px-3 p-xl-5">
+        <h3 class="d-block">
+          <img class="me-2" src="{% static "images/other/star.svg" %}"
+               alt="Star">{{ content.meta.title.0 }}</h3>
+        {{ content.html | safe }}
+      </div>
+    </div>
+  {% endwith %}
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 mt-3">
+  {% with content=files.3|markdown %}
+    <div class="card h-100">
+      <div class="card-body py-5 px-3 p-xl-5">
+        <h3 class="d-block">
+          <img class="me-2" src="{% static "images/other/star.svg" %}"
+               alt="Star">
+          {{ content.meta.title.0 }}</h3>
+        {{ content.html | safe }}
+      </div>
+    </div>
+  {% endwith %}
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 mt-3">
+  {% with content=files.4|markdown %}
+    <div class="card h-100">
+      <div class="card-body py-5 px-3 p-xl-5">
+        <h3 class="d-block">
+          <img class="me-2" src="{% static "images/other/star.svg" %}"
+               alt="Star">
+          {{ content.meta.title.0 }}</h3>
+        {{ content.html | safe }}
+      </div>
+    </div>
+  {% endwith %}
+</div>

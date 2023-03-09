@@ -1,0 +1,169 @@
+@use "base";
+
+h1, h2, h3, h4, h5, h6 {
+  &.title {
+    font-weight: bold;
+  }
+}
+
+// force footer to the bottom
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.innerBody {
+  flex: 1 0 auto;
+  background-color: base.$Green;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+// #
+
+//
+.text-green {
+  color: base.$BgLightGreen !important;
+}
+
+.text-hidden {
+  color: transparent;
+}
+
+.title-lg {
+  font: normal normal bold 2.875rem/3.25rem Poppins;
+}
+
+@media (max-width: 991.98px) {
+  .title-lg {
+    font: normal normal bold 2.5rem/2.75rem Poppins;
+  }
+}
+
+//
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.d-contents {
+  display: contents !important;
+}
+
+// includes
+
+@import "header";
+
+@import "home";
+
+@import "content";
+
+@import "footer";
+
+// sponsors imgs
+img.sponsor {
+  width: unset;
+  height: 50px;
+}
+
+img.sponsor.huge {
+  height: 70px;
+}
+
+img.sponsor.large {
+  height: 60px;
+}
+
+img.sponsor.small {
+  height: 40px;
+}
+
+img.sponsor.tiny {
+  height: 25px;
+}
+
+img.hotel {
+  max-width: 200px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+}
+
+//
+
+button:hover {
+  color: white !important;
+  background-color: base.$BgBlue !important;
+}
+
+tbody, td, tfoot, th, thead, tr {
+  border-width: 1px;
+  padding: 0.5rem;
+}
+
+
+.pycon-btn {
+  border-radius: 41px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.yellow-btn {
+  background-color: base.$BgYellow;
+  border: 5px solid base.$white;
+
+
+  &:hover, &:active, &:focus {
+    background-color: base.$white !important;
+    border-color: base.$BgYellow !important;
+    color: base.$BgYellow !important;
+  }
+
+}
+
+.yellow-btn-reverted {
+  background-color: base.$white;
+  border: 5px solid base.$BgYellow;
+  color: base.$BgYellow !important;
+
+  &:hover, &:active, &:focus {
+    background-color: base.$BgYellow !important;
+    border-color: white !important;
+    color: white !important;
+  }
+}
+
+.green-btn {
+  color: base.$white;
+  background-color: base.$Green;
+  border: 3px solid base.$white;
+  font: normal normal bold 16px/30px Poppins;
+
+  &:hover, &:active, &:focus {
+    background-color: base.$white !important;
+    border-color: base.$Green !important;
+    color: base.$Green !important;
+  }
+}
+
+
+%HOME_SECTION_TITLE {
+  font: normal normal bold 32px/48px Poppins;
+  color: base.$BgBlack;
+  text-transform: uppercase;
+}
+
+%BIG_HIGHLIGHT_TEXT {
+  font: normal normal bold 86px/129px Poppins;
+  text-transform: uppercase;
+}

@@ -1,0 +1,138 @@
+{% load static i18n %}<!DOCTYPE html>
+{% get_current_language as LANGUAGE_CODE %}
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{% block title %}
+    {% if menu != "Home" %}
+      {{ menu }} -
+    {% endif %}
+    PyCon Portugal 2023
+  {% endblock title %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PyCon Portugal 2022 Website">
+  <meta name="author" content="Telmo Guerra">
+
+  <link rel="apple-touch-icon" sizes="180x180"
+        href="{% static 'images/favicons/apple-touch-icon.png' %}">
+  <link rel="icon" type="image/png" sizes="32x32"
+        href="{% static 'images/favicons/favicon-32x32.png' %}">
+  <link rel="icon" type="image/png" sizes="16x16"
+        href="{% static 'images/favicons/favicon-16x16.png' %}">
+  <link rel="manifest" href="{% static 'images/favicons/site.webmanifest' %}">
+  <link rel="icon" href="{% static 'images/favicons/favicon.ico' %}">
+
+  {% block css %}
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
+          integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Your stuff: Third-party CSS libraries go here -->
+    <!-- This file stores project-specific CSS -->
+    <link href="{% static 'css/project.min.css' %}" rel="stylesheet">
+  {% endblock %}
+  <!-- Le javascript
+  ================================================== -->
+  {# Placed at the top of the document so pages load faster with defer #}
+  {% block javascript %}
+    <!-- Bootstrap JS -->
+    <script defer
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"
+            integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Your stuff: Third-party javascript libraries go here -->
+
+    <!-- place project specific Javascript in this file -->
+    <script defer src="{% static 'js/project.js' %}"></script>
+
+  {% endblock javascript %}
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg header pt-4 {% block nav_css %}{% endblock %}">
+  <div class="container">
+    <a class="navbar-brand" href="{{ home }}">
+      <img src="{% block nav_brand %}{% static 'images/logo/logo.svg' %}{% endblock %}" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-list"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-4 mt-lg-0">
+        {% for menu, menu_dict in site_menu.items %}
+          {% if menu_dict.dropdown == 'false' %}
+            <li class="nav-item mx-2 mx-xl-4">
+              <a class="nav-link text-white" href="{{ menu_dict.href }}"> {{ menu }} </a>
+            </li>
+          {% else %}
+            <li class="nav-item dropdown mx-2 mx-xl-4">
+              <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown"
+                 role="button"
+                 aria-expanded="false"> {{ menu }} </a>
+              <ul class="dropdown-menu">
+                {% for submenu, submenu_href in menu_dict.submenu.items %}
+                  <li><a class="dropdown-item text-white"
+                         href="{{ submenu_href }}"> {{ submenu }} </a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="innerBody">
+
+  {% if messages %}
+    {% for message in messages %}
+      <div class="alert alert-dismissible {% if message.tags %}alert-{{ message.tags }}{% endif %}">
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% block content %}
+  {% endblock content %}
+
+  <div class="container-fluid hashtags {% block hashtag_content %}{% endblock %} py-3">
+    {% include 'modules/hashtags.html' %}
+  </div>
+
+  <div class="container-fluid newsletter {% block newsletter_content %}{% endblock %} py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        {% include 'modules/newsletter.html' %}
+      </div>
+    </div>
+  </div>
+
+</div> <!-- /container -->
+
+{% block modal %}{% endblock modal %}
+
+{% block inline_javascript %}
+  {% comment %}
+    Script tags with only code, no src (defer by default). To run
+    with a "defer" so that you run inline code:
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {/* Run whatever you want */});
+    </script>
+    {% endcomment %}
+{% endblock inline_javascript %}
+
+{#  FOOTER #}
+{% include "modules/footer.html" %}
+</body>
+</html>

@@ -1,0 +1,502 @@
+// homepage
+
+@use "base";
+
+.home-header {
+  background-color: base.$BgBlack;
+  padding-bottom: 2rem;
+
+  .home-banner {
+    .home-title {
+      display: block;
+      align-content: center;
+      max-width: 24rem;
+
+      .home-title-block {
+        position: relative;
+        top: -1.5rem;
+        background: white;
+        border: .5rem black solid;
+        padding: 1rem;
+        margin: 0rem 2rem 2rem;
+        z-index: 2;
+      }
+
+      .btn-tickets {
+        padding: 0rem 1rem;
+        margin: 2rem 0rem;
+      }
+
+      button {
+        background: white;
+        border: .5rem black solid;
+        padding: 1rem .75rem;
+        font-weight: bold;
+        width: 100%;
+
+      }
+    }
+
+    .home_about-content {
+      padding: 2rem 2rem 2rem 0;
+
+      h2 {
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.tickets {
+  background-color: base.$Green;
+
+  h2 {
+    @extend %HOME_SECTION_TITLE
+  }
+
+  .card {
+    background-color: base.$BgBlack;
+    border-radius: 16px;
+
+    h3 {
+      font-size: 24px;
+      line-height: 38px;
+      color: base.$Green;
+    }
+
+    h4 {
+      color: base.$white;
+      @extend %BIG_HIGHLIGHT_TEXT;
+
+      &:before {
+        content: '€';
+        font-size: 36px;
+        line-height: 55px;
+        font-weight: bold;
+        vertical-align: super;
+      }
+    }
+
+    p {
+      color: base.$white;
+      font-size: 16px !important;
+      line-height: 25px;
+    }
+  }
+}
+
+.dates {
+  background-color: base.$BgYellow;
+
+  h2 {
+    @extend %HOME_SECTION_TITLE
+  }
+
+  .important-date-card {
+    p {
+      text-align: center;
+    }
+  }
+
+}
+
+.card {
+  background-color: base.$white;
+  border-radius: 16px;
+
+  i {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 38px;
+    color: base.$BgYellow;
+  }
+
+  p {
+    font-size: 36px !important;
+    line-height: 55px;
+    font-weight: bold;
+    color: base.$BgBlack;
+  }
+
+  strong {
+    color: base.$BgBlack;
+    @extend %BIG_HIGHLIGHT_TEXT;
+  }
+}
+
+.card-other-dates {
+  background-color: transparent;
+  border: unset;
+  font: normal normal normal 24px/44px Poppins;
+
+}
+
+
+.previous-edition {
+  background-color: base.$white;
+
+  h2 {
+    @extend %HOME_SECTION_TITLE
+  }
+
+  .card {
+    background-color: base.$white;
+    border-radius: 16px;
+    background-image: url("/static/images/other/last_edition.jpg");
+    background-position: center;
+
+    h3 {
+      font-size: 24px;
+      line-height: 38px;
+      color: base.$BgYellow;
+    }
+
+    p {
+      font-size: 36px !important;
+      line-height: 55px;
+      font-weight: bold;
+      color: base.$BgBlack;
+    }
+
+    strong {
+      color: base.$BgBlack;
+      @extend %BIG_HIGHLIGHT_TEXT;
+    }
+  }
+
+  .card-other-dates {
+    background-color: transparent;
+    border: unset;
+    font: normal normal normal 24px/44px Poppins;
+
+  }
+
+}
+
+.sponsors {
+  background-color: base.$Green;
+
+
+  blockquote {
+    blockquote {
+      background-color: white;
+      width: fit-content;
+      border-radius: 16px;
+
+      img {
+        margin: 20px;
+      }
+    }
+  }
+
+
+  h2 {
+    @extend %HOME_SECTION_TITLE
+  }
+
+  h4 {
+    font: normal normal bold 24px/35px Poppins;
+    color: base.$white;
+
+    &::before {
+      content: url("/static/images/other/handshake.svg");
+      margin-right: 10px;
+      vertical-align: sub;
+    }
+
+  }
+
+  .card {
+    background-color: base.$white;
+    border-radius: 16px;
+
+    h3 {
+      font-size: 24px;
+      line-height: 38px;
+      color: base.$BgYellow;
+    }
+
+    p {
+      font-size: 36px !important;
+      line-height: 55px;
+      font-weight: bold;
+      color: base.$BgBlack;
+    }
+
+    strong {
+      color: base.$BgBlack;
+      @extend %BIG_HIGHLIGHT_TEXT;
+    }
+  }
+
+  .card-other-dates {
+    background-color: transparent;
+    border: unset;
+    font: normal normal normal 24px/44px Poppins;
+
+  }
+
+}
+
+.content-page-hashtag {
+  li:nth-child(4n) {
+    color: #00969C !important;
+  }
+}
+
+.hashtags {
+
+  .row:nth-child(odd) {
+    margin-left: -100px;
+  }
+
+  .row:nth-child(even) {
+    margin-left: -710px;
+  }
+
+  li:nth-child(1n) {
+    color: #2C2C2C
+  }
+
+  li:nth-child(2n) {
+    color: #F9A825
+  }
+
+  li:nth-child(3n) {
+    color: #0077C9
+  }
+
+  li:nth-child(4n) {
+    color: #F7F7F7
+  }
+
+  .row {
+    ul {
+      white-space: nowrap;
+    }
+
+    span {
+      font: normal normal bold 48px/72px Poppins;
+    }
+  }
+
+}
+
+.content-newsletter {
+  background: linear-gradient(to bottom, base.$white 0%, base.$white 50%, base.$BgBlack 50%, base.$BgBlack 100%) !important;
+
+}
+
+.newsletter {
+  background: linear-gradient(to bottom, base.$Green 0%, base.$Green 50%, base.$BgBlack 50%, base.$BgBlack 100%);
+
+  .newsletter-content {
+    border-radius: 16px;
+    background-color: base.$BgBlue;
+    text-align: center;
+    font: normal normal bold 24px/35px Poppins;
+    color: base.$white;
+
+    input {
+      border: 1px solid #42949A;
+      border-radius: 42px;
+      height: 47px;
+
+      &::placeholder {
+        font: normal normal normal 16px/25px Poppins;
+        color: base.$BgLightGreen;
+      }
+
+    }
+
+    button {
+      height: 47px;
+
+      i {
+        font-size: 18px;
+        -webkit-text-stroke: 1px
+      }
+    }
+
+  }
+
+}
+
+.important-dates {
+  position: relative;
+
+  .inner-content-width {
+    justify-content: start;
+  }
+
+  .dates {
+    max-width: 50rem;
+    margin: 5rem 2rem;
+    border: .5rem black solid;
+    background-color: white;
+    padding: .75rem;
+
+    h1 {
+      padding: 2rem;
+    }
+
+    .calendar {
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 2rem;
+
+      blockquote {
+        display: flex;
+        justify-self: center;
+        width: 100%;
+        margin: 0rem;
+
+        h4 {
+          border-right: 0.25rem solid black;
+          text-align: end;
+          font-weight: bold;
+          padding: .875rem;
+          min-width: 14rem;
+          margin: 0rem;
+        }
+
+        blockquote {
+          display: flex;
+          flex-wrap: wrap;
+          flex: 1 0 0%;
+          padding: .875rem;
+
+          p {
+            margin-bottom: .875rem;
+            text-align: start;
+            display: block;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .title {
+      text-align: center;
+    }
+  }
+
+  .bg-dates {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-bottom: .5rem black solid;
+
+    .bg-row-top {
+      border-bottom: .5rem black solid;
+      height: 70%;
+    }
+
+    .bg-block {
+      border-right: .5rem black solid;
+    }
+
+    .bg-green {
+      background-color: base.$BgGreen;
+    }
+
+    .bg-dark-blue {
+      background-color: base.$BgBlue;
+    }
+
+    .bg-row-bottom {
+      top: 70%;
+      height: 30%;
+    }
+
+    .bg-light-green {
+      background-color: base.$BgLightGreen;
+    }
+
+    .bg-light-purple {
+      background-color: base.$BgLightPurple;
+    }
+  }
+}
+
+.home-sponsors {
+  &.important-dates {
+    .dates {
+
+      .calendar {
+        display: block;
+
+        blockquote {
+          display: block !important;
+          width: 100%;
+          padding-right: 1.5rem;
+
+          h4 {
+            font: normal normal bold 24px/35px Poppins;
+          }
+
+          blockquote {
+            display: block !important;
+            width: auto;
+            padding-top: .875rem;
+
+            p {
+              margin-bottom: 1rem;
+            }
+          }
+
+          p {
+            margin-bottom: 0rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .pycon-btn {
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+
+  .dates {
+    .important-date-card {
+      strong {
+        font-size: 50px !important;
+      }
+
+      p {
+        font-size: 20px !important;
+      }
+    }
+
+    strong {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .card-other-dates {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+
+  .sponsors {
+    .container {
+      text-align: center !important;
+      text-align: -webkit-center !important;
+    }
+  }
+}
