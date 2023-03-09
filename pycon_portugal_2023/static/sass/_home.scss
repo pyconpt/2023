@@ -182,11 +182,12 @@
 
 
   blockquote {
-    blockquote {
+    a {
       background-color: white;
       width: fit-content;
       border-radius: 16px;
-
+      padding: 30px;
+      margin: 10px;
       img {
         margin: 20px;
       }

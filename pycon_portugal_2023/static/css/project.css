@@ -330,14 +330,16 @@ body {
 .sponsors {
   background-color: #00969C;
 }
-.sponsors blockquote blockquote {
+.sponsors blockquote a {
   background-color: white;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 16px;
+  padding: 30px;
+  margin: 10px;
 }
-.sponsors blockquote blockquote img {
+.sponsors blockquote a img {
   margin: 20px;
 }
 .sponsors h4 {
@@ -793,8 +795,8 @@ body {
   }
 }
 img.sponsor {
-  width: unset;
-  height: 50px;
+  width: 120px;
+  height: auto;
 }
 
 img.sponsor.huge {
