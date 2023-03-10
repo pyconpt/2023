@@ -838,6 +838,7 @@ tbody, td, tfoot, th, thead, tr {
   font-weight: bold;
   font-size: 22px;
   line-height: 38px;
+  text-decoration: none !important;
 }
 
 .yellow-btn {

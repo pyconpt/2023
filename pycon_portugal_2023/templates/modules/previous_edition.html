@@ -11,12 +11,9 @@
 <div class="col-12 col-lg-7">
   <div class="card-other-dates h-100">
     <div class="card-body py-5">
-      <p class="card-title fw-bold">PyCon Portugal 2022</p>
-      <p>Last year, we held the FIRST edition ever of PyCon Portugal in Porto.</p>
-      <button type="button"
-              class="mt-4 btn btn-primary btn-lg pycon-btn yellow-btn-reverted text-uppercase">
-        CHECK OUT THE PHOTOS
-      </button>
+      {% with content=files.9|markdown %}
+        {{ content.html|safe }}
+      {% endwith %}
     </div>
   </div>
 </div>
