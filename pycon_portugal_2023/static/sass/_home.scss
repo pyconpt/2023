@@ -86,6 +86,91 @@
   }
 }
 
+.speakers {
+  background-color: base.$bgWhite;
+
+  h2 {
+    @extend %HOME_SECTION_TITLE
+  }
+
+  .slider-wrapper {
+    position: relative;
+    width: 100vw;
+
+    &:before, &:after {
+      position: absolute;
+      top: 0;
+      z-index: 10;
+      content: "";
+      display: block;
+      width: 40px;
+      height: 100%;
+    }
+
+    &:before {
+      left: 0;
+      background: linear-gradient(90deg, base.$bgWhite 10%, transparent);
+    }
+
+    &:after {
+      right: 0;
+      background: linear-gradient(-90deg, base.$bgWhite 10%, transparent);
+    }
+
+    ul {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      white-space: nowrap;
+      cursor: pointer;
+      
+      &.active {
+        cursor: grab;
+      }
+
+      li {
+        display: inline-block;
+        position: relative;
+        user-select: none;
+        margin-right: 60px;
+
+        strong, b {
+          left: 19%;
+          color: base.$BgBlue;
+          position: absolute;
+        }
+
+        img {
+          object-fit: contain;
+          width: 360px;
+          height: 400px;
+          border-radius: 25px;
+          pointer-events: none;
+        }
+        .speaker-name {
+          font-weight: 600;
+          font-size: 24px;
+          text-transform: uppercase;
+          top: 10%;
+          display: flex;
+          align-items: end;
+
+          &:before {
+            content: '\F4DA\00a0';
+            font-family: "Bootstrap-icons";
+          }
+        }
+
+        .speaker-position {
+          font-size: 14px;
+          font-weight: 300;
+          top: 22%;
+        }
+      }
+    }
+  }
+}
+
 .dates {
   background-color: base.$BgYellow;
 
@@ -94,6 +179,7 @@
   }
 
   .important-date-card {
+
     p {
       text-align: center;
     }
