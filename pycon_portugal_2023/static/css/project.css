@@ -266,55 +266,46 @@ body {
 .speakers {
   background-color: #fff;
 }
-.speakers .slider-wrapper {
+.speakers .title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10px;
+}
+.speakers .title-container .swiper-buttons {
+  position: relative;
+  width: 100px;
+}
+.speakers .title-container .swiper-buttons .swiper-button-next {
+  position: relative;
+  float: right;
+}
+.speakers .title-container .swiper-buttons .swiper-button-prev {
+  position: relative;
+  float: left;
+}
+.speakers .swiper {
+  overflow: visible;
+}
+.speakers .swiper-wrapper {
   position: relative;
   width: 100vw;
 }
-.speakers .slider-wrapper:before, .speakers .slider-wrapper:after {
-  position: absolute;
-  top: 0;
-  z-index: 10;
-  content: "";
-  display: block;
-  width: 40px;
-  height: 100%;
+.speakers .swiper-wrapper .swiper-slide {
+  width: 400px;
 }
-.speakers .slider-wrapper:before {
-  left: 0;
-  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #fff), to(transparent));
-  background: linear-gradient(90deg, #fff 10%, transparent);
-}
-.speakers .slider-wrapper:after {
-  right: 0;
-  background: -webkit-gradient(linear, right top, left top, color-stop(10%, #fff), to(transparent));
-  background: linear-gradient(-90deg, #fff 10%, transparent);
-}
-.speakers .slider-wrapper ul {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  white-space: nowrap;
-  cursor: pointer;
-}
-.speakers .slider-wrapper ul.active {
-  cursor: -webkit-grab;
-  cursor: grab;
-}
-.speakers .slider-wrapper ul li {
+.speakers .swiper-wrapper .swiper-slide p {
   display: inline-block;
-  position: relative;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  margin-right: 60px;
 }
-.speakers .slider-wrapper ul li strong, .speakers .slider-wrapper ul li b {
-  left: 19%;
+.speakers .swiper-wrapper .swiper-slide strong, .speakers .swiper-wrapper .swiper-slide b {
+  left: 10%;
   color: #0077C9;
   position: absolute;
 }
-.speakers .slider-wrapper ul li img {
+.speakers .swiper-wrapper .swiper-slide img {
   -o-object-fit: contain;
      object-fit: contain;
   width: 360px;
@@ -322,7 +313,7 @@ body {
   border-radius: 25px;
   pointer-events: none;
 }
-.speakers .slider-wrapper ul li .speaker-name {
+.speakers .swiper-wrapper .swiper-slide .speaker-name {
   font-weight: 600;
   font-size: 24px;
   text-transform: uppercase;
@@ -334,14 +325,14 @@ body {
       -ms-flex-align: end;
           align-items: end;
 }
-.speakers .slider-wrapper ul li .speaker-name:before {
+.speakers .swiper-wrapper .swiper-slide .speaker-name:before {
   content: "\f4da ";
   font-family: "Bootstrap-icons";
 }
-.speakers .slider-wrapper ul li .speaker-position {
+.speakers .swiper-wrapper .swiper-slide .speaker-position {
   font-size: 14px;
   font-weight: 300;
-  top: 22%;
+  top: 20%;
 }
 
 .dates {

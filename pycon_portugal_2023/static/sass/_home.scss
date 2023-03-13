@@ -89,53 +89,48 @@
 .speakers {
   background-color: base.$bgWhite;
 
+
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+    .swiper-buttons {
+      position: relative;
+      width: 100px;
+
+      .swiper-button-next {
+        position: relative;
+        float: right;
+      }
+
+      .swiper-button-prev {
+        position: relative;
+        float: left;
+      }
+    }
+  }
   h2 {
     @extend %HOME_SECTION_TITLE
   }
 
-  .slider-wrapper {
+  .swiper {
+    overflow: visible;
+  }
+
+  .swiper-wrapper {
     position: relative;
     width: 100vw;
 
-    &:before, &:after {
-      position: absolute;
-      top: 0;
-      z-index: 10;
-      content: "";
-      display: block;
-      width: 40px;
-      height: 100%;
-    }
+    .swiper-slide {
+      width: 400px;
 
-    &:before {
-      left: 0;
-      background: linear-gradient(90deg, base.$bgWhite 10%, transparent);
-    }
-
-    &:after {
-      right: 0;
-      background: linear-gradient(-90deg, base.$bgWhite 10%, transparent);
-    }
-
-    ul {
-      overflow: hidden;
-      position: relative;
-      width: 100%;
-      white-space: nowrap;
-      cursor: pointer;
-      
-      &.active {
-        cursor: grab;
+      p {
+        display: inline-block;
       }
 
-      li {
-        display: inline-block;
-        position: relative;
-        user-select: none;
-        margin-right: 60px;
-
-        strong, b {
-          left: 19%;
+      strong, b {
+          left: 10%;
           color: base.$BgBlue;
           position: absolute;
         }
@@ -164,10 +159,10 @@
         .speaker-position {
           font-size: 14px;
           font-weight: 300;
-          top: 22%;
+          top: 20%;
         }
-      }
     }
+
   }
 }
 

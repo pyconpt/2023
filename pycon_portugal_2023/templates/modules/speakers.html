@@ -1,44 +1,21 @@
 {% load markdown_extras %}
 
-<div class="col-12 slider-wrapper">
+<div class="col-12 swiper-wrapper">
   {% with content=files.10|markdown %}
         {{ content.html | safe }}
   {% endwith %}
+
 </div>
 
 <script>
-  let isDown = false;
-  let startX;
-  let scrollLeft
-  const slider = document.querySelector(".slider-wrapper>ul")
-
-  function end() {
-      isDown = false;
-      slider.classList.remove("active");
-  }
-
-  function start(event) {
-      isDown = true;
-      slider.classList.add("active");
-      startX = event.pageX || event.touches[0].pageX - slider.offsetLeft;
-      scrollLeft = slider.scrollLeft;
-  }
-
-  function move(event) {
-      if (!isDown) return;
-
-      event.preventDefault();
-      slider.scrollLeft = scrollLeft + startX - (event.pageX || event.touches[0].pageX - slider.offsetLeft)
-  }
-
-  slider.addEventListener("mousedown", start)
-  slider.addEventListener("touchstart", start)
-
-  slider.addEventListener("mousemove", move)
-  slider.addEventListener("touchmove", move)
-
-  slider.addEventListener("mouseup", end)
-  slider.addEventListener("mouseleave", end)
-  slider.addEventListener("touchend", end)
-
+  window.addEventListener("DOMContentLoaded", function(){
+    const swiper = new Swiper('.swiper', {
+      slidesPerView: "auto",
+      grabCursor: true,
+      navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
+    });
+  });
 </script>
