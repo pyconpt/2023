@@ -263,6 +263,78 @@ body {
   line-height: 25px;
 }
 
+.speakers {
+  background-color: #fff;
+}
+.speakers .title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10px;
+}
+.speakers .title-container .swiper-buttons {
+  position: relative;
+  width: 100px;
+}
+.speakers .title-container .swiper-buttons .swiper-button-next {
+  position: relative;
+  float: right;
+}
+.speakers .title-container .swiper-buttons .swiper-button-prev {
+  position: relative;
+  float: left;
+}
+.speakers .swiper {
+  overflow: visible;
+}
+.speakers .swiper-wrapper {
+  position: relative;
+  width: 100vw;
+}
+.speakers .swiper-wrapper .swiper-slide {
+  width: 400px;
+}
+.speakers .swiper-wrapper .swiper-slide p {
+  display: inline-block;
+}
+.speakers .swiper-wrapper .swiper-slide strong, .speakers .swiper-wrapper .swiper-slide b {
+  left: 10%;
+  color: #0077C9;
+  position: absolute;
+}
+.speakers .swiper-wrapper .swiper-slide img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 360px;
+  height: 400px;
+  border-radius: 25px;
+  pointer-events: none;
+}
+.speakers .swiper-wrapper .swiper-slide .speaker-name {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+.speakers .swiper-wrapper .swiper-slide .speaker-name:before {
+  content: "\f4da ";
+  font-family: "Bootstrap-icons";
+}
+.speakers .swiper-wrapper .swiper-slide .speaker-position {
+  font-size: 14px;
+  font-weight: 300;
+  top: 20%;
+}
+
 .dates {
   background-color: #F9A825;
 }
@@ -838,6 +910,7 @@ tbody, td, tfoot, th, thead, tr {
   font-weight: bold;
   font-size: 22px;
   line-height: 38px;
+  text-decoration: none !important;
 }
 
 .yellow-btn {
@@ -873,7 +946,7 @@ tbody, td, tfoot, th, thead, tr {
   color: #00969C !important;
 }
 
-.tickets h2, .dates h2, .previous-edition h2, .sponsors h2 {
+.tickets h2, .speakers h2, .dates h2, .previous-edition h2, .sponsors h2 {
   font: normal normal bold 32px/48px Poppins;
   color: #2C2C2C;
   text-transform: uppercase;
