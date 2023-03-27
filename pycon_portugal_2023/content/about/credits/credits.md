@@ -19,6 +19,6 @@ This list of individuals is still growing. Nonetheless, these are our sincerest 
 * Miguel Magalhães
 * Murilo Rosa
 * Telmo Guerra
-* Victor Duarte
+* Felipe Valverde
 
 In addition, the wonderful [speakers](/talks/schedule/), our amazing [sponsors](/sponsors/sponsors), the fantastic [Python Software Foundation](https://www.python.org/psf/){:target="_blank"}, and to everyone who bought a ticket.

@@ -11,6 +11,6 @@ Lastly, we know that some of you reading this will doubt whether it's right and 
 
 With our limited funds, we can't promise you will receive a grant, but if you're not sure, **we encourage you to apply**. If you're uncomfortable with other people knowing you received a grant, you don't have to tell them - our policy is to never publicly identify grant applicants or recipients without their explicit permission.
 
-If you have questions, you can write to [2022@pycon.pt](mailto:2022@pycon.pt).
+If you have questions, you can write to [2023@pycon.pt](mailto:2023@pycon.pt).
 
-**The application window closed on July 30th!** 
+**The application window closes on July 30th!** 

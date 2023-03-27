@@ -14,7 +14,7 @@ def links(request):
             'INFORMATION': {
                 'dropdown': 'true',
                 'submenu': {
-                    'PORTO': '/information/porto/',
+                    'COIMBRA': '/information/coimbra/',
                     'VENUE': '/information/venue/',
                     'GRANTS': '/information/grants/',
                     'HOSPITALITY': '/information/hospitality/',
