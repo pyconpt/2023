@@ -1,4 +1,4 @@
-<img src="pycon_portugal_2023/static/images/logo/logo_mobile.svg" alt="PyCon Portugal 2022" height="120px" />
+<img src="pycon_portugal_2023/static/images/logo/logo_mobile.svg" alt="PyCon Portugal 2023" height="120px" />
 
 🌍 [2023.pycon.pt](https://2023.pycon.pt/) \
 📍 Hybrid from Porto, Portugal 🇵🇹 \

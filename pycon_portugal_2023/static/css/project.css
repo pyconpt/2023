@@ -877,6 +877,8 @@ img.sponsor.huge {
 
 img.sponsor.large {
   height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 img.sponsor.small {
