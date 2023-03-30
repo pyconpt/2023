@@ -26,48 +26,48 @@
       </div>
     </div>
   </div>
-
-  <div class="container-fluid tickets py-5">
-    <div class="container">
-      <h2 class="text-white ms-4">Tickets</h2>
-      <div class="row pt-3 gx-5">
+{##}
+{#  <div class="container-fluid tickets py-5">#}
+{#    <div class="container">#}
+{#      <h2 class="text-white ms-4">Tickets</h2>#}
+{#      <div class="row pt-3 gx-5">#}
         {# TICKETS #}
-        {% include 'modules/tickets.html' %}
-      </div>
-      <div class="my-5">
-        <button type="button"
-                class="ms-4 btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase">
-          Buy ticket now <i class="bi bi-arrow-right"></i>
-        </button>
-      </div>
-    </div>
-  </div>
+{#        {% include 'modules/tickets.html' %}#}
+{#      </div>#}
+{#      <div class="my-5">#}
+{#        <button type="button"#}
+{#                class="ms-4 btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase">#}
+{#          Buy ticket now <i class="bi bi-arrow-right"></i>#}
+{#        </button>#}
+{#      </div>#}
+{#    </div>#}
+{#  </div>#}
 
+{##}
+{#  <div class="container-fluid speakers py-5">#}
+{#    <div class="container">#}
+{#      <div class="title-container">#}
+{#        <h2 class="ms-4">Speakers</h2>#}
+{#        <div class="swiper-buttons d-none d-sm-block">#}
+{#          <div class="swiper-button-prev"></div>#}
+{#          <div class="swiper-button-next"></div>#}
+{#        </div>#}
+{#      </div>#}
+{#      <div class="swiper">#}
+{#        {% include 'modules/speakers.html' %}#}
+{#      </div>#}
+{#    </div>#}
+{##}
+{#  </div>#}
 
-  <div class="container-fluid speakers py-5">
-    <div class="container">
-      <div class="title-container">
-        <h2 class="ms-4">Speakers</h2>
-        <div class="swiper-buttons d-none d-sm-block">
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
-      </div>
-      <div class="swiper">
-        {% include 'modules/speakers.html' %}
-      </div>
-    </div>
-
-  </div>
-
-  <div class="container-fluid dates py-5">
-    <div class="container">
-      <h2 class="ms-4">Important Dates</h2>
-      <div class="row pt-5 gx-lg-5">
-        {% include 'modules/dates.html' %}
-      </div>
-    </div>
-  </div>
+{#  <div class="container-fluid dates py-5">#}
+{#    <div class="container">#}
+{#      <h2 class="ms-4">Important Dates</h2>#}
+{#      <div class="row pt-5 gx-lg-5">#}
+{#        {% include 'modules/dates.html' %}#}
+{#      </div>#}
+{#    </div>#}
+{#  </div>#}
 
   <div class="container-fluid previous-edition py-5">
     <div class="container">
@@ -78,13 +78,13 @@
     </div>
   </div>
 
-  <div class="container-fluid sponsors py-5">
-    <div class="container">
-      <h2 class="ms-4 text-white">Sponsors</h2>
-      <div class="row pt-5 gx-1">
-        {% include 'modules/sponsors.html' with content=files.7 %}
-      </div>
-    </div>
-  </div>
+{#  <div class="container-fluid sponsors py-5">#}
+{#    <div class="container">#}
+{#      <h2 class="ms-4 text-white">Sponsors</h2>#}
+{#      <div class="row pt-5 gx-1">#}
+{#        {% include 'modules/sponsors.html' with content=files.7 %}#}
+{#      </div>#}
+{#    </div>#}
+{#  </div>#}
 
 {% endblock content %}

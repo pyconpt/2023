@@ -1,8 +1,12 @@
 title: Talks Schedule
 layout: simple
 
-** The event schedule is now available! **
+### Details coming soon...
 
-The conference talks & workshops will take place from 9:00 AM to 6:30 PM, September 24.
+[//]: # (** The event schedule is now available! **)
 
-<center>[<button class="btn">View schedule!</button>](https://pretalx.evolutio.pt/pyconpt2022/schedule/){:target="_blank"}</center>
+[//]: # ()
+[//]: # (The conference talks & workshops will take place from 9:00 AM to 6:30 PM, September 24.)
+
+[//]: # ()
+[//]: # (<center>[<button class="btn">View schedule!</button>]&#40;https://pretalx.evolutio.pt/pyconpt2022/schedule/&#41;{:target="_blank"}</center>)
