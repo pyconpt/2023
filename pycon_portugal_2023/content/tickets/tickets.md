@@ -1,7 +1,7 @@
 title: Tickets
 layout: simple
 
-**All tickets include access to the full day of the conference (September 24th)**. Don't forget to follow us on Twitter [@PyConPT](https://twitter.com/PyConPT){:target="_blank"} for the latest up to date information!
+**All tickets include access to the full days of the conference (September 7th, 8th and 9th)**. Don't forget to follow us on Twitter [@PyConPT](https://twitter.com/PyConPT){:target="_blank"} for the latest up-to-date information!
 
 <center><button class="btn">Soon!</button></center>
 
