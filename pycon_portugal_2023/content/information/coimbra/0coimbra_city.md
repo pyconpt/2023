@@ -1,11 +1,10 @@
 title: Coimbra
 layout: simple
 
-<<<<<<< Updated upstream
 Coimbra is home to a vast and unique wealth of heritage, consolidated over centuries, having been chosen by D. Afonso Henriques as the first capital of the Kingdom of Portugal. The city was a birthplace of kings and a multicultural centre, recognized by the definitive installation of the University in 1537, one of the most important and renowned educational institutions in Portugal.
 - Turismo do Centro
-=======
-<<<<<<< Updated upstream
+
+
 [//]: # (> Opening up like a pop-up book from the banks of the Rio Douro, edgy-yet-opulent Porto entices with its historic centre, sumptuous food and wine, and charismatic locals.)
 
 [//]: # (> \- [Lonely Planet]&#40;https://www.lonelyplanet.com/portugal/the-north/porto&#41;{:target="_blank"})
@@ -23,11 +22,6 @@ Coimbra is home to a vast and unique wealth of heritage, consolidated over centu
 [//]: # (* [Timeout: Porto]&#40;https://www.timeout.com/porto/city-guide&#41;{:target="_blank"})
 
 [//]: # (* [GPSMyCity: Walking Tours in Porto]&#40;https://www.gpsmycity.com/gps-tour-guides/porto-3570.html&#41;{:target="_blank"})
-=======
-Coimbra is home to a vast and unique wealth of heritage, consolidated over centuries, having been chosen by D. Afonso Henriques as the first capital of the Kingdom of Portugal. The city was a birthplace tto and a multicultural centre, recognized by the definitive installation of the University in 1537, one of the most important and renowned educational institutions in Portugal.
-- Turismo do Centro
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 
 <iframe width="100%" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=coimbra&t=&z=4&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
