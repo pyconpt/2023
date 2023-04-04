@@ -16,7 +16,7 @@ body {
   flex-direction: column;
 }
 
-.innerBody {
+.inner-body {
   flex: 1 0 auto;
   background-color: base.$Green;
 }
@@ -68,6 +68,8 @@ a:hover {
 @import "content";
 
 @import "footer";
+
+@import "information";
 
 // sponsors imgs
 img.sponsor {
