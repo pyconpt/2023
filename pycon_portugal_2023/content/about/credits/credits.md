@@ -5,13 +5,13 @@ This list of individuals is still growing. Nonetheless, these are our sincerest 
 
 * Bia Rodrigues
 * David Vaz
-* Frederico Rodrigues
 * Edgar Figueira
 * Felipe Valverde
+* Frederico Rodrigues
 * Gabriel Guimarães
+* João Polónia
 * Lucas Pires
 * Luis Vaz
-* João Polónia
 * Murilo Rosa
 * Telmo Guerra
 

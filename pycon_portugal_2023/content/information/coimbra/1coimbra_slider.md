@@ -15,51 +15,88 @@ layout: simple
 
 <div markdown="1" class="swiper-slide">
 
-![Coimbra 1](/static/images/coimbra/coimbra_01.jpg){:class='city-img'}
+![Coimbra 1](/static/images/coimbra/thumbnails/coimbra_01.jpg){:class='city-img'}
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![Coimbra 2](/static/images/coimbra/coimbra_02.jpg){:class='city-img'}
+![Coimbra 2](/static/images/coimbra/thumbnails/coimbra_02.jpg){:class='city-img'}
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![Coimbra 3](/static/images/coimbra/coimbra_03.jpg){:class='city-img'}
+![Coimbra 3](/static/images/coimbra/thumbnails/coimbra_03.jpg){:class='city-img'}
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![Coimbra 4](/static/images/coimbra/coimbra_04.jpg){:class='city-img'}
+![Coimbra 4](/static/images/coimbra/thumbnails/coimbra_04.jpg){:class='city-img'}
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![Coimbra 5](/static/images/coimbra/coimbra_05.jpg){:class='city-img'}
+![Coimbra 5](/static/images/coimbra/thumbnails/coimbra_05.jpg){:class='city-img'}
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![Coimbra 6](/static/images/coimbra/coimbra_06.jpg){:class='city-img'}
+![Coimbra 6](/static/images/coimbra/thumbnails/coimbra_06.jpg){:class='city-img'}
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![Coimbra 7](/static/images/coimbra/coimbra_07.jpg){:class='city-img'}
+![Coimbra 7](/static/images/coimbra/thumbnails/coimbra_07.jpg){:class='city-img'}
 
 </div>
 
 <div markdown="1" class="swiper-slide">
 
-![Coimbra 8](/static/images/coimbra/coimbra_08.jpg){:class='city-img'}
+![Coimbra 8](/static/images/coimbra/thumbnails/coimbra_08.jpg){:class='city-img'}
 
 </div>
+
+<div markdown="1" class="swiper-slide">
+
+![Coimbra 9](/static/images/coimbra/thumbnails/coimbra_09.jpg){:class='city-img'}
+
+</div>
+
+<div markdown="1" class="swiper-slide">
+
+![Coimbra 10](/static/images/coimbra/thumbnails/coimbra_10.jpg){:class='city-img'}
+
+</div>
+
+<div markdown="1" class="swiper-slide">
+
+![Coimbra 11](/static/images/coimbra/thumbnails/coimbra_11.jpg){:class='city-img'}
+
+</div>
+
+<div markdown="1" class="swiper-slide">
+
+![Coimbra 12](/static/images/coimbra/thumbnails/coimbra_12.jpg){:class='city-img'}
+
+</div>
+
+<div markdown="1" class="swiper-slide">
+
+![Coimbra 13](/static/images/coimbra/thumbnails/coimbra_13.jpg){:class='city-img'}
+
+</div>
+
+<div markdown="1" class="swiper-slide">
+
+![Coimbra 14](/static/images/coimbra/thumbnails/coimbra_14.jpg){:class='city-img'}
+
+</div>
+
 
 </div>
 
