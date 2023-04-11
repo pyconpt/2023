@@ -26,6 +26,7 @@ Our program prioritises anyone who is part of an under-represented or marginaliz
 * caregivers of children or other dependents
 * people who have experienced trauma and its aftermath (PTSD, anxiety, etc)
 * people living with or recovering from substance abuse
+* people who have been displaced or affected by wars in Ukraine and elsewhere
 
 **The closing date for grant applications is July 30th, 23:59 UTC**. We aim to inform you of the results within a few days after closing the application window. Note that if you need a grant, you must apply before the deadline. Moreover, speakers are automatically entitled to a ticket.
 
