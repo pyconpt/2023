@@ -21,7 +21,7 @@ All of our partner hotels are located in the city centre and are close to this y
 **Discount:** 10% discount off best available rate.
 
 
-**Conditions:** Bookings be made on the official website using the promotional code ```LOVECOIMBRA```. 
+**Conditions:** Bookings  are to be made on the official website using the promotional code ```LOVECOIMBRA```. 
 
 <hr/>
 
@@ -43,7 +43,7 @@ All of our partner hotels are located in the city centre and are close to this y
 
 - Triple room: **€ 80,40/night** with buffet breakfast 
 
-**Conditions:** Bookings be made by email to [reservas@hoteldluis.pt](mailto:reservas@hoteldluis.pt) or by phone to +351 239 802 120 mentioning PYCON PORTUGAL 2023.
+**Conditions:** Bookings are to be made by email to [reservas@hoteldluis.pt](mailto:reservas@hoteldluis.pt) or by phone to +351 239 802 120 mentioning PYCON PORTUGAL 2023.
 
 <hr/>
 
@@ -62,4 +62,4 @@ All of our partner hotels are located in the city centre and are close to this y
 - Double/Twin room: € 85,00/night with buffet breakfast
 
 
-**Conditions:** Bookings be made by email to [astoria@almeidahotels.pt](mailto:astoria@almeidahotels.pt) or by phone to +351 239 853 020 mentioning REF.ª PYCON23.
+**Conditions:** Bookings are to be made by email to [astoria@almeidahotels.pt](mailto:astoria@almeidahotels.pt) or by phone to +351 239 853 020 mentioning REF.ª PYCON23.
