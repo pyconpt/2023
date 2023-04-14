@@ -1,7 +1,7 @@
 title: Tickets
 layout: simple
 
-**All tickets include access to the full days of the conference (September 7th, 8th and 9th)**. Don't forget to follow us on Twitter [@PyConPT](https://twitter.com/PyConPT){:target="_blank"} for the latest up-to-date information!
+**We have Full Pass tickets for the 3 days of Talks and Workshops (September 7th, 8th and 9th), or Daily Pass tickets for a specific day of Talks or Workshops. Check out the Early Bird special prices!**. Don't forget to follow us on Twitter [@PyConPT](https://twitter.com/PyConPT){:target="_blank"} for the latest up-to-date information!
 
 <center><button class="btn">Soon!</button></center>
 
