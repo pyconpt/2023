@@ -958,8 +958,13 @@ body {
   pointer-events: none;
 }
 
+.Sponsors-content p {
+  padding: 1.6px 0;
+  padding: 0.1rem 0;
+}
+
 img.sponsor {
-  width: 120px;
+  width: 180px;
   height: auto;
 }
 

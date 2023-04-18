@@ -13,9 +13,9 @@ layout: simple
 
 <span class="d-none"></span>
 
-[//]: # (>#### Grants)
+>#### Grants
 
-[//]: # (> > [![psf]&#40;/static/images/sponsors/psf.png&#41;{:class='sponsor'}]&#40;https://www.python.org/psf/&#41;{:target="_blank"} [![europython]&#40;/static/images/sponsors/eps.png&#41;{:class='sponsor'}]&#40;https://www.europython-society.org/&#41;{:target="_blank"} )
+> > [![europython](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="_blank"} 
 
 <span class="d-none"></span>
 
