@@ -14,7 +14,7 @@ The talk submissions **will open on 2023-04-15!** If you have any questions, ple
 If you think you have something great to talk about – submit your idea! If you are unsure, talk it over with somebody, or go to [Slack](https://join.slack.com/t/pyconportugal/shared_invite/zt-1ckszg1ye-QDgxx3lOkC15Ocal8xhCSg) to find previous speakers and participants to discuss your idea with. **When in doubt, submit your talk 😉!**
 
 
-[//]: # (<div markdown="1" style="text-align: center;">[<button class="btn">Submit your talk here!</button>]&#40;&#41;{:target="_blank"}</div>)
+<div markdown="1" style="text-align: center;">[<button class="btn">Submit your talk here!</button>](https://pretalx.evolutio.pt/pycon-pt-2023/cfp){:target="_blank"}</div>
 
 
 ---
