@@ -59,14 +59,23 @@
 {##}
 {#  </div>#}
 
-{#  <div class="container-fluid dates py-5">#}
-{#    <div class="container">#}
-{#      <h2 class="ms-4">Important Dates</h2>#}
-{#      <div class="row pt-5 gx-lg-5">#}
-{#        {% include 'modules/dates.html' %}#}
-{#      </div>#}
-{#    </div>#}
-{#  </div>#}
+  <div class="container-fluid dates py-5">
+    <div class="container">
+      <h2 class="ms-4">Important Dates</h2>
+      <div class="row pt-5 gx-lg-5">
+        {% include 'modules/dates.html' %}
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid sponsors py-5">
+    <div class="container">
+      <h2 class="ms-4 text-white">Sponsors</h2>
+      <div class="row pt-5 gx-1">
+        {% include 'modules/sponsors.html' with content=files.7 %}
+      </div>
+    </div>
+  </div>
 
   <div class="container-fluid previous-edition py-5">
     <div class="container">
@@ -77,13 +86,5 @@
     </div>
   </div>
 
-{#  <div class="container-fluid sponsors py-5">#}
-{#    <div class="container">#}
-{#      <h2 class="ms-4 text-white">Sponsors</h2>#}
-{#      <div class="row pt-5 gx-1">#}
-{#        {% include 'modules/sponsors.html' with content=files.7 %}#}
-{#      </div>#}
-{#    </div>#}
-{#  </div>#}
 
 {% endblock content %}
