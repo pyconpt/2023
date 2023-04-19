@@ -372,7 +372,7 @@ body {
 }
 
 .previous-edition {
-  background-color: #F7F7F7;
+  background-color: #00969C;
 }
 .previous-edition .card {
   background-color: #F7F7F7;
@@ -389,19 +389,20 @@ body {
   font-size: 36px !important;
   line-height: 55px;
   font-weight: bold;
-  color: #2C2C2C;
+  color: #F7F7F7;
 }
 .previous-edition .card strong {
-  color: #2C2C2C;
+  color: #F7F7F7;
 }
 .previous-edition .card-other-dates {
   background-color: transparent;
   border: unset;
   font: normal normal normal 24px/44px Poppins;
+  color: #F7F7F7;
 }
 
 .sponsors {
-  background-color: #00969C;
+  background-color: #F7F7F7;
 }
 .sponsors blockquote a {
   background-color: white;
@@ -415,12 +416,15 @@ body {
 .sponsors blockquote a img {
   margin: 20px;
 }
+.sponsors h2 {
+  color: #000;
+}
 .sponsors h4 {
   font: normal normal bold 24px/35px Poppins;
-  color: #F7F7F7;
+  color: #00969C;
 }
 .sponsors h4::before {
-  content: url("/static/images/other/handshake.svg");
+  content: url("/static/images/other/handshake_green.svg");
   margin-right: 10px;
   vertical-align: sub;
 }
@@ -1023,12 +1027,12 @@ tbody, td, tfoot, th, thead, tr {
 }
 
 .yellow-btn-reverted {
-  background-color: #F7F7F7;
+  background-color: transparent;
   border: 5px solid #F9A825;
   color: #F9A825 !important;
 }
 .yellow-btn-reverted:hover, .yellow-btn-reverted:active, .yellow-btn-reverted:focus {
-  background-color: #F9A825 !important;
+  background-color: transparent;
   border-color: white !important;
   color: white !important;
 }

@@ -133,16 +133,15 @@ tbody, td, tfoot, th, thead, tr {
     border-color: base.$BgYellow !important;
     color: base.$BgYellow !important;
   }
-
 }
 
 .yellow-btn-reverted {
-  background-color: base.$white;
+  background-color: transparent;
   border: 5px solid base.$BgYellow;
   color: base.$BgYellow !important;
 
   &:hover, &:active, &:focus {
-    background-color: base.$BgYellow !important;
+    background-color: transparent;
     border-color: white !important;
     color: white !important;
   }

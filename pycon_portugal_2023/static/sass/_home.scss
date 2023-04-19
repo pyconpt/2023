@@ -218,7 +218,7 @@
 
 
 .previous-edition {
-  background-color: base.$white;
+  background-color: base.$Green;
 
   h2 {
     @extend %HOME_SECTION_TITLE
@@ -240,11 +240,11 @@
       font-size: 36px !important;
       line-height: 55px;
       font-weight: bold;
-      color: base.$BgBlack;
+      color: base.$white;
     }
 
     strong {
-      color: base.$BgBlack;
+      color: base.$white;
       @extend %BIG_HIGHLIGHT_TEXT;
     }
   }
@@ -253,13 +253,14 @@
     background-color: transparent;
     border: unset;
     font: normal normal normal 24px/44px Poppins;
+    color: base.$white;
 
   }
 
 }
 
 .sponsors {
-  background-color: base.$Green;
+  background-color: base.$white;
 
 
   blockquote {
@@ -277,19 +278,19 @@
 
 
   h2 {
-    @extend %HOME_SECTION_TITLE
+    @extend %HOME_SECTION_TITLE;
+    color: base.$black;
   }
 
   h4 {
     font: normal normal bold 24px/35px Poppins;
-    color: base.$white;
+    color: base.$Green;
 
     &::before {
-      content: url("/static/images/other/handshake.svg");
+      content: url("/static/images/other/handshake_green.svg");
       margin-right: 10px;
       vertical-align: sub;
     }
-
   }
 
   .card {
