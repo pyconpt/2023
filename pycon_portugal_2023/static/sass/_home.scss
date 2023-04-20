@@ -68,20 +68,33 @@
     h4 {
       color: base.$white;
       @extend %BIG_HIGHLIGHT_TEXT;
+      line-height: 70px !important;
+      margin-bottom: 55px !important;
 
       &:before {
         content: '€';
         font-size: 36px;
-        line-height: 55px;
+        line-height: 5px;
         font-weight: bold;
         vertical-align: super;
       }
+
+    }
+
+    .price-detail {
+      font-weight: 300;
+      font-size: 14px !important;
+      margin-bottom: 0;
+      margin-top: 25px;
+      color: lightgrey;
+      font-style: italic;
     }
 
     p {
       color: base.$white;
       font-size: 16px !important;
       line-height: 25px;
+      font-weight: 300;
     }
   }
 }

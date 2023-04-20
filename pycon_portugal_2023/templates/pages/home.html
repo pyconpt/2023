@@ -29,22 +29,24 @@
       </div>
     </div>
   </div>
-{##}
-{#  <div class="container-fluid tickets py-5">#}
-{#    <div class="container">#}
-{#      <h2 class="text-white ms-4">Tickets</h2>#}
-{#      <div class="row pt-3 gx-5">#}
-        {# TICKETS #}
-{#        {% include 'modules/tickets.html' %}#}
-{#      </div>#}
-{#      <div class="my-5">#}
-{#        <button type="button"#}
-{#                class="ms-4 btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase">#}
-{#          Buy ticket now <i class="bi bi-arrow-right"></i>#}
-{#        </button>#}
-{#      </div>#}
-{#    </div>#}
-{#  </div>#}
+
+  <div class="container-fluid tickets py-5">
+    <div class="container">
+      <h2 class="text-white ms-4">Tickets</h2>
+      <div class="row pt-3 gx-5">
+        {% include 'modules/tickets.html' %}
+      </div>
+      <div class="my-5">
+        <a type="button"
+           class="ms-4 btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase"
+           href="https://pretix.evolutio.pt/evolutio/pyconpt2023/"
+           target="_blank"
+        >
+          Buy ticket now <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
 
 {##}
 {#  <div class="container-fluid speakers py-5">#}
