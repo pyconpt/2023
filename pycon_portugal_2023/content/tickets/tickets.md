@@ -3,7 +3,7 @@ layout: simple
 
 **We have Full Pass tickets for the 3 days of Talks and Workshops (September 7th, 8th and 9th), or Daily Pass tickets for a specific day of Talks or Workshops. Check out the Early Bird special prices!**. Don't forget to follow us on Twitter [@PyConPT](https://twitter.com/PyConPT){:target="_blank"} for the latest up-to-date information!
 
-<center><a class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase" target="_blank">I want a ticket</a></center>
+<center><a href="https://pretix.evolutio.pt/evolutio/pyconpt2023/" class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase" target="_blank">I want a ticket</a></center>
 
 If you are from a marginalised or under-represented group, and you are not able to afford a ticket, you should apply for a [grant](/information/grants/). **Please consider making an extra donation** to help us offer grants to people from marginalised or under-represented groups.
 

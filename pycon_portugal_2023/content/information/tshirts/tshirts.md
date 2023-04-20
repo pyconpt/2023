@@ -8,5 +8,5 @@ They will be from organic materials and you will be able to select its specifica
 - T-shirts purchased until August 15 will be provided during the check-in at the venue: €25
 - T-shirts purchased after August 15 and up until September 30 will be mailed to you after the conference: €30 (inc. international shipping)
 
-<center><a class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase" target="_blank">I want a ticket</a></center>
+<center><a href="https://pretix.evolutio.pt/evolutio/pyconpt2023/" class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase" target="_blank">I want a ticket</a></center>
 
