@@ -979,6 +979,25 @@ body {
   padding: 0.1rem 0;
 }
 
+object {
+  height: 700px;
+}
+@media (max-width: 1400px) {
+  object {
+    height: 500px;
+  }
+}
+@media (max-width: 988px) {
+  object {
+    height: 300px;
+  }
+}
+@media (max-width: 570px) {
+  object {
+    height: 200px;
+  }
+}
+
 img.sponsor {
   width: 180px;
   height: auto;
