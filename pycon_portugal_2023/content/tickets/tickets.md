@@ -3,13 +3,11 @@ layout: simple
 
 **We have Full Pass tickets for the 3 days of Talks and Workshops (September 7th, 8th and 9th), or Daily Pass tickets for a specific day of Talks or Workshops. Check out the Early Bird special prices!**. Don't forget to follow us on Twitter [@PyConPT](https://twitter.com/PyConPT){:target="_blank"} for the latest up-to-date information!
 
-<center><button class="btn">Soon!</button></center>
+<center><a class="btn btn-primary btn-lg pycon-btn text-uppercase" target="_blank">I want a ticket!</a></center>
 
 If you are from a marginalised or under-represented group, and you are not able to afford a ticket, you should apply for a [grant](/information/grants/). **Please consider making an extra donation** to help us offer grants to people from marginalised or under-represented groups.
 
 We are still drawing up the best [t-shirts](/information/tshirts/) for you! In the meanwhile, you can already purchase them together with your ticket. They will be from organic materials and you will be able to select its specifications later on (size, design, color, etc.).
-
-<center><button class="btn">Soon!</button></center>
 
 ** Be sure to grab your ticket ASAP! ** The tickets include the following food: morning snack, lunch, and afternoon snack. Please don't forget to ** add your dietary restrictions when purchasing your ticket! **
 

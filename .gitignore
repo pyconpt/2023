@@ -330,3 +330,4 @@ pycon_portugal_2023/media/
 .env
 .envs/*
 !.envs/.local/
+pycon_portugal_2023/static/videos

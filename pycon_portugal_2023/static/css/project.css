@@ -725,7 +725,8 @@ body {
 .content h1 {
   font: normal normal bold 32px/48px Poppins;
 }
-.content button {
+.content button, .content a.pycon-btn {
+  color: black;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 41px;
@@ -736,7 +737,7 @@ body {
   border: 5px solid #2C2C2C;
   text-transform: uppercase;
 }
-.content button:hover, .content button:active, .content button:focus {
+.content button:hover, .content button:active, .content button:focus, .content a.pycon-btn:hover, .content a.pycon-btn:active, .content a.pycon-btn:focus {
   background-color: #F7F7F7 !important;
   border-color: #F9A825 !important;
   color: #F9A825 !important;
