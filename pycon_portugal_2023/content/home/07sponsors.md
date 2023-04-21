@@ -18,6 +18,13 @@ layout: simple
 [//]: # ()
 [//]: # (<span class="d-none"></span>)
 
+
+> #### Venue Sponsor
+
+> > [![cbs](/static/images/sponsors/cbs_iscac.png){:class='sponsor'}](https://bs.iscac.pt/){:target="_blank"}
+
+<span class="d-none"></span>
+
 >#### Grants
 
 > > [![europython](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="_blank"} 
