@@ -3,7 +3,7 @@ layout: simple
 
 The conference will take place in the Coimbra Business School.
 
-[![cbs](/static/images/sponsors/1.png){:class='sponsor large'}](https://bs.iscac.pt/){:target="_blank"}
+[![cbs](/static/images/sponsors/cbs_iscac.png){:class='sponsor large'}](https://bs.iscac.pt/){:target="_blank"}
 **Coimbra Business School**
 Quinta Agrícola - Bencanta
 
