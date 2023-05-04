@@ -279,13 +279,10 @@
   blockquote {
     a {
       background-color: white;
-      width: fit-content;
       border-radius: 16px;
-      padding: 30px;
+      padding: 20px 30px;
       margin: 10px;
-      img {
-        margin: 20px;
-      }
+      display: inline-block;
     }
   }
 

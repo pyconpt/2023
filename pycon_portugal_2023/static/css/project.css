@@ -417,15 +417,10 @@ body {
 }
 .sponsors blockquote a {
   background-color: white;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   border-radius: 16px;
-  padding: 30px;
+  padding: 20px 30px;
   margin: 10px;
-}
-.sponsors blockquote a img {
-  margin: 20px;
+  display: inline-block;
 }
 .sponsors h2 {
   color: #000;
