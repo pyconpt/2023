@@ -345,6 +345,15 @@
 }
 
 .hashtags {
+  padding-bottom: 18vh !important;
+
+    @media (max-width: 768px){
+        padding-bottom: 38vh !important;
+    }
+
+  .hashtag-text {
+    filter: opacity(.7);
+  }
 
   .row:nth-child(odd) {
     margin-left: -100px;

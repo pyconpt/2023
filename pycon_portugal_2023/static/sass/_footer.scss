@@ -5,6 +5,42 @@
 .custom-footer {
   background-color: base.$BgBlack;
   color: base.$Green !important;
+  position: relative;
+  padding-top: 16vh;
+
+  @media (max-width: 768px){
+    padding-bottom: 18vh !important;
+  }
+
+  .cta-box {
+    font-size: 1.2rem;
+
+    h5 {
+      font-weight: 700;
+    }
+
+    background-color: base.$BgBlue;
+    color: base.$white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    border-radius: .8rem;
+    width: 70%;
+    text-align: center;
+    padding: 5vh 6vw;
+    top: -20%;
+    left: 15%;
+
+    .btn {
+      color: white;
+      font-size: .9em;
+      text-transform: uppercase;
+      padding: 5px 40px;
+    }
+  }
 
   .footer-container {
     padding-left: 3rem;
