@@ -1059,8 +1059,8 @@ img.sponsor.huge {
 
 img.sponsor.large {
   height: 60px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 img.sponsor.small {
