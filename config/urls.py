@@ -15,9 +15,9 @@ urlpatterns = [
     path("users/", include("pycon_portugal_2023.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
-    path("", default_view),
-    path("<slug:menu>/", default_view),
-    path("<slug:menu>/<slug:submenu>/", default_view),
+    path("", default_view, name="home"),
+    path("<slug:menu>/", default_view, name="menu-view"),
+    path("<slug:menu>/<slug:submenu>/", default_view, name="submenu-view"),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

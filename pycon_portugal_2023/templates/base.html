@@ -14,6 +14,17 @@
   <meta name="description" content="PyCon Portugal 2023 Website">
   <meta name="author" content="Telmo Guerra">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CMQRE6VNNJ"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){
+          dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-CMQRE6VNNJ');
+  </script>
+
   <link rel="apple-touch-icon" sizes="180x180"
         href="{% static 'images/favicons/apple-touch-icon.png' %}">
   <link rel="icon" type="image/png" sizes="32x32"
@@ -57,6 +68,8 @@
 </head>
 
 <body>
+
+ {% include "modals/home_modal.html" %}
 
 <nav class="navbar navbar-expand-lg header pt-4 {% block nav_css %}{% endblock %}">
   <div class="container">

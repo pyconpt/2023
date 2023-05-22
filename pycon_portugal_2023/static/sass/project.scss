@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // force footer to the bottom
+
 html, body {
   height: 100%;
 }
@@ -27,7 +28,6 @@ body {
 
 // #
 
-//
 .text-green {
   color: base.$BgLightGreen !important;
 }
@@ -59,42 +59,6 @@ a:hover {
   display: contents !important;
 }
 
-// includes
-
-@import "header";
-
-@import "home";
-
-@import "content";
-
-@import "footer";
-
-@import "information";
-
-@import "sponsors";
-
-// sponsors imgs
-img.sponsor {
-  width: 180px;
-  height: auto;
-}
-
-img.sponsor.huge {
-  height: 70px;
-}
-
-img.sponsor.large {
-  height: 60px;
-  object-fit: contain;
-}
-
-img.sponsor.small {
-  height: 40px;
-}
-
-img.sponsor.tiny {
-  height: 25px;
-}
 
 img.hotel {
   max-width: 200px;
@@ -102,8 +66,6 @@ img.hotel {
   width: auto;
   height: auto;
 }
-
-//
 
 button:hover {
   color: white !important;
@@ -171,3 +133,38 @@ tbody, td, tfoot, th, thead, tr {
   font: normal normal bold 86px/129px Poppins;
   text-transform: uppercase;
 }
+
+
+// SPONSORS IMAGES
+
+img.sponsor {
+  width: 180px;
+  height: auto;
+}
+
+img.sponsor.huge {
+  height: 70px;
+}
+
+img.sponsor.large {
+  height: 60px;
+  object-fit: contain;
+}
+
+img.sponsor.small {
+  height: 40px;
+}
+
+img.sponsor.tiny {
+  height: 25px;
+}
+
+// IMPORTS
+
+@import "header";
+@import "home";
+@import "content";
+@import "footer";
+@import "information";
+@import "sponsors";
+@import "modals";

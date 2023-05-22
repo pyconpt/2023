@@ -16,14 +16,26 @@
               {{ content.html | safe }}
             </div>
           {% endwith %}
-          <div class="text-center my-5">
-            <a type="button"
-               class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase"
-               href="https://pretix.evolutio.pt/evolutio/pyconpt2023/"
-               target="_blank"
-            >
-              I want a ticket
-            </a>
+          <div class="d-flex flex-align justify-content-around">
+            <div class="text-center my-5">
+              <a type="button"
+                 class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase"
+                 href="#homeModal"
+                 data-bs-toggle="modal"
+                 target="_blank"
+              >
+                Get a Free Ticket
+              </a>
+            </div>
+            <div class="text-center my-5">
+              <a type="button"
+                 class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase"
+                 href="https://pretix.evolutio.pt/evolutio/pyconpt2023/"
+                 target="_blank"
+              >
+                Buy Ticket Now <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>

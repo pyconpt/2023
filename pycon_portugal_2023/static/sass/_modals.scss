@@ -1,0 +1,56 @@
+@use "base";
+
+.home-modal {
+    .modal-dialog {
+        max-width: 90%;
+        height: 500px;
+        margin-top: 7%;
+
+        .modal-content {
+            background-color: base.$BgYellow;
+            padding: 0 1.5rem 3rem;
+            border-radius: 20px;
+
+            div {
+               border: none;
+            }
+
+            .modal-header {
+
+                .modal-title {
+                    padding: 1.25rem;
+                    color: base.$white;
+                    font: normal normal bold 32px/48px Poppins;
+                }
+            }
+
+            .modal-body {
+                color: base.$white;
+                .card {
+                    background-color: base.$BgBlack;
+
+                    .card-title {
+                        color: base.$BgYellow;
+                    }
+
+                    .card-body {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .card-description {
+                            font: normal normal 400 24px/34px Poppins;
+                            min-height: 95px;
+                            margin: 20px auto;
+                        }
+
+                        .pycon-btn {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
