@@ -1,6 +1,6 @@
-🚀 **10th** - 2023 Edition Kick off
-📍 **12th** - Venue Announcement: Coimbra Business School
-📥 **15th** - Call for Proposals
-🐤 **20th** - Early Bird Ticket Sale
-👥 **22nd** - Volunteer application form
-📝 **24th** - Grants application form
+🐦 **May 31 -** Early Bird tickets sales close
+🎙 **June 30 -** Childcare application
+️✨ **July 31 -** Childcare application
+️👶 **August 01 -** Childcare application opens
+🗓 **August 20 -** Schedule is published
+️👶 **August 31 -** Childcare application closes

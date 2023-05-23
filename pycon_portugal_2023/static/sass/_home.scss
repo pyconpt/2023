@@ -190,6 +190,10 @@
 
     p {
       text-align: center;
+
+      strong {
+        font-size: 50px;
+      }
     }
   }
 
@@ -226,7 +230,8 @@
   background-color: transparent;
   border: unset;
   font: normal normal normal 24px/44px Poppins;
-
+  display: flex;
+  align-items: center;
 }
 
 
