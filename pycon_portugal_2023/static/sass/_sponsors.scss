@@ -1,4 +1,6 @@
-.Sponsors-content {
+@use "base";
+
+.sponsors-content {
     p {
         padding: .1rem 0;
     }
@@ -17,5 +19,46 @@ object {
 
     @media (max-width: 570px) {
         height: 200px;
+    }
+}
+
+.community-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    margin: 15px;
+    padding: initial 5%;
+
+    .python-community-card {
+        border-radius: 15px;
+        min-height: 250px;
+        width: 350px;
+        display: flex;
+        padding: 20px 50px 40px;
+        flex-direction: column;
+        align-items: center;
+        color: base.$white;
+        font: normal normal 700 24px/32px Poppins;
+        gap: 15px;
+
+        .community-card-description {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        &.yellow {
+            background-color: base.$BgYellow;
+        }
+
+        &.blue {
+            background-color: base.$BgBlue;
+        }
+
+        &.green {
+            background-color: base.$Green;
+        }
     }
 }

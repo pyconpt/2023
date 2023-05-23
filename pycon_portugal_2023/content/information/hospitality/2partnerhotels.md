@@ -57,9 +57,9 @@ All of our partner hotels are located in the city centre and are close to this y
 
 **Discounts:**
 
-- Single room: € 75,00/night with buffet breakfast
+- Single room: **€ 75,00/night** with buffet breakfast
 
-- Double/Twin room: € 85,00/night with buffet breakfast
+- Double/Twin room: **€ 85,00/night** with buffet breakfast
 
 
 **Conditions:** Bookings are to be made by email to [astoria@almeidahotels.pt](mailto:astoria@almeidahotels.pt) or by phone to +351 239 853 020 mentioning REF.ª PYCON23.

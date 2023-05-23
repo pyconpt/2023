@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 html, body {
   overflow-x: hidden;
 }
@@ -1047,70 +1048,70 @@ body {
   color: #b94a48;
 }
 
-.Venue-row p {
+.venue-row p {
   margin-bottom: 0;
 }
-.Venue-row .sponsor.large {
+.venue-row .sponsor.large {
   height: 165px;
   width: 165px;
 }
-.Venue-row iframe {
+.venue-row iframe {
   margin-top: 36px;
 }
 
-.Coimbra-row p {
+.coimbra-row p {
   font: normal normal 300 16px/25px Poppins;
   color: #2C2C2C;
 }
-.Coimbra-row iframe {
+.coimbra-row iframe {
   margin: 60px auto;
 }
 
-.facilities-row .swiper-buttons, .city-row .swiper-buttons {
+.explore-the-facilities-row .swiper-buttons, .explore-the-city-row .swiper-buttons {
   position: relative;
   width: 70px;
   margin-left: auto;
   margin-top: -30px;
 }
-.facilities-row .swiper-buttons .swiper-button-next, .city-row .swiper-buttons .swiper-button-next {
+.explore-the-facilities-row .swiper-buttons .swiper-button-next, .explore-the-city-row .swiper-buttons .swiper-button-next {
   position: relative;
   float: right;
   color: black;
 }
-.facilities-row .swiper-buttons .swiper-button-next:after, .city-row .swiper-buttons .swiper-button-next:after {
+.explore-the-facilities-row .swiper-buttons .swiper-button-next:after, .explore-the-city-row .swiper-buttons .swiper-button-next:after {
   font-size: 20px;
   line-height: 20px;
 }
-.facilities-row .swiper-buttons .swiper-button-prev, .city-row .swiper-buttons .swiper-button-prev {
+.explore-the-facilities-row .swiper-buttons .swiper-button-prev, .explore-the-city-row .swiper-buttons .swiper-button-prev {
   position: relative;
   float: left;
   color: black;
 }
-.facilities-row .swiper-buttons .swiper-button-prev:after, .city-row .swiper-buttons .swiper-button-prev:after {
+.explore-the-facilities-row .swiper-buttons .swiper-button-prev:after, .explore-the-city-row .swiper-buttons .swiper-button-prev:after {
   font-size: 20px;
   line-height: 20px;
 }
-.facilities-row .swiper, .city-row .swiper {
+.explore-the-facilities-row .swiper, .explore-the-city-row .swiper {
   overflow: clip;
   padding-top: 50px;
   text-align: end;
 }
-.facilities-row .swiper .swiper-description, .city-row .swiper .swiper-description {
+.explore-the-facilities-row .swiper .swiper-description, .explore-the-city-row .swiper .swiper-description {
   font: italic normal 100 16px/25px Poppins;
   display: inline-block;
   margin: -5px 5px auto auto;
 }
-.facilities-row .swiper-wrapper, .city-row .swiper-wrapper {
+.explore-the-facilities-row .swiper-wrapper, .explore-the-city-row .swiper-wrapper {
   position: relative;
   width: 100%;
 }
-.facilities-row .swiper-wrapper .swiper-slide, .city-row .swiper-wrapper .swiper-slide {
+.explore-the-facilities-row .swiper-wrapper .swiper-slide, .explore-the-city-row .swiper-wrapper .swiper-slide {
   width: 380px;
 }
-.facilities-row .swiper-wrapper .swiper-slide p, .city-row .swiper-wrapper .swiper-slide p {
+.explore-the-facilities-row .swiper-wrapper .swiper-slide p, .explore-the-city-row .swiper-wrapper .swiper-slide p {
   display: inline-block;
 }
-.facilities-row .swiper-wrapper .swiper-slide img, .city-row .swiper-wrapper .swiper-slide img {
+.explore-the-facilities-row .swiper-wrapper .swiper-slide img, .explore-the-city-row .swiper-wrapper .swiper-slide img {
   -o-object-fit: fill;
      object-fit: fill;
   width: 380px;
@@ -1118,7 +1119,27 @@ body {
   pointer-events: none;
 }
 
-.Sponsors-content p {
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.alert-debug {
+  background-color: #F7F7F7;
+  border-color: #d6e9c6;
+  color: #000;
+}
+
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
+
+.sponsors-content p {
   padding: 1.6px 0;
   padding: 0.1rem 0;
 }
@@ -1140,6 +1161,59 @@ object {
   object {
     height: 200px;
   }
+}
+
+.community-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 25px;
+  margin: 15px;
+  padding: initial 5%;
+}
+.community-cards .python-community-card {
+  border-radius: 15px;
+  min-height: 250px;
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 50px 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #F7F7F7;
+  font: normal normal 700 24px/32px Poppins;
+  gap: 15px;
+}
+.community-cards .python-community-card .community-card-description {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.community-cards .python-community-card.yellow {
+  background-color: #F9A825;
+}
+.community-cards .python-community-card.blue {
+  background-color: #0077C9;
+}
+.community-cards .python-community-card.green {
+  background-color: #00969C;
 }
 
 html, body {
