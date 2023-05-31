@@ -1,4 +1,5 @@
-🐤 **May 31 -** Early Bird tickets sales close
+🐤<del> **May 31 -** Early Bird tickets sales close</del>
+🐤 **June 7 -** Early Bird tickets sales close
 📩 **June 30 -** Call for Participations closes
 📥 **July 31 -** Application for Opportunity Grants closes
 👶 **August 1 -** Childcare application opens
