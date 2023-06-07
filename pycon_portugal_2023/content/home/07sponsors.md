@@ -3,13 +3,27 @@ layout: simple
 
 <div markdown="1" class="row">
 
-<div markdown="1" class="col-12 col-md-6">
+
+<div markdown="1" class="col-12 flex-sponsors-organizer">
+
+> #### Grants
+
+> > [![europython](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="_blank"}
+> > [![djangosoftwarefoundation](/static/images/sponsors/dsf.png){:class='sponsor'}](https://www.djangoproject.com/){:target="_blank"}
+> > [![pythonsoftwarefoundation](/static/images/sponsors/logo-psf.svg){:class='sponsor'}](https://www.python.org/psf-landing/){:target="_blank"}
+
+
+</div>
+
+<div markdown="1" class="col-12 col-md-4">
 
 > #### Partner
 
 > > [![cbs](/static/images/sponsors/cmc.png){:class='sponsor'}](https://www.cm-coimbra.pt/){:target="_blank"}
 
-<span class="d-none"></span>
+</div>
+
+<div markdown="1" class="col-12 col-md-4">
 
 > #### Venue Sponsor
 
@@ -18,18 +32,10 @@ layout: simple
 
 </div>
 
-<div markdown="1" class="col-12 col-md-6">
-
-> #### Grants
-
-> > [![europython](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="_blank"}
-
-<span class="d-none"></span>
-
+<div markdown="1" class="col-12 col-md-4">
 
 > #### Organizer
 >
 > > [![evolutio](/static/images/sponsors/evolutio.png){:class='sponsor'}](https://evolutio.pt/){:target="_blank"}
 
-</div>
 </div>

@@ -287,7 +287,17 @@
       border-radius: 16px;
       padding: 20px 30px;
       margin: 10px;
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      width: fit-content;
+    }
+  }
+
+  .flex-sponsors-organizer {
+    blockquote {
+      p {
+        display: flex;
+      }
     }
   }
 
