@@ -62,3 +62,15 @@ object {
         }
     }
 }
+
+.flex-sponsors-organizer {
+    blockquote {
+        margin: 2rem 0;
+
+        p {
+            display: flex;
+            justify-content: start;
+            gap: 30px;
+        }
+    }
+}

@@ -1238,6 +1238,20 @@ object {
   background-color: #00969C;
 }
 
+.flex-sponsors-organizer blockquote {
+  margin: 32px 0;
+  margin: 2rem 0;
+}
+.flex-sponsors-organizer blockquote p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 30px;
+}
+
 html, body {
   overflow-x: hidden;
 }
