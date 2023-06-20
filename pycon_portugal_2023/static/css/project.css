@@ -1141,6 +1141,14 @@ body {
   pointer-events: none;
 }
 
+.t-shirts-content img {
+  margin-left: 25%;
+  margin-right: auto;
+  width: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 html, body {
   overflow-x: hidden;
 }
