@@ -18,4 +18,4 @@ layout: centered
         <div class="community-card-description">Engage in state of the art contents</div>
     </div>
 
-</div> 
+</div>

@@ -17,7 +17,7 @@ $ pip install -r requirements/[ local | production ].txt
 ```
 
 And create a PostgreSQL database 'pycon_portugal_2023'
-* On Debian-based 10+: 
+* On Debian-based 10+:
 ```bash
 $ sudo su - postgres -c "createdb pycon_portugal_2023"
 ```

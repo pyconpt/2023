@@ -3,5 +3,5 @@
 📩<del> **June 30 -** Call for Participations closes</del>
 📥 **July 31 -** Application for Opportunity Grants closes
 👶 **August 1 -** Childcare application opens
-📆 **August 20 -** Schedule is published 
+📆 **August 20 -** Schedule is published
 👶 **August 31 -** Childcare application closes

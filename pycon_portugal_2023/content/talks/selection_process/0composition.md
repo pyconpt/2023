@@ -5,7 +5,7 @@ layout: simple
 
 Follow us on social media for up to date information - see footer below!
 
-<!-- 
+<!--
 
 First off, a warning: all of the following numbers are approximate and may change – we don't know the future, and we may have to adjust to changed circumstances in a number of ways.
 
@@ -22,7 +22,7 @@ PyCon Portugal has three conference days reserved for talks (followed by two day
     - 6 talks **accessible to beginners**, focussing on concepts, introductions, guides, and other material most useful to those new to Python, having used Python for about a year or less. Includes common workflows (like debugging and testing) and introductions to tools integrated with Python.
 
     - 6 more **advanced talks**, explaining concepts or implementation details in depth, for people who have used Python for more than a year. Includes uncommon workflows, and improvements on testing and debugging workflows.
-    
+
     - 3 talks at a **very advanced level** on implementation details and planned features. We also hope to offer a bit of the Python Under The Hood spirit here.
 
 * 2 talks focusing on languages or frameworks that are **not Python**.

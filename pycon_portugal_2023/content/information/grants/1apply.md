@@ -15,4 +15,4 @@ With our limited funds, we can't promise you will receive a grant, but if you're
 
 If you have questions, you can write to [2023@pycon.pt](mailto:2023@pycon.pt).
 
-**The application window closes on July 30th!** 
+**The application window closes on July 30th!**

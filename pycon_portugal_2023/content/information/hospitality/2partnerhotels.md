@@ -21,7 +21,7 @@ All of our partner hotels are located in the city centre and are close to this y
 **Discount:** 10% discount off best available rate.
 
 
-**Conditions:** Bookings  are to be made on the official website using the promotional code ```LOVECOIMBRA```. 
+**Conditions:** Bookings  are to be made on the official website using the promotional code ```LOVECOIMBRA```.
 
 <hr/>
 
@@ -41,7 +41,7 @@ All of our partner hotels are located in the city centre and are close to this y
 
 - Double/Twin room: **€ 69,20/night** with buffet breakfast
 
-- Triple room: **€ 80,40/night** with buffet breakfast 
+- Triple room: **€ 80,40/night** with buffet breakfast
 
 **Conditions:** Bookings are to be made by email to [reservas@hoteldluis.pt](mailto:reservas@hoteldluis.pt) or by phone to +351 239 802 120 mentioning PYCON PORTUGAL 2023.
 

@@ -10,7 +10,7 @@ If your country is not part of the [Schengen Agreement](https://www.schengenvisa
 After you have purchased your PyCon ticket, send an e-mail to [2023@pycon.pt](mailto:2023@pycon.pt) with: the purchased ticket, your full name, your address, a copy of your passport, your company and/or university name and address.
 
 
-* Travel Insurance 
+* Travel Insurance
 
 
 This insurance should cover the entire Schengen Area and be valid for the expected duration of you stay. The minimum coverage must be 30,000 EUR.

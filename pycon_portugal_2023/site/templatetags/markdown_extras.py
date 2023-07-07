@@ -1,7 +1,6 @@
+import markdown as md
 from django import template
 from django.template.defaultfilters import stringfilter
-
-import markdown as md
 
 register = template.Library()
 
@@ -10,15 +9,17 @@ register = template.Library()
 @stringfilter
 def markdown(value):
     r = {}
-    f = open(value, 'r')
+    f = open(value, "r")
     f = f.read()
-    m = md.Markdown(extensions = [
-        'extra',
-        'nl2br',
-        'sane_lists',
-        'meta',
-        'toc',
-        ])
-    r['html'] = m.convert(f)
-    r['meta'] = m.Meta
+    m = md.Markdown(
+        extensions=[
+            "extra",
+            "nl2br",
+            "sane_lists",
+            "meta",
+            "toc",
+        ]
+    )
+    r["html"] = m.convert(f)
+    r["meta"] = m.Meta
     return r

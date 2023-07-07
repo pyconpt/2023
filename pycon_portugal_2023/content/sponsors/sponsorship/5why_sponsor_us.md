@@ -19,7 +19,7 @@ Why should you sponsor?
 **Networking** If you want to stand out from the crowd with your company, network and seek new potential collaborations and partners, PyCon Portugal is the place to be. Also, with most sponsor packages are tickets included and your employees will, therefore, attend a conference with valuable education from talks and workshops.
 
 
-<!-- 
+<!--
 
 See detailed descriptions and custom opportunities in our Sponsorships Brochure:
 
