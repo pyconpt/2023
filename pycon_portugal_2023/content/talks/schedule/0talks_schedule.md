@@ -8,7 +8,7 @@ The reviewing is under way, and the reviewing team is going extra length to fini
 
 Note to content submitters: We are confirming and rejecting continually, please check your email. If chosen, please confirm as soon as possible, as your unavailability can free a slot for another fellow speaker.
 
-This means the schedule is under construction, and may be subjet to changes!
+This means the schedule is under construction, and may be subject to changes!
 
 Please check the already selected and confirmed Speakers/Talks [Schedule Preview](https://pretalx.evolutio.pt/pycon-pt-2023/featured/).
 
