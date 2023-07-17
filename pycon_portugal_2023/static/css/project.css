@@ -58,7 +58,7 @@ body {
 }
 
 .text-green {
-  color: rgba(0, 150, 156, 0.5019607843) !important;
+  color: #00969C80 !important;
 }
 
 .text-hidden {
@@ -406,6 +406,7 @@ body {
 }
 .speakers .swiper-wrapper .swiper-slide p {
   display: inline-block;
+  background-color: #2C2C2C;
 }
 .speakers .swiper-wrapper .swiper-slide strong, .speakers .swiper-wrapper .swiper-slide b {
   left: 10%;
@@ -419,6 +420,11 @@ body {
   height: 400px;
   border-radius: 25px;
   pointer-events: none;
+  max-width: 60%;
+  float: right;
+  bottom: inherit;
+  -o-object-position: bottom;
+     object-position: bottom;
 }
 .speakers .swiper-wrapper .swiper-slide .speaker-name {
   font-weight: 600;
@@ -639,23 +645,23 @@ body {
 }
 .newsletter .newsletter-content input::-webkit-input-placeholder {
   font: normal normal normal 16px/25px Poppins;
-  color: rgba(0, 150, 156, 0.5019607843);
+  color: #00969C80;
 }
 .newsletter .newsletter-content input::-moz-placeholder {
   font: normal normal normal 16px/25px Poppins;
-  color: rgba(0, 150, 156, 0.5019607843);
+  color: #00969C80;
 }
 .newsletter .newsletter-content input:-ms-input-placeholder {
   font: normal normal normal 16px/25px Poppins;
-  color: rgba(0, 150, 156, 0.5019607843);
+  color: #00969C80;
 }
 .newsletter .newsletter-content input::-ms-input-placeholder {
   font: normal normal normal 16px/25px Poppins;
-  color: rgba(0, 150, 156, 0.5019607843);
+  color: #00969C80;
 }
 .newsletter .newsletter-content input::placeholder {
   font: normal normal normal 16px/25px Poppins;
-  color: rgba(0, 150, 156, 0.5019607843);
+  color: #00969C80;
 }
 .newsletter .newsletter-content button {
   height: 47px;
@@ -770,7 +776,7 @@ body {
   height: 30%;
 }
 .important-dates .bg-dates .bg-light-green {
-  background-color: rgba(0, 150, 156, 0.5019607843);
+  background-color: #00969C80;
 }
 .important-dates .bg-dates .bg-light-purple {
   background-color: #D0B0F5;
@@ -808,6 +814,7 @@ body {
     font-size: 15px !important;
     line-height: 25px !important;
   }
+
   .dates .important-date-card strong {
     font-size: 50px !important;
   }
@@ -821,10 +828,12 @@ body {
     font-size: 20px;
     line-height: 30px;
   }
+
   .card-other-dates {
     font-size: 20px !important;
     line-height: 30px !important;
   }
+
   .sponsors .container {
     text-align: center !important;
     text-align: -webkit-center !important;
