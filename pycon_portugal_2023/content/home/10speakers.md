@@ -44,7 +44,7 @@
 ![Speaker 1](/static/images/speakers/rodrigo_girao_serrao.png){:class='speaker'} **Rodrigo Serrão**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
-![Speaker 1](/static/images/speakers/olaniyan_adewale_hafeez.png){:class='speaker'} **Olaniyan Adisa Adigun**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
+![Speaker 1](/static/images/speakers/olaniyan_adewale_hafeez.png){:class='speaker'} **Olaniyan Adigun**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
 ![Speaker 1](/static/images/speakers/efe_oge.png){:class='speaker'} **Efe Öge**{:class='speaker-name'} **Talk**{:class='speaker-position'}
