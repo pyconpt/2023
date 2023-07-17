@@ -407,6 +407,7 @@ body {
 .speakers .swiper-wrapper .swiper-slide p {
   display: inline-block;
   background-color: #2C2C2C;
+  border-radius: 24px;
 }
 .speakers .swiper-wrapper .swiper-slide strong, .speakers .swiper-wrapper .swiper-slide b {
   left: 10%;
