@@ -2,16 +2,16 @@
 ![Speaker 1](/static/images/speakers/tom-forbes.png){:class='speaker'} **Tom Forbes**{:class='speaker-name'} **Keynote**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
-![Speaker 1](/static/images/speakers/darya-petrashka.png){:class='speaker'} **Darya Petrashka**{:class='speaker-name'} **Talk**{:class='speaker-position'}
+![Speaker 1](/static/images/speakers/darya_petrashka.png){:class='speaker'} **Darya Petrashka**{:class='speaker-name'} **Talk**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
 ![Speaker 1](/static/images/speakers/lucas.png){:class='speaker'} **Lucas**{:class='speaker-name'} **Talk**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
-![Speaker 1](/static/images/speakers/stefanie-molin.png){:class='speaker'} **Stefanie Molin**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
+![Speaker 1](/static/images/speakers/stefanie_molin.png){:class='speaker'} **Stefanie Molin**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
-![Speaker 1](/static/images/speakers/felix_mino.png){:class='speaker'} **Felix Mino**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
+![Speaker 1](/static/images/speakers/felix-mino.png){:class='speaker'} **Felix Mino**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
 ![Speaker 1](/static/images/speakers/cristian_maureira_fredes.png){:class='speaker'} **Cristián Maureira-Fredes**{:class='speaker-name'} **Talk**{:class='speaker-position'}
@@ -20,10 +20,10 @@
 ![Speaker 1](/static/images/speakers/kushal_vijay.png){:class='speaker'} **Kushal Vijay**{:class='speaker-name'} **Talk**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
-![Speaker 1](/static/images/speakers/maxim_danilov.png){:class='speaker'} **Maxim Danilov**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
+![Speaker 1](/static/images/speakers/maxim-danilov.png){:class='speaker'} **Maxim Danilov**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
-![Speaker 1](/static/images/speakers/tiago_silva.png){:class='speaker'} **Tiago Silva**{:class='speaker-name'} **Talk**{:class='speaker-position'}
+![Speaker 1](/static/images/speakers/tiago-silva.png){:class='speaker'} **Tiago Silva**{:class='speaker-name'} **Talk**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
 ![Speaker 1](/static/images/speakers/neeraj_pandey.png){:class='speaker'} **Neeraj Pandey**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
