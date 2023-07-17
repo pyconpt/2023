@@ -58,3 +58,6 @@
 <div markdown="1" class="swiper-slide">
 ![Speaker 1](/static/images/speakers/quazi_nafiul_islam.png){:class='speaker'} **Quazi Nafiul Islam**{:class='speaker-name'} **Talk**{:class='speaker-position'}
 </div>
+<div markdown="1" class="swiper-slide">
+![Speaker 1](/static/images/speakers/riccardo_magliocchetti.png){:class='speaker'} **Riccardo Magliocchetti**{:class='speaker-name'} **Talk**{:class='speaker-position'}
+</div>
