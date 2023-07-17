@@ -437,10 +437,14 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
+  padding-left: 30px;
 }
 .speakers .swiper-wrapper .swiper-slide .speaker-name:before {
   content: "\f4da ";
   font-family: "Bootstrap-icons";
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .speakers .swiper-wrapper .swiper-slide .speaker-position {
   font-size: 14px;
