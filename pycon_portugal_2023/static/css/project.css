@@ -429,7 +429,7 @@ body {
 }
 .speakers .swiper-wrapper .swiper-slide .speaker-name {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
   top: 10%;
   display: -webkit-box;
@@ -438,7 +438,7 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
-  padding-left: 30px;
+  padding-left: 25px;
 }
 .speakers .swiper-wrapper .swiper-slide .speaker-name:before {
   content: "\f4da ";
