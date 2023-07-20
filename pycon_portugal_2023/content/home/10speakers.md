@@ -61,3 +61,34 @@
 <div markdown="1" class="swiper-slide">
 ![Speaker 1](/static/images/speakers/riccardo_magliocchetti.png){:class='speaker'} **Riccardo Magliocchetti**{:class='speaker-name'} **Talk**{:class='speaker-position'}
 </div>
+<div markdown="1" class="swiper-slide">
+![Speaker 1](/static/images/speakers/murilo_cunha.png){:class='speaker'} **Murilo Cunha**{:class='speaker-name'} **Talk**{:class='speaker-position'}
+</div>
+<div markdown="1" class="swiper-slide">
+![Speaker 1](/static/images/speakers/dash.png){:class='speaker'} **Dash**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
+</div>
+<div markdown="1" class="swiper-slide">
+![Speaker 1](/static/images/speakers/filipe_lains){:class='speaker'} **Filipe Laíns**{:class='speaker-name'} **Talk**{:class='speaker-position'}
+</div>
+<div markdown="1" class="swiper-slide">
+![Speaker 1](/static/images/speakers/suleiman_adisa_adigun.png){:class='speaker'} **Suleiman Adisa Adigun**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
+</div>
+<div markdown="1" class="swiper-slide">
+![Speaker 1](/static/images/speakers/duarte_pompeu.png){:class='speaker'} **Duarte Pompeu**{:class='speaker-name'} **Talk**{:class='speaker-position'}
+</div>
+<div markdown="1" class="swiper-slide">
+![Speaker 1](/static/images/speakers/goncalo_marques.png){:class='speaker'} **Gonçalo Marques**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
+</div>
+<div markdown="1" class="swiper-slide">
+![Speaker 1](/static/images/speakers/shahriyar_rzayev.png){:class='speaker'} **Shahriyar Rzayev**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
+</div>
+<div markdown="1" class="swiper-slide">
+![Speaker 1](/static/images/speakers/darya_petrashka.png){:class='speaker'} **Darya Petrashka**{:class='speaker-name'} **Talkp**{:class='speaker-position'}
+</div>
+<div markdown="1" class="swiper-slide">
+![Speaker 1](/static/images/speakers/jorge_miranda.png){:class='speaker'} **Jorge Miranda**{:class='speaker-name'} **Talkp**{:class='speaker-position'}
+</div>
+<div markdown="1" class="swiper-slide">
+![Speaker 1](/static/images/speakers/francisco_lavrador_pires.png){:class='speaker'} **Francisco Lavrador Pires**{:class='speaker-name'} **Talkp**{:class='speaker-position'}
+</div>
+
