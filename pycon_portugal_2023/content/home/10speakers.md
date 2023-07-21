@@ -83,10 +83,10 @@
 ![Speaker 1](/static/images/speakers/shahriyar_rzayev.png){:class='speaker'} **Shahriyar Rzayev**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
-![Speaker 1](/static/images/speakers/darya_petrashka.png){:class='speaker'} **Darya Petrashka**{:class='speaker-name'} **Talkp**{:class='speaker-position'}
+![Speaker 1](/static/images/speakers/darya_petrashka.png){:class='speaker'} **Darya Petrashka**{:class='speaker-name'} **Talk**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
-![Speaker 1](/static/images/speakers/jorge_miranda.png){:class='speaker'} **Jorge Miranda**{:class='speaker-name'} **Talkp**{:class='speaker-position'}
+![Speaker 1](/static/images/speakers/jorge_miranda.png){:class='speaker'} **Jorge Miranda**{:class='speaker-name'} **Talk**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
 ![Speaker 1](/static/images/speakers/francisco_lavrador_pires.png){:class='speaker'} **Francisco Lavrador Pires**{:class='speaker-name'} **Talkp**{:class='speaker-position'}
