@@ -71,12 +71,6 @@
 ![Speaker 1](/static/images/speakers/filipe_lains.png){:class='speaker'} **Filipe Laíns**{:class='speaker-name'} **Talk**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
-![Speaker 1](/static/images/speakers/suleiman_adisa_adigun.png){:class='speaker'} **Suleiman Adisa Adigun**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
-</div>
-<div markdown="1" class="swiper-slide">
-![Speaker 1](/static/images/speakers/duarte_pompeu.png){:class='speaker'} **Duarte Pompeu**{:class='speaker-name'} **Talk**{:class='speaker-position'}
-</div>
-<div markdown="1" class="swiper-slide">
 ![Speaker 1](/static/images/speakers/goncalo_marques.png){:class='speaker'} **Gonçalo Marques**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
