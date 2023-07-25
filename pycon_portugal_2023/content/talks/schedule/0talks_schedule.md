@@ -10,7 +10,7 @@ Note to content submitters: We are confirming and rejecting continually, please 
 
 This means the schedule is under construction, and may be subject to changes!
 
-Please check the already selected and confirmed Speakers/Talks [Schedule Preview](https://pretalx.evolutio.pt/pycon-pt-2023/featured/).
+Please check the already selected and confirmed Speakers/Talks [Schedule](https://pretalx.evolutio.pt/pycon-pt-2023/schedule/).
 
 The conference talks & workshops will take place from 9:00 AM to 6:30 PM, September 7, 8, and 9.
 
