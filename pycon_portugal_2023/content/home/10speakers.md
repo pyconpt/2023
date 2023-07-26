@@ -1,4 +1,4 @@
-<div markdown="1" class="swiper-slide">
+<div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/BJWYLZ/','_blank')">
 ![Speaker 1](/static/images/speakers/tom-forbes.png){:class='speaker'} **Tom Forbes**{:class='speaker-name'} **Keynote**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide">
