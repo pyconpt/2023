@@ -31,9 +31,6 @@
 <div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/DZDVGN/','_blank')">
 ![Speaker 1](/static/images/speakers/goncalo_marques.png){:class='speaker'} **Gonçalo Marques**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
 </div>
-<div markdown="1" class="swiper-slide">
-![Speaker 1](/static/images/speakers/peter_vidos.png){:class='speaker'} **Peter Vidos**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
-</div>
 <div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/ZUTZVF/','_blank')">
 ![Speaker 1](/static/images/speakers/shahriyar_rzayev.png){:class='speaker'} **Shahriyar Rzayev**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
 </div>
