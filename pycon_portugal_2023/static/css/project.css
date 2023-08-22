@@ -58,7 +58,7 @@ body {
 }
 
 .text-green {
-  color: #00969C80 !important;
+  color: rgba(0, 150, 156, 0.5019607843) !important;
 }
 
 .text-hidden {
@@ -408,6 +408,14 @@ body {
   display: inline-block;
   background-color: #2C2C2C;
   border-radius: 24px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.speakers .swiper-wrapper .swiper-slide p:hover {
+  -webkit-box-shadow: 0 0 10px 0 #0077C9;
+          box-shadow: 0 0 10px 0 #0077C9;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 .speakers .swiper-wrapper .swiper-slide strong, .speakers .swiper-wrapper .swiper-slide b {
   left: 10%;
@@ -650,23 +658,23 @@ body {
 }
 .newsletter .newsletter-content input::-webkit-input-placeholder {
   font: normal normal normal 16px/25px Poppins;
-  color: #00969C80;
+  color: rgba(0, 150, 156, 0.5019607843);
 }
 .newsletter .newsletter-content input::-moz-placeholder {
   font: normal normal normal 16px/25px Poppins;
-  color: #00969C80;
+  color: rgba(0, 150, 156, 0.5019607843);
 }
 .newsletter .newsletter-content input:-ms-input-placeholder {
   font: normal normal normal 16px/25px Poppins;
-  color: #00969C80;
+  color: rgba(0, 150, 156, 0.5019607843);
 }
 .newsletter .newsletter-content input::-ms-input-placeholder {
   font: normal normal normal 16px/25px Poppins;
-  color: #00969C80;
+  color: rgba(0, 150, 156, 0.5019607843);
 }
 .newsletter .newsletter-content input::placeholder {
   font: normal normal normal 16px/25px Poppins;
-  color: #00969C80;
+  color: rgba(0, 150, 156, 0.5019607843);
 }
 .newsletter .newsletter-content button {
   height: 47px;
@@ -781,7 +789,7 @@ body {
   height: 30%;
 }
 .important-dates .bg-dates .bg-light-green {
-  background-color: #00969C80;
+  background-color: rgba(0, 150, 156, 0.5019607843);
 }
 .important-dates .bg-dates .bg-light-purple {
   background-color: #D0B0F5;
@@ -819,7 +827,6 @@ body {
     font-size: 15px !important;
     line-height: 25px !important;
   }
-
   .dates .important-date-card strong {
     font-size: 50px !important;
   }
@@ -833,12 +840,10 @@ body {
     font-size: 20px;
     line-height: 30px;
   }
-
   .card-other-dates {
     font-size: 20px !important;
     line-height: 30px !important;
   }
-
   .sponsors .container {
     text-align: center !important;
     text-align: -webkit-center !important;
