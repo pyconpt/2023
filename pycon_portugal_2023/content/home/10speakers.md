@@ -35,7 +35,7 @@
 ![Speaker 1](/static/images/speakers/shahriyar_rzayev.png){:class='speaker'} **Shahriyar Rzayev**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/YPYG8X/','_blank')">
-![Speaker 1](/static/images/speakers/joao_ferreira.png){:class='speaker'} **Joao Ferreira**{:class='speaker-name'} **Talk**{:class='speaker-position'}
+![Speaker 1](/static/images/speakers/joao_ferreira.png){:class='speaker'} **João Ferreira**{:class='speaker-name'} **Talk**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/D33C79/','_blank')">
 ![Speaker 1](/static/images/speakers/rodrigo_girao_serrao.png){:class='speaker'} **Rodrigo Serrão**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
@@ -67,19 +67,9 @@
 <div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/NXMEER/','_blank')">
 ![Speaker 1](/static/images/speakers/filipe_lains.png){:class='speaker'} **Filipe Laíns**{:class='speaker-name'} **Talk**{:class='speaker-position'}
 </div>
-<div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/DZDVGN/','_blank')">
-![Speaker 1](/static/images/speakers/goncalo_marques.png){:class='speaker'} **Gonçalo Marques**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
-</div>
-<div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/ZUTZVF/','_blank')">
-![Speaker 1](/static/images/speakers/shahriyar_rzayev.png){:class='speaker'} **Shahriyar Rzayev**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
-</div>
-<div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/MQF8UQ/','_blank')">
-![Speaker 1](/static/images/speakers/darya_petrashka.png){:class='speaker'} **Darya Petrashka**{:class='speaker-name'} **Talk**{:class='speaker-position'}
-</div>
 <div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/XWDBED/','_blank')">
 ![Speaker 1](/static/images/speakers/jorge_miranda.png){:class='speaker'} **Jorge Miranda**{:class='speaker-name'} **Talk**{:class='speaker-position'}
 </div>
 <div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/FQW9YE/','_blank')">
 ![Speaker 1](/static/images/speakers/francisco_lavrador_pires.png){:class='speaker'} **Francisco Lavrador Pires**{:class='speaker-name'} **Talkp**{:class='speaker-position'}
 </div>
-
