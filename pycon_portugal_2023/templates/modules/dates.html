@@ -3,13 +3,15 @@
 
 <div class="col-12 col-xl-5">
   {% with content=files.5|markdown %}
-    <div class="card">
-      <div class="card-body py-3 py-md-5 px-5 important-date-card">
+    <div class="card h-100">
+      <div class="card-body py-3 py-md-5 px-5 important-date-card d-flex flex-column">
         <h3 class="d-block">
           <img class="me-3" src="{% static "images/other/calendar.svg" %}"
-               alt="Star">{{ content.meta.title.0 }}
+               alt="Star">Important Dates
         </h3>
-        {{ content.html | safe }}
+        <div class="d-flex align-items-center justify-content-center flex-grow-1">
+          {{ content.html | safe }}
+        </div>
       </div>
     </div>
   {% endwith %}
