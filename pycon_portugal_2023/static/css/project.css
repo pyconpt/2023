@@ -599,7 +599,7 @@ body {
 }
 
 .hashtags {
-  padding-bottom: 22vh !important;
+  padding-bottom: 8vh !important;
 }
 @media (max-width: 768px) {
   .hashtags {
@@ -921,7 +921,7 @@ body {
   background-color: #2C2C2C;
   color: #00969C !important;
   position: relative;
-  padding-top: 18vh;
+  padding-top: 8vh;
 }
 @media (max-width: 768px) {
   .custom-footer {
