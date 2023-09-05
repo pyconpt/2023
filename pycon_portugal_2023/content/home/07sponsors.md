@@ -6,6 +6,15 @@ layout: simple
 
 <div markdown="1" class="col-12 flex-sponsors-organizer">
 
+> #### Sponsors
+
+> > [![loggi](/static/images/sponsors/loggi.png){:class='sponsor'}](https://www.loggi.com/){:target="_blank"}
+
+
+</div>
+
+<div markdown="1" class="col-12 flex-sponsors-organizer">
+
 > #### Grants
 
 > > [![europython](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="_blank"}
