@@ -28,7 +28,7 @@
     }
 }
 
-.explore-the-facilities-row,.explore-the-city-row {
+.explore-the-facilities-row,.explore-the-city-row, .party-row {
 
     .swiper-buttons {
         position: relative;
@@ -91,6 +91,11 @@
                 pointer-events: none;
             }
         }
+    }
+
+    img.sponsor.large {
+        height: 160px;
+        object-fit: contain;
     }
 }
 

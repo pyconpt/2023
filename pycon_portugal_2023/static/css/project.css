@@ -1108,56 +1108,61 @@ body {
   margin: 60px auto;
 }
 
-.explore-the-facilities-row .swiper-buttons, .explore-the-city-row .swiper-buttons {
+.explore-the-facilities-row .swiper-buttons, .explore-the-city-row .swiper-buttons, .party-row .swiper-buttons {
   position: relative;
   width: 70px;
   margin-left: auto;
   margin-top: -30px;
 }
-.explore-the-facilities-row .swiper-buttons .swiper-button-next, .explore-the-city-row .swiper-buttons .swiper-button-next {
+.explore-the-facilities-row .swiper-buttons .swiper-button-next, .explore-the-city-row .swiper-buttons .swiper-button-next, .party-row .swiper-buttons .swiper-button-next {
   position: relative;
   float: right;
   color: black;
 }
-.explore-the-facilities-row .swiper-buttons .swiper-button-next:after, .explore-the-city-row .swiper-buttons .swiper-button-next:after {
+.explore-the-facilities-row .swiper-buttons .swiper-button-next:after, .explore-the-city-row .swiper-buttons .swiper-button-next:after, .party-row .swiper-buttons .swiper-button-next:after {
   font-size: 20px;
   line-height: 20px;
 }
-.explore-the-facilities-row .swiper-buttons .swiper-button-prev, .explore-the-city-row .swiper-buttons .swiper-button-prev {
+.explore-the-facilities-row .swiper-buttons .swiper-button-prev, .explore-the-city-row .swiper-buttons .swiper-button-prev, .party-row .swiper-buttons .swiper-button-prev {
   position: relative;
   float: left;
   color: black;
 }
-.explore-the-facilities-row .swiper-buttons .swiper-button-prev:after, .explore-the-city-row .swiper-buttons .swiper-button-prev:after {
+.explore-the-facilities-row .swiper-buttons .swiper-button-prev:after, .explore-the-city-row .swiper-buttons .swiper-button-prev:after, .party-row .swiper-buttons .swiper-button-prev:after {
   font-size: 20px;
   line-height: 20px;
 }
-.explore-the-facilities-row .swiper, .explore-the-city-row .swiper {
+.explore-the-facilities-row .swiper, .explore-the-city-row .swiper, .party-row .swiper {
   overflow: clip;
   padding-top: 50px;
   text-align: end;
 }
-.explore-the-facilities-row .swiper .swiper-description, .explore-the-city-row .swiper .swiper-description {
+.explore-the-facilities-row .swiper .swiper-description, .explore-the-city-row .swiper .swiper-description, .party-row .swiper .swiper-description {
   font: italic normal 100 16px/25px Poppins;
   display: inline-block;
   margin: -5px 5px auto auto;
 }
-.explore-the-facilities-row .swiper-wrapper, .explore-the-city-row .swiper-wrapper {
+.explore-the-facilities-row .swiper-wrapper, .explore-the-city-row .swiper-wrapper, .party-row .swiper-wrapper {
   position: relative;
   width: 100%;
 }
-.explore-the-facilities-row .swiper-wrapper .swiper-slide, .explore-the-city-row .swiper-wrapper .swiper-slide {
+.explore-the-facilities-row .swiper-wrapper .swiper-slide, .explore-the-city-row .swiper-wrapper .swiper-slide, .party-row .swiper-wrapper .swiper-slide {
   width: 380px;
 }
-.explore-the-facilities-row .swiper-wrapper .swiper-slide p, .explore-the-city-row .swiper-wrapper .swiper-slide p {
+.explore-the-facilities-row .swiper-wrapper .swiper-slide p, .explore-the-city-row .swiper-wrapper .swiper-slide p, .party-row .swiper-wrapper .swiper-slide p {
   display: inline-block;
 }
-.explore-the-facilities-row .swiper-wrapper .swiper-slide img, .explore-the-city-row .swiper-wrapper .swiper-slide img {
+.explore-the-facilities-row .swiper-wrapper .swiper-slide img, .explore-the-city-row .swiper-wrapper .swiper-slide img, .party-row .swiper-wrapper .swiper-slide img {
   -o-object-fit: fill;
      object-fit: fill;
   width: 380px;
   height: 250px;
   pointer-events: none;
+}
+.explore-the-facilities-row img.sponsor.large, .explore-the-city-row img.sponsor.large, .party-row img.sponsor.large {
+  height: 160px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .t-shirts-content img {

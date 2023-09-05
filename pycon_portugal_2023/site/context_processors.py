@@ -16,6 +16,7 @@ def links(request):
                     "COIMBRA": "/information/coimbra/",
                     "VENUE": "/information/venue/",
                     "GRANTS": "/information/grants/",
+                    "PARTY": "/information/party/",
                     "HOSPITALITY": "/information/hospitality/",
                     "T-SHIRTS": "/information/tshirts/",
                 },
