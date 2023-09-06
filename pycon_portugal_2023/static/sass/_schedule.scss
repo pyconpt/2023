@@ -10,7 +10,7 @@
     }
 
     .header-row {
-        height: 30vh;
+        height: 15vh;
         position: sticky;
 
         .left-logo {
@@ -25,8 +25,9 @@
 
     .schedule-container {
         background: base.$white;
-        min-height: 70vh;
+        min-height: 85vh;
         border-radius: 15px;
+
 
         .day, .room {
             text-transform: uppercase;
