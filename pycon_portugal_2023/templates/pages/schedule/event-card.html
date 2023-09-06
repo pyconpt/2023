@@ -1,3 +1,4 @@
+{% load static %}
 <div class="event-card d-flex {% if not event.room %}gray-bg{% endif %}">
   <div class="time-details d-flex flex-column">
     <span>{{ event.start_time|date:"h:i A" }}</span>
@@ -12,13 +13,13 @@
           {{ event.speaker }}
       </span>
     {% endif %}
-    {% if event.description %}
-      <span class="event-description w-75">
-            {{ event.description }}
-        </span>
-    {% endif %}
-    {% if event.room %}
-      <span class="event-room mt-auto align-self-end">{{ event.room }}</span>
+{#    {% if event.description %}#}
+{#      <span class="event-description w-75">#}
+{#            {{ event.description }}#}
+{#        </span>#}
+{#    {% endif %}#}
+    {% if event.image %}
+      <img src="{% static event.image %}" alt="{{ event.speaker }}" class="event-image">
     {% endif %}
   </div>
 </div>

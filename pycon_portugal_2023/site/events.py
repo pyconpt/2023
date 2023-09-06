@@ -4,6 +4,7 @@ A = "Auditorium"
 
 events = [
     {
+        "image": "",
         "day": 7,
         "start_time": "08:00",
         "duration": 60,
@@ -13,6 +14,7 @@ events = [
         "description": "",
     },
     {
+        "image": "",
         "day": 7,
         "start_time": "09:00",
         "duration": 15,
@@ -22,6 +24,7 @@ events = [
         "description": "Welcoming Session",
     },
     {
+        "image": "images/speakers/tom-forbes.png",
         "day": 7,
         "start_time": "09:15",
         "duration": 60,
@@ -33,6 +36,7 @@ events = [
         " learn more. Is it possible to recapture that feeling?",
     },
     {
+        "image": "images/speakers/darya_petrashka.png",
         "day": 7,
         "start_time": "10:15",
         "duration": 35,
@@ -46,6 +50,7 @@ events = [
         "capabilities. Find survey results for programmers.",
     },
     {
+        "image": "",
         "day": 7,
         "start_time": "10:50",
         "duration": 30,
@@ -55,6 +60,7 @@ events = [
         "description": "",
     },
     {
+        "image": "images/speakers/riccardo_magliocchetti.png",
         "day": 7,
         "start_time": "11:20",
         "duration": 35,
@@ -68,6 +74,7 @@ events = [
         " some cloud offerings by AWS and Preset.",
     },
     {
+        "image": "images/speakers/avneet_kaur.png",
         "day": 7,
         "start_time": "11:55",
         "duration": 35,
@@ -79,6 +86,7 @@ events = [
         "process and allow us to derive actionable insights from data.",
     },
     {
+        "image": "images/speakers/duarte_pompeu.png",
         "day": 7,
         "start_time": "12:30",
         "duration": 35,
@@ -90,6 +98,7 @@ events = [
         "will review some tools that have been useful to me",
     },
     {
+        "image": "",
         "day": 7,
         "start_time": "13:05",
         "duration": 60,
@@ -99,6 +108,7 @@ events = [
         "description": "",
     },
     {
+        "image": "images/speakers/joao_ferreira.png",
         "day": 7,
         "start_time": "14:05",
         "duration": 35,
@@ -117,6 +127,7 @@ events = [
         "vast amazing libraries, ease of design and speed of iteration.",
     },
     {
+        "image": "images/speakers/lucas.png",
         "day": 7,
         "start_time": "14:40",
         "duration": 35,
@@ -131,6 +142,7 @@ events = [
         " model to the blockchain.",
     },
     {
+        "image": "images/speakers/rashmi_nagpal.png",
         "day": 7,
         "start_time": "15:15",
         "duration": 35,
@@ -145,6 +157,7 @@ events = [
         " are deployed into production!",
     },
     {
+        "image": "",
         "day": 7,
         "start_time": "15:50",
         "duration": 30,
@@ -154,6 +167,7 @@ events = [
         "description": "",
     },
     {
+        "image": "images/speakers/quazi_nafiul_islam.png",
         "day": 7,
         "start_time": "16:20",
         "duration": 35,
@@ -165,6 +179,7 @@ events = [
         " to expect the unexpected.",
     },
     {
+        "image": "images/speakers/jorge_miranda.png",
         "day": 7,
         "start_time": "16:55",
         "duration": 35,
@@ -179,6 +194,7 @@ events = [
         " easy and fast writing of Tavern tests .",
     },
     {
+        "image": "images/speakers/anastasiia_kostiv.png",
         "day": 7,
         "start_time": "17:30",
         "duration": 35,
@@ -209,6 +225,7 @@ events = [
         " providing practical examples and valuable takeaways.",
     },
     {
+        "image": "",
         "day": 7,
         "start_time": "18:05",
         "duration": 30,
@@ -218,6 +235,7 @@ events = [
         "description": "",
     },
     {
+        "image": "",
         "day": 8,
         "start_time": "09:00",
         "duration": 15,
@@ -227,6 +245,7 @@ events = [
         "description": "",
     },
     {
+        "image": "images/speakers/claudia_mendes_silva.png",
         "day": 8,
         "start_time": "9:15",
         "duration": 60,
@@ -239,6 +258,7 @@ events = [
         " the inclusion of diverse teams.",
     },
     {
+        "image": "images/speakers/cristian_maureira_fredes.png",
         "day": 8,
         "start_time": "10:15",
         "duration": 35,
@@ -253,6 +273,7 @@ events = [
         " based in C or C++.",
     },
     {
+        "image": "",
         "day": 8,
         "start_time": "10:50",
         "duration": 30,
@@ -262,6 +283,7 @@ events = [
         "description": "",
     },
     {
+        "image": "",
         "day": 8,
         "start_time": "11:20",
         "duration": 35,
@@ -273,6 +295,7 @@ events = [
         " your project is used by thousands of customers in production.",
     },
     {
+        "image": "images/speakers/efe_oge.png",
         "day": 8,
         "start_time": "11:55",
         "duration": 35,
@@ -285,6 +308,7 @@ events = [
         " and boost your application's performance.",
     },
     {
+        "image": "images/speakers/francisco_lavrador_pires.png",
         "day": 8,
         "start_time": "12:30",
         "duration": 35,
@@ -304,6 +328,7 @@ events = [
         " propelling the growth and adoption of quantum computing.",
     },
     {
+        "image": "",
         "day": 8,
         "start_time": "13:05",
         "duration": 60,
@@ -313,6 +338,7 @@ events = [
         "description": "",
     },
     {
+        "image": "images/speakers/luca_baggi.png",
         "day": 8,
         "start_time": "14:05",
         "duration": 35,
@@ -326,6 +352,7 @@ events = [
         "to tame this new arctic beast!",
     },
     {
+        "image": "images/speakers/murilo_cunha.png",
         "day": 8,
         "start_time": "14:40",
         "duration": 35,
@@ -340,6 +367,7 @@ events = [
         " make Python programs faster.",
     },
     {
+        "image": "images/speakers/rodrigo_girao_serrao.png",
         "day": 8,
         "start_time": "15:15",
         "duration": 35,
@@ -361,6 +389,7 @@ events = [
         " journey and level up your Python programming!",
     },
     {
+        "image": "",
         "day": 8,
         "start_time": "15:50",
         "duration": 30,
@@ -370,6 +399,7 @@ events = [
         "description": "",
     },
     {
+        "image": "images/speakers/tiago-silva.png",
         "day": 8,
         "start_time": "16:55",
         "duration": 35,
@@ -381,6 +411,7 @@ events = [
         " Saffier with the power of async python.",
     },
     {
+        "image": "images/speakers/filipe_lains.png",
         "day": 8,
         "start_time": "17:30",
         "duration": 35,
@@ -390,6 +421,7 @@ events = [
         "description": "Let's make sense of modern Python packaging tooling.",
     },
     {
+        "image": "",
         "day": 8,
         "start_time": "18:05",
         "duration": 30,
@@ -399,6 +431,7 @@ events = [
         "description": "",
     },
     {
+        "image": "images/speakers/stefanie_molin.png",
         "day": 9,
         "start_time": "9:00",
         "duration": 120,
@@ -415,6 +448,7 @@ events = [
         "the skills to make customized visualizations using Python.",
     },
     {
+        "image": "images/speakers/maxim-danilov.png",
         "day": 9,
         "start_time": "9:00",
         "duration": 120,
@@ -429,6 +463,7 @@ events = [
         "reports in PDF format.",
     },
     {
+        "image": "",
         "day": 9,
         "start_time": "11:00",
         "duration": 30,
@@ -438,6 +473,7 @@ events = [
         "description": "",
     },
     {
+        "image": "images/speakers/olaniyan_adewale_hafeez.png",
         "day": 9,
         "start_time": "11:30",
         "duration": 120,
@@ -454,6 +490,7 @@ events = [
         "microcontrollers.",
     },
     {
+        "image": "images/speakers/shahriyar_rzayev.png",
         "day": 9,
         "start_time": "11:30",
         "duration": 120,
@@ -468,6 +505,7 @@ events = [
         "miss this opportunity to become a Flask pro!",
     },
     {
+        "image": "",
         "day": 9,
         "start_time": "13:30",
         "duration": 30,
@@ -477,6 +515,7 @@ events = [
         "description": "",
     },
     {
+        "image": "images/speakers/goncalo_marques.png",
         "day": 9,
         "start_time": "14:30",
         "duration": 120,
@@ -492,6 +531,7 @@ events = [
         "exhilarating journey of web exploration.",
     },
     {
+        "image": "images/speakers/jayesh_kothari.png",
         "day": 9,
         "start_time": "14:30",
         "duration": 120,
@@ -506,6 +546,7 @@ events = [
         " and engaging.",
     },
     {
+        "image": "",
         "day": 9,
         "start_time": "16:30",
         "duration": 30,
@@ -515,6 +556,7 @@ events = [
         "description": "",
     },
     {
+        "image": "images/speakers/felix-mino.png",
         "day": 9,
         "start_time": "17:00",
         "duration": 120,
@@ -528,12 +570,13 @@ events = [
         " with little effort but significant benefits",
     },
     {
+        "image": "images/speakers/rodrigo_girao_serrao.png",
         "day": 9,
         "start_time": "17:00",
         "duration": 120,
         "title": "Mastering comprehensions",
         "room": W2,
-        "speaker": "",
+        "speaker": "Rodrigo Girão Sirrão",
         "description": "Practice how to write elegant comprehensions"
         " to make your code more idiomatic and easier to"
         " follow. With dozens of exercises, this tutorial"

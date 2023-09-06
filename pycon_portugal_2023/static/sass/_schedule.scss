@@ -7,16 +7,12 @@
     &.dark-background {
         background: base.$BgBlack;
         min-height: 100vh;
+        padding: 0;
     }
 
     .header-row {
-        height: 10vh;
+        height: 7vh;
         position: relative;
-
-        .left-logo {
-            filter: brightness(0.6);
-            width: 50%;
-        }
 
         .evolutio-msg {
             position: absolute;
@@ -30,37 +26,33 @@
 
 
     .bottom-row {
-        height: 10vh;
+        height: 7vh;
         position: relative;
+        background: base.$white;
 
-        .left-logo {
-            filter: brightness(0.6);
-            width: 50%;
+        img {
+            width: 15%;
+            object-fit: contain;
         }
 
-        .right-logo {
-            width: 70%;
-        }
     }
 
     .schedule-container {
         background: base.$white;
-        min-height: 80vh;
-        border-radius: 15px;
+        min-height: 86vh;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
 
-        .day, .room {
+        .day {
             text-transform: uppercase;
             color: base.$gray;
 
         }
 
         .day {
-            font-size: 24px;
+            font-size: 20px;
         }
 
-        .room {
-            font-size: 16px;
-        }
 
         .grouped-time {
             font-size: 12px;
@@ -72,7 +64,8 @@
             border-radius: 8px;
             box-shadow: 0 0 10px 0 base.$gray;
             position: relative;
-            height: 6vh;
+            height: 4vh;
+            line-height: 1.2em;
 
             &.gray-bg {
                 background: base.$lightgray;
@@ -92,7 +85,7 @@
                 justify-content: space-between;
                 background: base.$BgGreen;
                 height: 100%;
-                width: 10%;
+                width: 12%;
                 padding: 15px;
                 border-top-left-radius: 8px;
                 border-bottom-left-radius: 8px;
@@ -100,7 +93,7 @@
 
             .event-details {
                 flex-grow: 1;
-                width: 90%;
+                width: 88%;
 
                 .event-title {
                     font-size: 16px;
@@ -109,6 +102,14 @@
                 .event-speaker {
                     color: base.$gray;
                     font-size: 14px;
+                    width: 60%;
+                }
+
+                .event-image {
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    width: 5%;
                 }
 
                 .event-description {
