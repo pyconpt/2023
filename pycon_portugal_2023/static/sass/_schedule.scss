@@ -28,7 +28,6 @@
         min-height: 85vh;
         border-radius: 15px;
 
-
         .day, .room {
             text-transform: uppercase;
             color: base.$gray;
@@ -52,6 +51,11 @@
             box-shadow: 0 0 10px 0 base.$gray;
             position: relative;
 
+            &.gray-bg {
+                background: gray;
+            }
+
+
             .time-details {
                 color: white;
                 align-items: end;
@@ -74,7 +78,7 @@
                     font-size: 16px;
                 }
                 .event-description {
-                    font-size: 14px;
+                    font-size: 12px;
                 }
                 .event-room {
                     color: base.$gray;

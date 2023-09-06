@@ -60,7 +60,9 @@ class ScheduleView(View):
         else:
             room = AUDITORIUM
 
-        selected_events = [event for event in selected_events if event["room"] == room]
+        selected_events = [
+            event for event in selected_events if event["room"] in [room, ""]
+        ]
         # Transform start_time to datetime
         for event in selected_events:
             if type(event["start_time"]) == str:

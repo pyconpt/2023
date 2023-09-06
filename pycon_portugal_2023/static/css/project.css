@@ -1383,7 +1383,7 @@ body {
   min-height: 100vh;
 }
 #schedule-container .header-row {
-  height: 30vh;
+  height: 15vh;
   position: sticky;
 }
 #schedule-container .header-row .left-logo {
@@ -1396,7 +1396,7 @@ body {
 }
 #schedule-container .schedule-container {
   background: #F7F7F7;
-  min-height: 70vh;
+  min-height: 85vh;
   border-radius: 15px;
 }
 #schedule-container .schedule-container .day, #schedule-container .schedule-container .room {
@@ -1419,6 +1419,9 @@ body {
   -webkit-box-shadow: 0 0 10px 0 #8d8d8d;
           box-shadow: 0 0 10px 0 #8d8d8d;
   position: relative;
+}
+#schedule-container .schedule-container .event-card.gray-bg {
+  background: gray;
 }
 #schedule-container .schedule-container .event-card .time-details {
   color: white;
@@ -1447,7 +1450,7 @@ body {
   font-size: 16px;
 }
 #schedule-container .schedule-container .event-card .event-details .event-description {
-  font-size: 14px;
+  font-size: 12px;
 }
 #schedule-container .schedule-container .event-card .event-details .event-room {
   color: #8d8d8d;
