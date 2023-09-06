@@ -76,7 +76,7 @@ events = [
         "start_time": "09:00",
         "duration": 120,
         "title": "Beyond the basics",
-        "room": "1",
+        "room": "Workshop II",
         "speaker": "Stefanie Molin",
         "description": "In a professional python project, there are many steps one can take to improve its quality. In this talk, I will review some tools that have been useful to me",  # noqa
     },
@@ -85,7 +85,7 @@ events = [
         "start_time": "09:00",
         "duration": 120,
         "title": "Django and ReportLab: Create PDF",
-        "room": "2",
+        "room": "Workshop II",
         "speaker": "Maxin Danilov",
         "description": "In a professional python project, there are many steps one can take to improve its quality. In this talk, I will review some tools that have been useful to me",  # noqa
     },
@@ -94,7 +94,7 @@ events = [
         "start_time": "11:30",
         "duration": 120,
         "title": "MicroPython and the time series",
-        "room": "1",
+        "room": "Workshop II",
         "speaker": "Olaniyan Adeweale, Sulaiman Adisa",
         "description": "In a professional python project, there are many steps one can take to improve its quality. In this talk, I will review some tools that have been useful to me",  # noqa
     },
@@ -103,7 +103,7 @@ events = [
         "start_time": "11:30",
         "duration": 120,
         "title": "Django and ReportLab: Create PDF",
-        "room": "2",
+        "room": "Workshop II",
         "speaker": "Maxin Danilov",
         "description": "In a professional python project, there are many steps one can take to improve its quality. In this talk, I will review some tools that have been useful to me",  # noqa
     },
