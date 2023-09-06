@@ -10,8 +10,28 @@
     }
 
     .header-row {
-        height: 15vh;
-        position: sticky;
+        height: 10vh;
+        position: relative;
+
+        .left-logo {
+            filter: brightness(0.6);
+            width: 50%;
+        }
+
+        .evolutio-msg {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            color: white;
+            width: fit-content;
+        }
+
+    }
+
+
+    .bottom-row {
+        height: 10vh;
+        position: relative;
 
         .left-logo {
             filter: brightness(0.6);
@@ -25,7 +45,7 @@
 
     .schedule-container {
         background: base.$white;
-        min-height: 85vh;
+        min-height: 80vh;
         border-radius: 15px;
 
         .day, .room {
@@ -33,9 +53,11 @@
             color: base.$gray;
 
         }
+
         .day {
             font-size: 24px;
         }
+
         .room {
             font-size: 16px;
         }
@@ -50,9 +72,17 @@
             border-radius: 8px;
             box-shadow: 0 0 10px 0 base.$gray;
             position: relative;
+            height: 6vh;
 
             &.gray-bg {
-                background: gray;
+                background: base.$lightgray;
+                color: white;
+                align-items: center;
+                text-align: center;
+
+                .time-details {
+                    background: base.$lightgray;
+                }
             }
 
 
@@ -75,13 +105,21 @@
                 .event-title {
                     font-size: 16px;
                 }
+
                 .event-speaker {
                     color: base.$gray;
                     font-size: 14px;
                 }
+
                 .event-description {
                     font-size: 12px;
+                    display: -webkit-box;
+                    line-clamp: 2;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
                 }
+
                 .event-room {
                     position: absolute;
                     right: 10px;

@@ -1383,20 +1383,38 @@ body {
   min-height: 100vh;
 }
 #schedule-container .header-row {
-  height: 15vh;
-  position: sticky;
+  height: 10vh;
+  position: relative;
 }
 #schedule-container .header-row .left-logo {
   -webkit-filter: brightness(0.6);
           filter: brightness(0.6);
   width: 50%;
 }
-#schedule-container .header-row .right-logo {
+#schedule-container .header-row .evolutio-msg {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#schedule-container .bottom-row {
+  height: 10vh;
+  position: relative;
+}
+#schedule-container .bottom-row .left-logo {
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
+  width: 50%;
+}
+#schedule-container .bottom-row .right-logo {
   width: 70%;
 }
 #schedule-container .schedule-container {
   background: #F7F7F7;
-  min-height: 85vh;
+  min-height: 80vh;
   border-radius: 15px;
 }
 #schedule-container .schedule-container .day, #schedule-container .schedule-container .room {
@@ -1419,9 +1437,18 @@ body {
   -webkit-box-shadow: 0 0 10px 0 #8d8d8d;
           box-shadow: 0 0 10px 0 #8d8d8d;
   position: relative;
+  height: 6vh;
 }
 #schedule-container .schedule-container .event-card.gray-bg {
-  background: gray;
+  background: #b2b2b2;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+#schedule-container .schedule-container .event-card.gray-bg .time-details {
+  background: #b2b2b2;
 }
 #schedule-container .schedule-container .event-card .time-details {
   color: white;
@@ -1453,6 +1480,11 @@ body {
 }
 #schedule-container .schedule-container .event-card .event-details .event-description {
   font-size: 12px;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 #schedule-container .schedule-container .event-card .event-details .event-room {
   position: absolute;
