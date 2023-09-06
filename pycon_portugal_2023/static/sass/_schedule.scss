@@ -62,6 +62,7 @@
                 justify-content: space-between;
                 background: base.$BgGreen;
                 height: 100%;
+                width: 15%;
                 padding: 15px;
                 border-top-left-radius: 8px;
                 border-bottom-left-radius: 8px;
@@ -71,11 +72,11 @@
                 flex-grow: 1;
 
                 .event-title {
-                    font-size: 18px;
+                    font-size: 16px;
                 }
                 .event-speaker {
                     color: base.$gray;
-                    font-size: 16px;
+                    font-size: 14px;
                 }
                 .event-description {
                     font-size: 12px;

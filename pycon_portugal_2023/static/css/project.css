@@ -1433,6 +1433,7 @@ body {
           justify-content: space-between;
   background: #468F1F;
   height: 100%;
+  width: 15%;
   padding: 15px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -1443,11 +1444,11 @@ body {
           flex-grow: 1;
 }
 #schedule-container .schedule-container .event-card .event-details .event-title {
-  font-size: 18px;
+  font-size: 16px;
 }
 #schedule-container .schedule-container .event-card .event-details .event-speaker {
   color: #8d8d8d;
-  font-size: 16px;
+  font-size: 14px;
 }
 #schedule-container .schedule-container .event-card .event-details .event-description {
   font-size: 12px;
