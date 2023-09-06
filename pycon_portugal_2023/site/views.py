@@ -53,11 +53,11 @@ class ScheduleView(View):
             if day != 9:
                 return render(request, "404.html")
 
-        if room == "1":
+        if "1" in room:
             room = WORKSHOP_1
-        elif room == "2":
+        elif "2" in room:
             room = WORKSHOP_2
-        else:
+        elif room.lower() == "auditorium":
             room = AUDITORIUM
 
         selected_events = [
