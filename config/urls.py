@@ -4,7 +4,7 @@ from django.contrib import admin
 from django.urls import include, path
 from django.views import defaults as default_views
 
-from pycon_portugal_2023.site.views import default_view
+from pycon_portugal_2023.site.views import ScheduleView, default_view
 
 urlpatterns = [
     # Django Admin, use {% url 'admin:index' %}
@@ -14,6 +14,8 @@ urlpatterns = [
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
     path("", default_view, name="home"),
+    path("schedule/<int:day>/", ScheduleView.as_view(), name="schedule"),
+    path("schedule/<int:day>/<slug:room>/", ScheduleView.as_view(), name="schedule"),
     path("<slug:menu>/", default_view, name="menu-view"),
     path("<slug:menu>/<slug:submenu>/", default_view, name="submenu-view"),
 ]

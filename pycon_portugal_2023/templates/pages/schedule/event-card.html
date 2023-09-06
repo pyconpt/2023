@@ -1,0 +1,22 @@
+<div class="event-card d-flex" style="height: calc({{ event.duration }}vh/3)">
+  <div class="time-details d-flex flex-column">
+    <span>{{ event.start_time|date:"h:i A" }}</span>
+    <span>{{ event.duration }}m</span>
+  </div>
+  <div class="event-details d-flex flex-column p-2">
+    <span class="event-title">
+      {{ event.title }}
+    </span>
+    {% if event.speaker %}
+      <span class="event-speaker">
+          {{ event.speaker }}
+      </span>
+    {% endif %}
+    {% if event.description %}
+        <span class="event-description">
+            {{ event.description }}
+        </span>
+    {% endif %}
+    <span class="event-room mt-auto align-self-end">{{ event.room }}</span>
+  </div>
+</div>

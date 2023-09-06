@@ -1,0 +1,33 @@
+{% extends "pages/schedule/base.html" %}
+
+{% block schedule %}
+  <div class="schedule-container pt-1">
+    <div class="w-100 mt-3">
+      <h1 class="day text-center">{{ day }}</h1>
+    </div>
+    <div class="w-100 mb-3">
+      <h3 class="room text-center">{{ room }}</h3>
+    </div>
+
+    <div class="row">
+      {% regroup events by start_time as grouped_events %}
+
+      {% for group in grouped_events %}
+        <div class="col-12 row">
+          <div class="col-2">
+            <h4 class="grouped-time ps-2">{{ group.grouper|date:"h:i A" }}</h4>
+          </div>
+          {% for event in group.list %}
+            <div class="col-12 m-2">
+              {% include "pages/schedule/event-card.html" %}
+            </div>
+          {% endfor %}
+
+        </div>
+      {% endfor %}
+
+    </div>
+
+
+  </div>
+{% endblock schedule %}

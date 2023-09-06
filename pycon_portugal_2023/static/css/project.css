@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 html, body {
   overflow-x: hidden;
 }
@@ -1352,4 +1353,102 @@ body {
 }
 .home-modal .modal-dialog .modal-content .modal-body .card .card-body .pycon-btn {
   width: 100%;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.alert-debug {
+  background-color: #F7F7F7;
+  border-color: #d6e9c6;
+  color: #000;
+}
+
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
+
+#schedule-container {
+  font-family: "Poppins", sans-serif;
+}
+#schedule-container.dark-background {
+  background: #2C2C2C;
+  min-height: 100vh;
+}
+#schedule-container .header-row {
+  height: 30vh;
+  position: sticky;
+}
+#schedule-container .header-row .left-logo {
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
+  width: 50%;
+}
+#schedule-container .header-row .right-logo {
+  width: 70%;
+}
+#schedule-container .schedule-container {
+  background: #F7F7F7;
+  min-height: 70vh;
+  border-radius: 15px;
+}
+#schedule-container .schedule-container .day, #schedule-container .schedule-container .room {
+  text-transform: uppercase;
+  color: #8d8d8d;
+}
+#schedule-container .schedule-container .day {
+  font-size: 24px;
+}
+#schedule-container .schedule-container .room {
+  font-size: 16px;
+}
+#schedule-container .schedule-container .grouped-time {
+  font-size: 12px;
+  color: #468F1F;
+}
+#schedule-container .schedule-container .event-card {
+  width: 100%;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 10px 0 #8d8d8d;
+          box-shadow: 0 0 10px 0 #8d8d8d;
+  position: relative;
+}
+#schedule-container .schedule-container .event-card .time-details {
+  color: white;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #468F1F;
+  height: 100%;
+  padding: 15px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+#schedule-container .schedule-container .event-card .event-details {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+#schedule-container .schedule-container .event-card .event-details .event-title {
+  font-size: 18px;
+}
+#schedule-container .schedule-container .event-card .event-details .event-speaker {
+  color: #8d8d8d;
+  font-size: 16px;
+}
+#schedule-container .schedule-container .event-card .event-details .event-description {
+  font-size: 14px;
+}
+#schedule-container .schedule-container .event-card .event-details .event-room {
+  color: #8d8d8d;
 }

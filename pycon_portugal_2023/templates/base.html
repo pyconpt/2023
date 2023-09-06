@@ -83,6 +83,7 @@
 
  {% include "modals/home_modal.html" %}
 
+ {% block navbar %}
 <nav class="navbar navbar-expand-lg header pt-4 {% block nav_css %}{% endblock %}">
   <div class="container">
     <a class="navbar-brand" href="{{ home }}">
@@ -118,7 +119,7 @@
     </div>
   </div>
 </nav>
-
+{% endblock navbar %}
 
 <div class="inner-body">
 
@@ -134,9 +135,11 @@
   {% block content %}
   {% endblock content %}
 
+{% block hashtags %}
   <div class="container-fluid hashtags {% block hashtag_content %}{% endblock %} py-3">
     {% include 'modules/hashtags.html' %}
   </div>
+{% endblock hashtags %}
 
 
 </div> <!-- /container -->
@@ -154,6 +157,8 @@
 {% endblock inline_javascript %}
 
 {#  FOOTER #}
+ {% block footer %}
 {% include "modules/footer.html" %}
+ {% endblock footer %}
 </body>
 </html>
