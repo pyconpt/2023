@@ -71,7 +71,7 @@ class ScheduleView(View):
 
         context = {
             "day": f"September {day}",
-            "room": room,
+            "room": room or "Auditorium",
             "events": selected_events,
         }
 
