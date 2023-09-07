@@ -399,7 +399,7 @@ events = [
         "description": "",
     },
     {
-        "image": "",
+        "image": "images/speakers/lucas_pires.png",
         "day": 8,
         "start_time": "16:20",
         "duration": 30,

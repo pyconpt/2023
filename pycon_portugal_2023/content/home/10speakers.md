@@ -88,3 +88,6 @@
 <div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/Z7MVME/','_blank')">
 ![Speaker 31](/static/images/speakers/jayesh_kothari.png){:class='speaker'} **Jayesh Kothari**{:class='speaker-name'} **Workshop**{:class='speaker-position'}
 </div>
+<div markdown="1" class="swiper-slide" style="cursor:pointer" onclick="window.open('https://pretalx.evolutio.pt/pycon-pt-2023/speaker/A3HDM9/','_blank')">
+![Speaker 32](/static/images/speakers/lucas_pires.png){:class='speaker'} **Lucas Pires**{:class='speaker-name'} **Talk**{:class='speaker-position'}
+</div>
