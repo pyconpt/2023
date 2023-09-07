@@ -399,6 +399,26 @@ events = [
         "description": "",
     },
     {
+        "image": "",
+        "day": 8,
+        "start_time": "16:20",
+        "duration": 30,
+        "title": "Building advanced back-office interfaces using Django & HTMX",
+        "room": A,
+        "speaker": "Lucas Pires",
+        "description": "Explore a pragmatic approach to enhancing Django's "
+        "back-office interfaces. Delve into the practical"
+        " integration of lightweight frameworks like HTMX and "
+        "AlpineJS to introduce interactivity with minimal"
+        " JavaScript. This talk focuses on custom generic"
+        " class-based views, offering insights into CRUD"
+        " operations, formsets, and advanced techniques for "
+        "managing Django models. Join me for a comprehensive "
+        "overview of these techniques, from read-only forms to "
+        "patching HTMX into the Django Admin, as we redefine"
+        " Django development practices.",
+    },
+    {
         "image": "images/speakers/tiago-silva.png",
         "day": 8,
         "start_time": "16:55",
