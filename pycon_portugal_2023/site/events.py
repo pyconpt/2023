@@ -245,23 +245,10 @@ events = [
         "description": "",
     },
     {
-        "image": "images/speakers/claudia_mendes_silva.png",
+        "image": "images/speakers/cristian_maureira_fredes.png",
         "day": 8,
         "start_time": "9:15",
         "duration": 60,
-        "title": "Breaking Bias: PyWomen = 0 #ErrorAlert",
-        "room": A,
-        "speaker": "Cláudia Mendes",
-        "description": "In this keynote we are going to talk about how unconscious"
-        " bias can impact on business and real world IT "
-        "products and learn the importance of understanding"
-        " the inclusion of diverse teams.",
-    },
-    {
-        "image": "images/speakers/cristian_maureira_fredes.png",
-        "day": 8,
-        "start_time": "10:15",
-        "duration": 35,
         "title": "CPython Survival Kit: basic C concepts to understand Python better",
         "room": A,
         "speaker": "Cristián Maureira-Fredes",
@@ -271,6 +258,19 @@ events = [
         "learn the necessary topics to start discovering how "
         "CPython internals work, and how to create a new module"
         " based in C or C++.",
+    },
+    {
+        "image": "images/speakers/claudia_mendes_silva.png",
+        "day": 8,
+        "start_time": "10:15",
+        "duration": 35,
+        "title": "Breaking Bias: PyWomen = 0 #ErrorAlert",
+        "room": A,
+        "speaker": "Cláudia Mendes",
+        "description": "In this keynote we are going to talk about how unconscious"
+        " bias can impact on business and real world IT "
+        "products and learn the importance of understanding"
+        " the inclusion of diverse teams.",
     },
     {
         "image": "",
