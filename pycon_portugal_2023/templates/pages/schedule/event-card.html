@@ -18,6 +18,7 @@
 {#            {{ event.description }}#}
 {#        </span>#}
 {#    {% endif %}#}
+    <span class="event-room">{{ event.room }}</span>
     {% if event.image %}
       <img src="{% static event.image %}" alt="{{ event.speaker }}" class="event-image">
     {% endif %}

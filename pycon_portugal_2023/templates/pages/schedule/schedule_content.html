@@ -3,7 +3,7 @@
 {% block schedule %}
   <div class="schedule-container pt-1">
     <div class="w-100 my-2">
-      <h1 class="day text-center">{{ day }} - {{ room }}</h1>
+      <h1 class="day text-center">{{ day }}{% if room %} - {{ room }}{% endif %}</h1>
     </div>
 
     <div class="row">
