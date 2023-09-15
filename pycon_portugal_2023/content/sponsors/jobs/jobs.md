@@ -5,8 +5,66 @@ Looking for a job? Here we'll have an awesome list with companies who sponsored 
 
 <hr/>
 
-[//]: # ()
-[//]: # (![evolutio]&#40;/static/images/sponsors/evolutio.png&#41;{:class='sponsor'})
+[![evolutio](/static/images/sponsors/evolutio.png){:class='sponsor my-4'}](https://www.evolutio.pt){:target='_blank'}
+
+
+#### **THE COMPANY**
+
+We are a Portuguese technology consultancy boutique, located in Porto. We are specialised in Spacial Data Mining, Data Science and Software Engineering, and can help steer Clients in their digital transformation. Backed by a very strong experienced team with a solid track record in developing cutting edge software solutions for clients like Porto University, NOS Telecoms, Porto City Council, Lisboa City Council, Gaia City Council, Matosinhos City Council, Público, Confidential Imobiliário, Vida Imobiliária, Iberian Property, amongst others.
+
+
+
+#### **THE ROLE**
+
+We are looking for a Backend Web Developer to join the team in building Django (Python) applications with good leadership, teamwork and problem-solving skills. These are exciting and complex projects that would be extremely interesting to work on.
+
+
+
+Candidates must have an understanding of web application fundamentals such as security and good architecture. The core technology you will be working with is Django (Python).
+
+
+
+You must be capable of making good architectural and technical decisions, able to learn new technologies and work in a team. You will work with existing developers and designer as well as have a support of a fantastic team.
+
+
+
+
+
+🎁 **What’s on offer**:
+
+- Hybrid job (2-3 days/week at the office)
+- Flexible working hours/location
+- Attractive salary and career opportunities in a growing company
+- The ability to have a voice to help drive technical decision making
+- Make it your own, build it, ship it, know it, own it
+- Being surrounded by A-players who actively pursue excellence and are upbeat
+- Instead of bosses, you'll have constant discussions that will help you advance.
+- Being a part of an ambitious organisation that offers chances for development!
+- A company culture based on autonomy & accountability
+
+
+
+🔧 **Required skills**:
+
+- BSc. in Computer Science or similar
+- Integration of RESTful APIs
+- Understanding of web application fundamentals
+
+
+
+📜 **The nice to haves**:
+
+- 3+ years’ industry development, with heavy experience with Django
+- Understanding of PostgreSQL
+- Work on Mac
+
+
+
+Applicants must have EU citizenship or EU Visa/Work Permit and reside in the Greater Porto area.
+
+
+Drop us an email at [join@evolutio.pt](mailto:join@evolutio.pt)!
+
 
 [//]: # ()
 [//]: # ([**Software Engineer @ evolutio**]&#40;https://evolutio.pt/&#41;{:target="_blank"})
