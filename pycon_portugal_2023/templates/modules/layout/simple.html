@@ -1,9 +1,0 @@
-
-<div class="{{ content.meta.title.0|striptags|slugify|safe|add:'-row' }} inner-text-width">
-  <div id="{{ content.meta.title.0|striptags|slugify|escape }}">
-    <h1 class="title title-lg">{{ content.meta.title.0 | safe }}</h1>
-  </div>
-  <div class="{{ content.meta.title.0|slugify|add:'-content' }}">
-    {{ content.html | safe }}
-  </div>
-</div>

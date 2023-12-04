@@ -1,0 +1,19 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Mon, 04 Dec 2023 13:57:23 at http://127.0.0.1:8000/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js +*.scss +*.html +*.svg +*.json +*.yml +*.xml +*.py +*.rst +*.ini -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://127.0.0.1:8000/ -O "/home/ana/websites/pycon2023_newtry" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js +*.scss +*.html +*.svg +*.json +*.yml +*.xml +*.py +*.rst +*.ini -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:08:43	Error: 	"Not Found" (404) at link 127.0.0.1:8000/static/videos/pycon_final.mp4 (from 127.0.0.1:8000/)
+14:08:43	Error: 	"Not Found" (404) at link 127.0.0.1:8000/information/coimbra/www.cp.pt (from 127.0.0.1:8000/information/coimbra/)
+14:08:47	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://127.0.0.1:8000/static/images/logo/og_logo.png (from 127.0.0.1:8000/)
+14:11:38	Error: 	"" (404) at link 127.0.0.1:8000/static/videos/pycon_final.mp4 (from 127.0.0.1:8000/)
+14:11:38	Error: 	"" (404) at link 127.0.0.1:8000/information/coimbra/www.cp.pt (from 127.0.0.1:8000/information/coimbra/)
+14:11:40	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://127.0.0.1:8000/static/images/logo/og_logo.png (from 127.0.0.1:8000/)
+14:11:41	Error: 	"Not Found" (404) at link https://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd (from 127.0.0.1:8000/static/images/background/bg-pycon.svg)
+14:11:41	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 2 retries at link https://127.0.0.1:8000/static/images/logo/og_logo.png (from 127.0.0.1:8000/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 14 minutes 18 seconds : 163 links scanned, 214 files written (61453925 bytes overall), 90 files updated [18099327 bytes received at 21094 bytes/sec], 282817 bytes transferred using HTTP compression in 3 files, ratio 27%
+(6 errors, 2 warnings, 0 messages)
