@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-pt-2023//XWDBED
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-UNF8WJ@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T165500
+DTEND;TZID=WET:20230907T173000
+DESCRIPTION:Tavern is an open source pytest plugin aimed to write automated
+  integration tests for HTTP and MQTT APIs. Currently\, there isn’t any U
+ I support for it. This talk presents a Visual Studio Code extension that e
+ nables easy and fast writing of Tavern tests .
+DTSTAMP:20231211T151346Z
+LOCATION:Auditorium
+SUMMARY:Tavern Crawler: a tool to enable fast and easy development of autom
+ ated API tests - Jorge Miranda
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/UNF8WJ/
+END:VEVENT
+END:VCALENDAR

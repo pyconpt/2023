@@ -1,0 +1,527 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-D3JKUW@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T090000
+DTEND;TZID=WET:20230907T091500
+DESCRIPTION:Welcoming Session
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Welcoming Session - Luis Vaz\, Alexandre Miguel Fernandes Gomes da 
+ Silva
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/D3JKUW/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-QLZHM3@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T091500
+DTEND;TZID=WET:20230907T101500
+DESCRIPTION:The good feeling new developers get when they begin to program 
+ for the first time fades as we get more experience and learn more. Is it p
+ ossible to recapture that feeling?
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Optimising for joy - Tom Forbes
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/QLZHM3/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-DQMACQ@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T101500
+DTEND;TZID=WET:20230907T105000
+DESCRIPTION:Discover the right helper for your Python coding needs. Explore
+  security\, code readability\, cut-off limitations\, creativity\, ability 
+ to generate tests\, and troubleshooting capabilities. Find survey results 
+ for programmers.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Amazon CodeWhisperer\, ChatGPT\, and GitHub Copilot: Choosing the B
+ est Python AI Code Assistant - Darya Petrashka
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/DQMACQ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-AU7WHA@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T112000
+DTEND;TZID=WET:20230907T115500
+DESCRIPTION:Building and maintaining data pipelines when it’s not your fu
+ ll time job is a pain! So better keep things simple without the need to ma
+ nage the system yourself. In this talk I’ll show a data pipeline archite
+ cture built leveraging some cloud offerings by AWS and Preset.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:A simple serverless data pipeline - Riccardo Magliocchetti
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/AU7WHA/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-BQVEPV@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T115500
+DTEND;TZID=WET:20230907T123000
+DESCRIPTION:Data science projects are often characterized by visualizations
+  which \nenhances the creative storytelling process and allow us to derive
+  actionable \ninsights from data. This is enabled through the use of good 
+ visualization tools/libraries which enable us to present data in a manner 
+ that is interactive and is easily understandable. Often\, the action in it
+ self tends to be more significantly remembered by the audience in comparis
+ on to static insights. This inturn \ncalls for the need for using interact
+ ive dashboards as a way to present the data.  \nCurrently\, the plethora o
+ f tools available for this purpose often makes it a tedious task to decide
+  which is the best fit. Often the choice oscillates between learning to us
+ e explicit dashboarding tools or using existing python libraries which may
+  allow visualizations but not necessarily dashboarding. \nApart from the c
+ ost associated with some of these explicit dashboarding tools\, there migh
+ t also be a learning curve associated with it.  \nTherefore\, in this talk
+ \, I would like to take you through a simple pythonic approach of building
+  dainty dashboards using Plotly Dash in python to ease the process of data
+  exploration and allow for interactive visualizations that enable creative
+  storytelling.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Building Dainty Dashboards in Plotly Dash for health data science. 
+ - Avneet Kaur
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/BQVEPV/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-XBTDUJ@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T123000
+DTEND;TZID=WET:20230907T130500
+DESCRIPTION:In a professional python project\, there are many steps one can
+  take to improve its quality. In this talk\, I will review some tools that
+  have been useful to me:\n\n- package managers\n- code formatters\n- code 
+ linters\n- test runners\n- python manager\n\nI will also talk about centra
+ lizing the configuration so different tools can act consistently\, eg CLI\
+ , IDE and CI/CD.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Tools to setup great python projects - Duarte Pompeu
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/XBTDUJ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-T9QPRH@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T140500
+DTEND;TZID=WET:20230907T144000
+DESCRIPTION:In my talk I will go over the story of how I set up the service
+  that sends text message reminders to patients of the Portuguese primary c
+ are health system. I will explain the constraints of working with a distri
+ buted silo legacy application and other proprietary projects in a large co
+ mpany\, and the impact of that and short deadlines on application design. 
+ Python shines through the project for its vast amazing libraries\, ease of
+  design and speed of iteration.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Legacy apps\, deadlines and project pragmatism - Delivering thousan
+ ds of messages every night in primary healthcare - Joao Ferreira
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/T9QPRH/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-UUSU9N@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T144000
+DTEND;TZID=WET:20230907T151500
+DESCRIPTION:New technology now allows machine learning models to be uploade
+ d to the blockchain\, enhancing decentralized applications' (dapps) functi
+ onality and competitiveness against centralized apps. In this talk\, we wi
+ ll discuss how anyone can easily deploy a simple machine learning model to
+  the blockchain.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Artificial Intelligence running on the Blockchain - Lucas
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/UUSU9N/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-NBFQUX@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T151500
+DTEND;TZID=WET:20230907T155000
+DESCRIPTION:In Artificial Intelligence systems\, a renaissance has unfolded
+  in recent years\, captivating the imagination of many! However\, a startl
+ ing statistic emerges amidst the enthusiasm: merely 13% of machine learnin
+ g models are deployed into production!\n\nIndeed\, the artistry of buildin
+ g and deploying these systems supersedes mere scientific methodology as th
+ ese models dwell within the realm of complexity and are characterized by a
+ n inherent reliance on data distribution. Have you ever wondered if these 
+ models are trained upon biased data they are destined to produce haywire d
+ ecisions?\n\nIn this talk\, let us delve into the realm of ethicality\, fa
+ irness\, and unbiasedness\, culminating in the seamless integration of mac
+ hine learning models that embrace ethical considerations in their journey 
+ towards production using Python!
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:The Aesthetics of Unbiased Machine Learning Systems: Crafting Fairn
+ ess in Practice - Rashmi Nagpal
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/NBFQUX/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-RPVSHN@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T162000
+DTEND;TZID=WET:20230907T165500
+DESCRIPTION:Python usually works the way we expect to\, but sometimes it do
+ esn't. This talk is about when to expect the unexpected.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Weird Python: A few ways in which Python can misbehave - Quazi Nafi
+ ul Islam
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/RPVSHN/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-UNF8WJ@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T165500
+DTEND;TZID=WET:20230907T173000
+DESCRIPTION:Tavern is an open source pytest plugin aimed to write automated
+  integration tests for HTTP and MQTT APIs. Currently\, there isn’t any U
+ I support for it. This talk presents a Visual Studio Code extension that e
+ nables easy and fast writing of Tavern tests .
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Tavern Crawler: a tool to enable fast and easy development of autom
+ ated API tests - Jorge Miranda
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/UNF8WJ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-L9FNWG@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T173000
+DTEND;TZID=WET:20230907T180500
+DESCRIPTION:"Unveiling Perspectives: The Art of Data Insight Communication 
+ in the Data-Driven Projects" is an engaging presentation that emphasizes t
+ he criticality of effectively communicating findings and insights in the f
+ ield of Data Science. Often overlooked\, the final stage of a data-driven 
+ project involves presenting results to stakeholders. This talk sheds light
+  on the importance of this stage and explores the art of presenting findin
+ gs\, storytelling\, and employing interactive methods to convey complex in
+ formation in an intuitive manner. By leveraging powerful Python tools such
+  as PyShiny\, FastAPI\, Streamlit\, Flask\, and ReactPy\, participants wil
+ l gain insights into how to effectively utilize these tools to enhance the
+ ir data analysis and ensure understandability and memorability. In additio
+ n\, the session will touch upon color science principles and other intrigu
+ ing elements. The speaker will showcase a real-life data-driven project an
+ d demonstrate their innovative solution for result communication\, providi
+ ng practical examples and valuable takeaways.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Revealing Perspectives: The Art of Data Insight Communication in th
+ e Data-Driven Projects - Anastasiia Kostiv
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/L9FNWG/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-HTYYU7@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T180500
+DTEND;TZID=WET:20230907T183500
+DESCRIPTION:Lightning Talks
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Lightning Talks - 
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/HTYYU7/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-HGXJSK@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T090000
+DTEND;TZID=WET:20230908T091500
+DESCRIPTION:Morning Announcements
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Morning Announcements - 
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/HGXJSK/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-GBYCCH@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T091500
+DTEND;TZID=WET:20230908T095000
+DESCRIPTION:The newest Python versions are including many changes that impr
+ ove the performance and functionality\, but what's going on under the hood
+ ? In this talk\, you will learn the necessary topics  to start discovering
+  how CPython internals work\, and how to create a new module based in C or
+  C++.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:CPython Survival Kit: basic C concepts to understand Python better 
+ - Cristián Maureira-Fredes
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/GBYCCH/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-8YANQ3@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T095000
+DTEND;TZID=WET:20230908T105000
+DESCRIPTION:In this keynote we are going to talk about how unconscious bias
+  can impact on business and real world IT products and learn the importanc
+ e of understanding the inclusion of diverse teams.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Breaking Bias: PyWomen = 0 #ErrorAlert - Cláudia Mendes
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/8YANQ3/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-KTDU7M@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T112000
+DTEND;TZID=WET:20230908T115500
+DESCRIPTION:From the team behind AWS Lambda Powertools for Python\, we will
+  explore trade-offs in API design and UX when your project is used by thou
+ sands of customers in production.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Living and breathing backwards compatible changes - Leandro Damasce
+ na\, Henrique Graça
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/KTDU7M/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-A7TPJU@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T115500
+DTEND;TZID=WET:20230908T123000
+DESCRIPTION:Race conditions? No problem! Dive into the world of database lo
+ cks with Django and gain hands-on knowledge on how to eliminate race condi
+ tions\, maintain order\, and boost your application's performance.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Practical Guide to Database Locks with Django - Efe Öge
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/A7TPJU/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-U3WE7H@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T123000
+DTEND;TZID=WET:20230908T130500
+DESCRIPTION:Python's presence in Qiskit environments for quantum computing 
+ is vital for several reasons. Its simplicity\, extensive libraries\, and i
+ ntegration with scientific computing tools make it an ideal language for e
+ xpressing quantum algorithms and designing quantum circuits. Python's vers
+ atility allows researchers to combine quantum computing with machine learn
+ ing techniques\, opening new possibilities for advancements in the field. 
+ Furthermore\, Python's emphasis on readability and the support of a vibran
+ t community fosters collaboration and knowledge-sharing\, propelling the g
+ rowth and adoption of quantum computing.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:"PYTHON IN QISKIT ENVIROMENTS FOR QUANTUM COMPUTING" - Francisco La
+ vrador Pires
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/U3WE7H/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-HB9X8G@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T140500
+DTEND;TZID=WET:20230908T144000
+DESCRIPTION:We all know it by now: Polars is blazingly fast™️. Yet my p
+ ipelines are all written in pandas\, and it will just take too much time t
+ o rewrite them in Polars... won't it? Turns out\, it takes less than thirt
+ y minutes to tame this new arctic beast!
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:I know Polars is fast\, but my data pipelines are written in pandas
+ ! - Luca Baggi
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/HB9X8G/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-P9GAJB@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T144000
+DTEND;TZID=WET:20230908T151500
+DESCRIPTION:Python's flexible and intuitive syntax enables developers to qu
+ ickly build applications. But on the other hand\, it may be slow during ru
+ ntime. Luckily\, there are different ways we can speed up a Python program
+ . In this talk\, we'll explore different alternatives to make Python progr
+ ams faster.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Faster Python with friends - Murilo Cunha
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/P9GAJB/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-FMZMGP@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T151500
+DTEND;TZID=WET:20230908T155000
+DESCRIPTION:Discover the immense potential of Python's list comprehensions\
+ , dictionary comprehensions\, set comprehensions\, and generator expressio
+ ns\, as we present them as an idiom that focuses on data transformations.\
+ n\nUsing real-world examples\, we'll demonstrate how these tools can strea
+ mline data manipulation and transformation tasks while enhancing code read
+ ability. We'll also provide insights on best practices and use cases to ma
+ ximize their effectiveness.\n\nBy the end of this talk\, you will be equip
+ ped to confidently harness the full potential of comprehensions and genera
+ tor expressions\, empowering you to create more expressive and elegant Pyt
+ hon code. Join us on this exciting journey and level up your Python progra
+ mming!
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Comprehending Comprehensions - Rodrigo Girão Serrão
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/FMZMGP/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-SHF7YM@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T162000
+DTEND;TZID=WET:20230908T165500
+DESCRIPTION:Explore a pragmatic approach to enhancing Django's back-office 
+ interfaces. Delve into the practical integration of lightweight frameworks
+  like HTMX and AlpineJS to introduce interactivity with minimal JavaScript
+ . This talk focuses on custom generic class-based views\, offering insight
+ s into CRUD operations\, formsets\, and advanced techniques for managing D
+ jango models. Join me for a comprehensive overview of these techniques\, f
+ rom read-only forms to patching HTMX into the Django Admin\, as we redefin
+ e Django development practices.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Building advanced back-office interfaces using Django & HTMX - Luca
+ s Pires
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/SHF7YM/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-UVAQW3@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T165500
+DTEND;TZID=WET:20230908T173000
+DESCRIPTION:Let's make sense of modern Python packaging tooling.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Getting started with (modern) Python packaging - Filipe Laíns
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/UVAQW3/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-D7X3HN@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T173000
+DTEND;TZID=WET:20230908T180500
+DESCRIPTION:Python in the context of data for python developers\, non pytho
+ n engineers and businesses using Esmerald and Saffier with the power of as
+ ync python.
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Esmerald and Saffier - Complex Python made it easy with async - Tia
+ go Silva\, Pedro Correia
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/D7X3HN/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-BLPSVZ@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T180500
+DTEND;TZID=WET:20230908T183500
+DESCRIPTION:Lightning Talks
+DTSTAMP:20231211T145742Z
+LOCATION:Auditorium
+SUMMARY:Lightning Talks - 
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/BLPSVZ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-33WFNT@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230909T090000
+DTEND;TZID=WET:20230909T110000
+DESCRIPTION:PDF document guarantees 100% delivery of content to the custome
+ rs as planned.\nThe workshop shows how to use the REPORTLab library to cre
+ ate PDF generator\, based on Django Models and Templates to allow complex 
+ document layout for auto-generated catalogs or reports in PDF format.
+DTSTAMP:20231211T145742Z
+LOCATION:Workshop II
+SUMMARY:Django and ReportLab: create PDF Like A Boss . - Maxim Danilov
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/33WFNT/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-STX8K3@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230909T090000
+DTEND;TZID=WET:20230909T110000
+DESCRIPTION:The human brain excels at finding patterns in visual representa
+ tions\, which is why data visualizations are essential to any analysis. Do
+ ne right\, they bridge the gap between those analyzing the data and those 
+ consuming the analysis. However\, learning to create impactful\, aesthetic
+ ally-pleasing visualizations can often be challenging. This session will e
+ quip you with the skills to make customized visualizations using Python.
+DTSTAMP:20231211T145742Z
+LOCATION:Workshop I
+SUMMARY:Beyond the Basics: Data Visualization in Python - Stefanie Molin
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/STX8K3/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-KDT9ZL@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230909T113000
+DTEND;TZID=WET:20230909T133000
+DESCRIPTION:The workshop on "MicroPython and time series analysis: Forecast
+ ing and trend analysis" is designed to help attendees learn how to perform
+  time series analysis\, forecasting\, and trend analysis using MicroPython
+ . This workshop is ideal for anyone interested in learning how to analyze 
+ data collected over time\, and how to use MicroPython to implement these a
+ nalyses on microcontrollers.
+DTSTAMP:20231211T145742Z
+LOCATION:Workshop I
+SUMMARY:MicroPython and time series analysis: Forecasting and trend analysi
+ s - Olaniyan Adewale\, Sulaiman Adisa Adigun
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/KDT9ZL/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-LA7CBV@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230909T113000
+DTEND;TZID=WET:20230909T133000
+DESCRIPTION:Level up your Flask skills in this workshop! Learn Flask the ha
+ rd way by diving into architectural patterns. Discover how to build scalab
+ le and maintainable applications using Repository\, Unit of Work\, and Use
+  Cases. Don't miss this opportunity to become a Flask pro!
+DTSTAMP:20231211T145742Z
+LOCATION:Workshop II
+SUMMARY:Learn Flask the hard way: Introduce Architecture Patterns - Shahriy
+ ar Rzayev
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/LA7CBV/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-M88V9R@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230909T143000
+DTEND;TZID=WET:20230909T163000
+DESCRIPTION:Learn how to develop multiparadigm web scrapers and crawlers le
+ veraging an async model. Discover how to extract valuable information from
+  websites using Python's environment and powerful tools. Master the art of
+  collecting data at scale. Join this exhilarating journey of web explorati
+ on.
+DTSTAMP:20231211T145742Z
+LOCATION:Workshop I
+SUMMARY:From WebSites to Datasets: Unleashing the Power of Data Harvesting 
+ with Python - Gonçalo Marques
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/M88V9R/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-DX3MTL@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230909T143000
+DTEND;TZID=WET:20230909T163000
+DESCRIPTION:In this captivating workshop\, participants will embark on an e
+ xciting journey to explore the art of data storytelling with the power of 
+ Python. Led by Jayesh Kothari\, a Python enthusiast and data storytelling 
+ expert\, this session promises to be both informative and engaging.
+DTSTAMP:20231211T145742Z
+LOCATION:Workshop II
+SUMMARY:Data Storytelling using Python - Jayesh Kothari
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/DX3MTL/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-YDTNVL@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230909T170000
+DTEND;TZID=WET:20230909T190000
+DESCRIPTION:Have you introduced bugs to your project when refactoring or ma
+ king a “small” change to your code? Do you want to make your code base
+  bulletproof? Learn how and when to write property-based tests\, with litt
+ le effort but significant benefits.
+DTSTAMP:20231211T145742Z
+LOCATION:Workshop I
+SUMMARY:Boosting up your tests: property-based testing workshop - Felix Min
+ o
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/YDTNVL/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-FFD9RU@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230909T170000
+DTEND;TZID=WET:20230909T190000
+DESCRIPTION:Practice how to write elegant comprehensions to make your code 
+ more idiomatic and easier to follow. With dozens of exercises\, this tutor
+ ial will be perfect for you to finally get to grips with:\n\n • list com
+ prehensions\;\n • dictionary comprehensions\;\n • set comprehensions\;
+  and\n • generator expressions.\n\nAmong other things\, you will learn t
+ o identify situations where you should be using these powerful and elegant
+  Python constructs. You will also learn how to use them to level up your P
+ ython skills.\n\nBy the end of the tutorial\, you will learn all of the in
+ s and outs of comprehensions\, their use cases\, best practices and things
+  to avoid\, and some advanced usage patterns as well!
+DTSTAMP:20231211T145742Z
+LOCATION:Workshop II
+SUMMARY:Mastering comprehensions - Rodrigo Girão Serrão
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/FFD9RU/
+END:VEVENT
+END:VCALENDAR

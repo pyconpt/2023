@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-pt-2023//NMESZQ
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-XBTDUJ@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T123000
+DTEND;TZID=WET:20230907T130500
+DESCRIPTION:In a professional python project\, there are many steps one can
+  take to improve its quality. In this talk\, I will review some tools that
+  have been useful to me:\n\n- package managers\n- code formatters\n- code 
+ linters\n- test runners\n- python manager\n\nI will also talk about centra
+ lizing the configuration so different tools can act consistently\, eg CLI\
+ , IDE and CI/CD.
+DTSTAMP:20231211T151227Z
+LOCATION:Auditorium
+SUMMARY:Tools to setup great python projects - Duarte Pompeu
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/XBTDUJ/
+END:VEVENT
+END:VCALENDAR

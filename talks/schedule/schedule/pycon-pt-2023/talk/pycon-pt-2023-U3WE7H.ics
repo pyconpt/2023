@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//U3WE7H
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-U3WE7H@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T123000
+DTEND;TZID=WET:20230908T130500
+DESCRIPTION:Python's presence in Qiskit environments for quantum computing 
+ is vital for several reasons. Its simplicity\, extensive libraries\, and i
+ ntegration with scientific computing tools make it an ideal language for e
+ xpressing quantum algorithms and designing quantum circuits. Python's vers
+ atility allows researchers to combine quantum computing with machine learn
+ ing techniques\, opening new possibilities for advancements in the field. 
+ Furthermore\, Python's emphasis on readability and the support of a vibran
+ t community fosters collaboration and knowledge-sharing\, propelling the g
+ rowth and adoption of quantum computing.
+DTSTAMP:20231211T151454Z
+LOCATION:Auditorium
+SUMMARY:"PYTHON IN QISKIT ENVIROMENTS FOR QUANTUM COMPUTING" - Francisco La
+ vrador Pires
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/U3WE7H/
+END:VEVENT
+END:VCALENDAR

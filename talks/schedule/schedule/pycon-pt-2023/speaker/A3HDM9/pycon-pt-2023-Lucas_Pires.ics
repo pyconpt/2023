@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-pt-2023//A3HDM9
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-SHF7YM@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T162000
+DTEND;TZID=WET:20230908T165500
+DESCRIPTION:Explore a pragmatic approach to enhancing Django's back-office 
+ interfaces. Delve into the practical integration of lightweight frameworks
+  like HTMX and AlpineJS to introduce interactivity with minimal JavaScript
+ . This talk focuses on custom generic class-based views\, offering insight
+ s into CRUD operations\, formsets\, and advanced techniques for managing D
+ jango models. Join me for a comprehensive overview of these techniques\, f
+ rom read-only forms to patching HTMX into the Django Admin\, as we redefin
+ e Django development practices.
+DTSTAMP:20231211T151354Z
+LOCATION:Auditorium
+SUMMARY:Building advanced back-office interfaces using Django & HTMX - Luca
+ s Pires
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/SHF7YM/
+END:VEVENT
+END:VCALENDAR

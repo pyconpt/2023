@@ -1,0 +1,317 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from pretalx.evolutio.pt/pycon-pt-2023/talk/XBTDUJ/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 15:15:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <title>Tools to setup great python projects ::  PyCon Portugal 2023 :: pretalx</title>
+        <meta name="title" content="Tools to setup great python projects  - PyCon Portugal 2023 pretalx">
+        <meta name="description" content="Edit: I created a small demo in [Github](https://github.com/duarte-pompeu/great-tools-pyconpt23), if you&#x27;re interested.
+
+# Package managers
+
+- no package manager is a (very) bad idea
+- requirements.txt is a good improvement, but makes it harder to do some things, eg lock sub-dependencies versions and specify development-only dependencies 
+- pipenv is good, but I prefer poetry
+
+# Python manager
+
+- pyenv makes it easy to install and manage multiple python versions
+
+# Code formatters
+
+- black: formats the code (&quot;any color you want, as long as it&#x27;s black&quot;)
+- isort: sorts the imports (&quot;i sort so you don&#x27;t have to&quot;)
+- darker: formats code only since last commit (gradual formatting for older projects)
+
+# Code linters
+
+- pylint: decent start but too many false positives
+- pycodestyle: popular, didn&#x27;t use it much
+- flake8: popular and used it a bit, it&#x27;s ok
+- ruff: the cool kid in the block: much faster and supports rules from different [linters](https://beta.ruff.rs/docs/rules/)
+
+Honorable mentions: bandit, bugbear, pyupgrade
+
+# Test runners
+
+- unittest: native, it&#x27;s decent but verbose
+- pytest: widely used, supports plugins
+- locust: didn&#x27;t use it much but potentially useful for load testing
+- hypothesis: property based testing
+
+# Centralized configuration
+
+Centralize your configs in pyproject.toml such that every application runs the tools consistently:
+   - CLI
+   - IDE
+   - git hooks / pre-commit
+   - CI/CD
+
+flake8 didn&#x27;t support pyproject.toml because [it wasn&#x27;t standard](https://github.com/PyCQA/flake8/issues/234#issuecomment-812800722) - well now it is, in [PEP 621](https://peps.python.org/pep-0621/), but it doesn&#x27;t support it anyway. Bad flake8!">
+        <meta name="application-name" content="pretalx">
+        <meta name="generator" content="pretalx">
+        <meta name="keywords" content="PyCon Portugal 2023, pycon-pt-2023, 2023, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+        
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#3aa57c">
+        <meta name="HandheldFriendly" content="True"/>
+        <meta property="thumbnail" content="logo-pycon2023-01_siVNJKr.png">
+    <meta property="og:image" content="logo-pycon2023-01_siVNJKr.png">
+        <meta property="og:title" content="Tools to setup great python projects PyCon Portugal 2023">
+        <meta property="og:description" content="Edit: I created a small demo in [Github](https://github.com/duarte-pompeu/great-tools-pyconpt23), if you&#x27;re interested.
+
+# Package managers
+
+- no package manager is a (very) bad idea
+- requirements.txt is a good improvement, but makes it harder to do some things, eg lock sub-dependencies versions and specify development-only dependencies 
+- pipenv is good, but I prefer poetry
+
+# Python manager
+
+- pyenv makes it easy to install and manage multiple python versions
+
+# Code formatters
+
+- black: formats the code (&quot;any color you want, as long as it&#x27;s black&quot;)
+- isort: sorts the imports (&quot;i sort so you don&#x27;t have to&quot;)
+- darker: formats code only since last commit (gradual formatting for older projects)
+
+# Code linters
+
+- pylint: decent start but too many false positives
+- pycodestyle: popular, didn&#x27;t use it much
+- flake8: popular and used it a bit, it&#x27;s ok
+- ruff: the cool kid in the block: much faster and supports rules from different [linters](https://beta.ruff.rs/docs/rules/)
+
+Honorable mentions: bandit, bugbear, pyupgrade
+
+# Test runners
+
+- unittest: native, it&#x27;s decent but verbose
+- pytest: widely used, supports plugins
+- locust: didn&#x27;t use it much but potentially useful for load testing
+- hypothesis: property based testing
+
+# Centralized configuration
+
+Centralize your configs in pyproject.toml such that every application runs the tools consistently:
+   - CLI
+   - IDE
+   - git hooks / pre-commit
+   - CI/CD
+
+flake8 didn&#x27;t support pyproject.toml because [it wasn&#x27;t standard](https://github.com/PyCQA/flake8/issues/234#issuecomment-812800722) - well now it is, in [PEP 621](https://peps.python.org/pep-0621/), but it doesn&#x27;t support it anyway. Bad flake8!">
+        <meta property="og:url" content="index.html">
+        <meta property="twitter:card" content="summary">
+
+        
+            <link rel="icon" type="image/png" sizes="32x32" href="../../../static/common/img/favicon-32x32.38c2aab28d3a.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="../../../static/common/img/favicon-16x16.02f8a56e1af3.png">
+        
+
+        <link rel="stylesheet" type="text/css" href="../../../static/common/scss/uncompressed.cabbf3759e3e.css" />
+        
+            <link rel="stylesheet" href="../../../static/CACHE/css/output.e2c9f5fa2f21.css" type="text/css">
+        
+        
+        <script src="../../../static/CACHE/js/output.079684506270.js" defer></script>
+        
+    
+    <link rel="alternate" type="application/json" title="PyCon Portugal 2023 API" href="https://pretalx.evolutio.pt/api/events/pycon-pt-2023/talks/XBTDUJ" />
+
+    
+    
+
+    </head>
+    <body data-datetimeformat="YYYY-MM-DD HH:mm:ss" data-dateformat="YYYY-MM-DD" data-datetimelocale="pt-PT">
+        <div id="top-bg" class="header bg-primary">
+            
+                <img src="https://pretalx.evolutio.pt/media/pycon-pt-2023/img/Screenshot_2023-04-11_at_12.04.53_FkhcUZ3.png" id="header-image">
+            
+        </div>
+        
+        <div class="container" id="main-container">
+            <header>
+                <h1>
+                    <a href="../../schedule/index.html">
+                        
+                            <img src="https://pretalx.evolutio.pt/media/pycon-pt-2023/img/logo-pycon2023-01_siVNJKr.png" id="event-logo" alt="The event's logo">
+                        
+                    </a>
+                </h1>
+                <div class="d-flex" id="header-row">
+                    
+                    
+                        <a href="../../login/index.html">login</a>
+                    
+                </div>
+            </header>
+            <div class="card" id="main-card">
+                <main>
+                    
+
+                    
+    
+    
+    <article>
+        
+        <h3 class="talk-title">
+            <div class="heading-with-buttons">
+                Tools to setup great python projects
+                <div class="buttons" id="talk-buttons">
+                    
+                        <a class="btn btn-outline-primary" href="../pycon-pt-2023-XBTDUJ.ics">
+                            <i class="fa fa-calendar"></i> .ical
+                        </a>
+                    
+                    
+                        <a href="feedback/index.html"
+                           class="btn btn-success">
+                            <i class="fa fa-comments"></i> 
+                        </a>
+                    
+                    
+                </div>
+            </div>
+            <small>
+                
+                    09-07, 12:30–13:05 (Europe/Lisbon), Auditorium 
+                
+                
+                
+            </small>
+        </h3>
+        <div class="talk row">
+            <div class="talk-content">
+                
+                
+                
+                <section class="abstract">
+                    <p>In a professional python project, there are many steps one can take to improve its quality. In this talk, I will review some tools that have been useful to me:</p>
+<ul>
+<li>package managers</li>
+<li>code formatters</li>
+<li>code linters</li>
+<li>test runners</li>
+<li>python manager</li>
+</ul>
+<p>I will also talk about centralizing the configuration so different tools can act consistently, eg CLI, IDE and CI/CD.</p>
+                </section>
+                
+                    <hr />
+                
+                <section class="description">
+                    <p>Edit: I created a small demo in <a href="https://github.com/duarte-pompeu/great-tools-pyconpt23" rel="nofollow" target="_blank">Github</a>, if you're interested.</p>
+<h1>Package managers</h1>
+<ul>
+<li>no package manager is a (very) bad idea</li>
+<li>requirements.txt is a good improvement, but makes it harder to do some things, eg lock sub-dependencies versions and specify development-only dependencies </li>
+<li>pipenv is good, but I prefer poetry</li>
+</ul>
+<h1>Python manager</h1>
+<ul>
+<li>pyenv makes it easy to install and manage multiple python versions</li>
+</ul>
+<h1>Code formatters</h1>
+<ul>
+<li>black: formats the code ("any color you want, as long as it's black")</li>
+<li>isort: sorts the imports ("i sort so you don't have to")</li>
+<li>darker: formats code only since last commit (gradual formatting for older projects)</li>
+</ul>
+<h1>Code linters</h1>
+<ul>
+<li>pylint: decent start but too many false positives</li>
+<li>pycodestyle: popular, didn't use it much</li>
+<li>flake8: popular and used it a bit, it's ok</li>
+<li>ruff: the cool kid in the block: much faster and supports rules from different <a href="https://beta.ruff.rs/docs/rules/" rel="nofollow" target="_blank">linters</a></li>
+</ul>
+<p>Honorable mentions: bandit, bugbear, pyupgrade</p>
+<h1>Test runners</h1>
+<ul>
+<li>unittest: native, it's decent but verbose</li>
+<li>pytest: widely used, supports plugins</li>
+<li>locust: didn't use it much but potentially useful for load testing</li>
+<li>hypothesis: property based testing</li>
+</ul>
+<h1>Centralized configuration</h1>
+<p>Centralize your configs in pyproject.toml such that every application runs the tools consistently:<br>
+   - CLI<br>
+   - IDE<br>
+   - git hooks / pre-commit<br>
+   - CI/CD</p>
+<p>flake8 didn't support pyproject.toml because <a href="https://github.com/PyCQA/flake8/issues/234#issuecomment-812800722" rel="nofollow" target="_blank">it wasn't standard</a> - well now it is, in <a href="https://peps.python.org/pep-0621/" rel="nofollow" target="_blank">PEP 621</a>, but it doesn't support it anyway. Bad flake8!</p>
+                </section>
+                
+            </section>
+            
+                <section class="resources">
+                    See also:
+                    
+                        <a href="../../../media/pycon-pt-2023/submissions/XBTDUJ/resources/Tools_to_setup_great_Python_projects-1_VCFiyYX.pdf">
+                            <i class="fa fa-file-o"></i>
+                            slides
+                            (225.1 KB)
+                        </a>
+                    
+                </section>
+            
+            <section>
+                
+            </section>
+        </div>
+    </div>
+    
+        
+            <div class="pretalx-session">
+                <div class="pretalx-session-time-box avatar">
+                    <a href="../../speaker/NMESZQ/index.html">
+                        <div class="avatar-wrapper">
+                            
+                                <img src="https://pretalx.evolutio.pt/media/avatars/foto_passe_uCkN5lo.jpg">
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="pretalx-session-info">
+                    <div class="title">
+                        <a href="../../speaker/NMESZQ/index.html">Duarte Pompeu</a>
+                    </div>
+                    <div class="abstract"><p>Hi, I'm Duarte. I'm a software engineer since 2019, and my passions are architecture, clean code, incremental development and refactoring. I can also make some mean Moscow Mules! </p>
+<p>Also here's the link to my <a href="https://www.linkedin.com/in/duartepompeu" rel="nofollow" target="_blank">linkedin</a>. Link, Linkedin, get it? Sorry.</p></div>
+                    
+                </div>
+            </div>
+        
+    
+    </article>
+
+
+                </main>
+            </div>
+            <footer>
+                
+                
+
+
+    powered by <a href="https://pretalx.com/" target="_blank" rel="noopener">pretalx</a>
+
+
+                
+                    &middot;
+                    <a href="mailto:content@pycon.pt">Contact us</a>
+                
+                
+                
+            </footer>
+        </div>
+    </body>
+
+<!-- Mirrored from pretalx.evolutio.pt/pycon-pt-2023/talk/XBTDUJ/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 15:15:10 GMT -->
+</html>

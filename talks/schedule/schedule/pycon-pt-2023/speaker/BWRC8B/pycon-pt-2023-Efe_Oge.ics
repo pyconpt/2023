@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-pt-2023//BWRC8B
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-A7TPJU@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T115500
+DTEND;TZID=WET:20230908T123000
+DESCRIPTION:Race conditions? No problem! Dive into the world of database lo
+ cks with Django and gain hands-on knowledge on how to eliminate race condi
+ tions\, maintain order\, and boost your application's performance.
+DTSTAMP:20231211T151330Z
+LOCATION:Auditorium
+SUMMARY:Practical Guide to Database Locks with Django - Efe Öge
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/A7TPJU/
+END:VEVENT
+END:VCALENDAR

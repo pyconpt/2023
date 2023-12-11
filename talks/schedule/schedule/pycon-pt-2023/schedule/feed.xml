@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom"><title>PyCon Portugal 2023 schedule updates</title><link href="https://pretalx.evolutio.pt/pycon-pt-2023/schedule/" rel="alternate"/><link href="https://pretalx.evolutio.pt/pycon-pt-2023/schedule/feed.xml" rel="self"/><id>https://pretalx.evolutio.pt/pycon-pt-2023/schedule/feed.xml</id><updated>2023-09-08T16:58:31.480565+00:00</updated><entry><title>New PyCon Portugal 2023 schedule released (0.8)</title><link href="https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.8" rel="alternate"/><published>2023-09-08T16:58:31.480565+00:00</published><id>https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.8</id><summary type="html">
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2023 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version!&lt;/p&gt;&lt;/p&gt;
+
+
+    
+
+    
+
+    
+        
+            &lt;p&gt;We had to move some sessions, so if you were planning on seeing them, check their new dates or locations:&lt;/p&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/UVAQW3/"&gt;
+                        “Getting started with (modern) Python packaging”
+                        
+                            by Filipe Laíns
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 5:30 p.m. → Sept. 8, 2023, 4:55 p.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/D7X3HN/"&gt;
+                        “Esmerald and Saffier - Complex Python made it easy with async”
+                        
+                            by Tiago Silva, Pedro Correia
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 4:55 p.m. → Sept. 8, 2023, 5:30 p.m.)
+                        
+                    &lt;/li&gt;
+                
+            &lt;/ul&gt;
+        
+    
+
+
+</summary></entry><entry><title>New PyCon Portugal 2023 schedule released (0.7)</title><link href="https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.7" rel="alternate"/><published>2023-09-08T08:06:33.533540+00:00</published><id>https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.7</id><summary type="html">
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2023 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version!&lt;/p&gt;&lt;/p&gt;
+
+
+    
+
+    
+
+    
+        
+            &lt;p&gt;We had to move some sessions, so if you were planning on seeing them, check their new dates or locations:&lt;/p&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/GBYCCH/"&gt;
+                        “CPython Survival Kit: basic C concepts to understand Python better”
+                        
+                            by Cristián Maureira-Fredes
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 10:15 a.m. → Sept. 8, 2023, 9:15 a.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/8YANQ3/"&gt;
+                        “Breaking Bias: PyWomen = 0 #ErrorAlert”
+                        
+                            by Cláudia Mendes
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 9:15 a.m. → Sept. 8, 2023, 9:50 a.m.)
+                        
+                    &lt;/li&gt;
+                
+            &lt;/ul&gt;
+        
+    
+
+
+</summary></entry><entry><title>New PyCon Portugal 2023 schedule released (0.6)</title><link href="https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.6" rel="alternate"/><published>2023-09-06T21:20:14.301636+00:00</published><id>https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.6</id><summary type="html">
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2023 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version!&lt;/p&gt;&lt;/p&gt;
+
+
+    
+        
+            &lt;p&gt;We have a new session: 
+                
+                    &lt;a href="/pycon-pt-2023/talk/SHF7YM/"&gt;
+                        “Building advanced back-office interfaces using Django &amp;amp; HTMX”
+                        
+                            by Lucas Pires
+                        
+                    &lt;/a&gt;.
+                
+        &lt;/p&gt;
+    
+
+    
+        
+            &lt;p&gt;We sadly had to cancel a session: 
+                
+                    “Django Apps at Scale: Mistakes to Avoid”
+                    
+                        by Kushal Vijay.
+                    
+                &lt;/p&gt;
+        
+    
+
+    
+
+
+</summary></entry><entry><title>New PyCon Portugal 2023 schedule released (0.5)</title><link href="https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.5" rel="alternate"/><published>2023-09-05T17:57:21.631633+00:00</published><id>https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.5</id><summary type="html">
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2023 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version!&lt;/p&gt;&lt;/p&gt;
+
+
+    
+
+    
+        
+            &lt;p&gt;We sadly had to cancel a session: 
+                
+                    “Image recognition using Python, PyTorch, OpenAI and Streamlit in Snowflake”
+                    
+                        by Dash.
+                    
+                &lt;/p&gt;
+        
+    
+
+    
+        
+            &lt;p&gt;We have moved a session around: 
+                
+                    &lt;a href="/pycon-pt-2023/talk/KDT9ZL/"&gt;
+                        “MicroPython and time series analysis: Forecasting and trend analysis”
+                        
+                            by Olaniyan Adewale, Sulaiman Adisa Adigun
+                        
+                    &lt;/a&gt;
+                    
+                        (Auditorium → Workshop I)
+                    
+                &lt;/p&gt;
+        
+    
+
+
+</summary></entry><entry><title>New PyCon Portugal 2023 schedule released (0.4)</title><link href="https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.4" rel="alternate"/><published>2023-09-05T10:52:05.436683+00:00</published><id>https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.4</id><summary type="html">
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2023 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version!&lt;/p&gt;&lt;/p&gt;
+
+
+    
+        
+            &lt;p&gt;We have a new session: 
+                
+                    &lt;a href="/pycon-pt-2023/talk/FMZMGP/"&gt;
+                        “Comprehending Comprehensions”
+                        
+                            by Rodrigo Girão Serrão
+                        
+                    &lt;/a&gt;.
+                
+        &lt;/p&gt;
+    
+
+    
+        
+            &lt;p&gt;We sadly had to cancel a session: 
+                
+                    “Debugging and Troubleshooting Python Applications: Leveraging Visibility and Observability to Solve Problems Faster”
+                    
+                        by Neeraj Pandey.
+                    
+                &lt;/p&gt;
+        
+    
+
+    
+
+
+</summary></entry><entry><title>New PyCon Portugal 2023 schedule released (0.3)</title><link href="https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.3" rel="alternate"/><published>2023-08-21T16:37:03.452506+00:00</published><id>https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.3</id><summary type="html">
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2023 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version!&lt;br&gt;
+Due to speakers requests or constraints, some talks changed slots/days or where dropped.&lt;br&gt;
+Second Keynote and a new workshop was added.&lt;/p&gt;&lt;/p&gt;
+
+
+    
+        
+            &lt;p&gt;We have new sessions!&lt;/p&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/8YANQ3/"&gt;
+                        “Breaking Bias: PyWomen = 0 #ErrorAlert”
+                        
+                    &lt;/a&gt;&lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/DX3MTL/"&gt;
+                        “Data Storytelling using Python”
+                        
+                    &lt;/a&gt;&lt;/li&gt;
+                
+            &lt;/ul&gt;
+        &lt;/p&gt;
+    
+
+    
+        
+            &lt;p&gt;Sadly, we had to cancel sessions:&lt;/p&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;
+                        “Hacking the Crystal Ball: Simplifying Time Series Forecasting with Skforecast”
+                        
+                            by Joaquin Amat Rodrigo
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;
+                        “Explainable AI: Demystifying Complex Models with Shapley Values”
+                        
+                            by Neeraj Pandey
+                        
+                    &lt;/li&gt;
+                
+            &lt;/ul&gt;
+        
+    
+
+    
+        
+            &lt;p&gt;We had to move some sessions, so if you were planning on seeing them, check their new dates or locations:&lt;/p&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/UVAQW3/"&gt;
+                        “Getting started with (modern) Python packaging”
+                        
+                            by Filipe Laíns
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 5:40 p.m. → Sept. 8, 2023, 5:30 p.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/CMZZUR/"&gt;
+                        “Debugging and Troubleshooting Python Applications: Leveraging Visibility and Observability to Solve Problems Faster”
+                        
+                            by Neeraj Pandey
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 3:25 p.m. → Sept. 8, 2023, 3:15 p.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/JZEFJG/"&gt;
+                        “Django Apps at Scale: Mistakes to Avoid”
+                        
+                            by Kushal Vijay
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 4:30 p.m. → Sept. 8, 2023, 4:20 p.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/P9GAJB/"&gt;
+                        “Faster Python with friends”
+                        
+                            by Murilo Cunha
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 2:50 p.m. → Sept. 8, 2023, 2:40 p.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/A7TPJU/"&gt;
+                        “Practical Guide to Database Locks with Django”
+                        
+                            by Efe Öge
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 12:05 p.m. → Sept. 8, 2023, 11:55 a.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/JZSKZR/"&gt;
+                        “Image recognition using Python, PyTorch, OpenAI and Streamlit in Snowflake”
+                        
+                            by Dash
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 9, 2023, 5 p.m., Workshop II → Sept. 9, 2023, 11:30 a.m., Workshop I)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/KTDU7M/"&gt;
+                        “Living and breathing backwards compatible changes”
+                        
+                            by Leandro Damascena, Henrique Graça
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 11:30 a.m. → Sept. 8, 2023, 11:20 a.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/BQVEPV/"&gt;
+                        “Building Dainty Dashboards in Plotly Dash for health data science.”
+                        
+                            by Avneet Kaur
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 6:15 p.m. → Sept. 7, 2023, 11:55 a.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/GBYCCH/"&gt;
+                        “CPython Survival Kit: basic C concepts to understand Python better”
+                        
+                            by Cristián Maureira-Fredes
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 10:25 a.m. → Sept. 8, 2023, 10:15 a.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/NBFQUX/"&gt;
+                        “The Aesthetics of Unbiased Machine Learning Systems: Crafting Fairness in Practice”
+                        
+                            by Rashmi Nagpal
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 2:15 p.m. → Sept. 7, 2023, 3:15 p.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/FFD9RU/"&gt;
+                        “Mastering comprehensions”
+                        
+                            by Rodrigo Girão Serrão
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 9, 2023, 11:30 a.m., Auditorium → Sept. 9, 2023, 5 p.m., Workshop II)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/YDTNVL/"&gt;
+                        “Boosting up your tests: property-based testing workshop”
+                        
+                            by Felix Mino
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 9, 2023, 2:30 p.m., Workshop II → Sept. 9, 2023, 5 p.m., Workshop I)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/U3WE7H/"&gt;
+                        “&amp;quot;PYTHON IN QISKIT ENVIROMENTS FOR QUANTUM COMPUTING&amp;quot;”
+                        
+                            by Francisco Lavrador Pires
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 12:40 p.m. → Sept. 8, 2023, 12:30 p.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/D7X3HN/"&gt;
+                        “Esmerald and Saffier - Complex Python made it easy with async”
+                        
+                            by Tiago Silva, Pedro Correia
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 5:05 p.m. → Sept. 8, 2023, 4:55 p.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/BLPSVZ/"&gt;
+                        “Lightning Talks”
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 6:50 p.m. → Sept. 8, 2023, 6:05 p.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/HB9X8G/"&gt;
+                        “I know Polars is fast, but my data pipelines are written in pandas!”
+                        
+                            by Luca Baggi
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 7, 2023, 3:15 p.m. → Sept. 8, 2023, 2:05 p.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/KDT9ZL/"&gt;
+                        “MicroPython and time series analysis: Forecasting and trend analysis”
+                        
+                            by Olaniyan Adewale, Sulaiman Adisa Adigun
+                        
+                    &lt;/a&gt;
+                        
+                            (Workshop I → Auditorium)
+                        
+                    &lt;/li&gt;
+                
+            &lt;/ul&gt;
+        
+    
+
+
+</summary></entry><entry><title>New PyCon Portugal 2023 schedule released (0.2)</title><link href="https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.2" rel="alternate"/><published>2023-07-25T14:25:08.028063+00:00</published><id>https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.2</id><summary type="html">
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2023 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version! Almost all content available, some changes might happen, but minor ones.&lt;/p&gt;&lt;/p&gt;
+
+
+    
+        
+            &lt;p&gt;We have new sessions!&lt;/p&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/BQVEPV/"&gt;
+                        “Building Dainty Dashboards in Plotly Dash for health data science.”
+                        
+                    &lt;/a&gt;&lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/JZSKZR/"&gt;
+                        “Image recognition using Python, PyTorch, OpenAI and Streamlit in Snowflake”
+                        
+                    &lt;/a&gt;&lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/KDT9ZL/"&gt;
+                        “MicroPython and time series analysis: Forecasting and trend analysis”
+                        
+                    &lt;/a&gt;&lt;/li&gt;
+                
+            &lt;/ul&gt;
+        &lt;/p&gt;
+    
+
+    
+
+    
+        
+            &lt;p&gt;We had to move some sessions, so if you were planning on seeing them, check their new dates or locations:&lt;/p&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/FFD9RU/"&gt;
+                        “Mastering comprehensions”
+                        
+                            by Rodrigo Girão Serrão
+                        
+                    &lt;/a&gt;
+                        
+                            (Workshop I → Auditorium)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;&lt;a href="/pycon-pt-2023/talk/BLPSVZ/"&gt;
+                        “Lightning Talks”
+                        
+                    &lt;/a&gt;
+                        
+                            (Sept. 8, 2023, 6:15 p.m. → Sept. 8, 2023, 6:50 p.m.)
+                        
+                    &lt;/li&gt;
+                
+            &lt;/ul&gt;
+        
+    
+
+
+</summary></entry><entry><title>New PyCon Portugal 2023 schedule released (0.1)</title><link href="https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.1" rel="alternate"/><published>2023-07-24T14:05:08.518699+00:00</published><id>https://pretalx.evolutio.pt/pycon-pt-2023/schedule/changelog/#0.1</id><summary type="html">
+
+&lt;p&gt;
+    
+        The first PyCon Portugal 2023 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released our first schedule! Please notice this is the first draft, we are still waiting for some speakers availability confirmations!&lt;/p&gt;&lt;/p&gt;
+
+
+
+</summary></entry></feed>

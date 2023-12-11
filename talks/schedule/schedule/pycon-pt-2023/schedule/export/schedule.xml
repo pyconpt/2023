@@ -1,0 +1,1249 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- Made with love by pretalx v2023.1.3. -->
+<schedule>
+    <generator name="pretalx" version="2023.1.3" />
+    <version>0.8</version>
+    <conference>
+        <acronym>pycon-pt-2023</acronym>
+        <title>PyCon Portugal 2023</title>
+        <start>2023-09-07</start>
+        <end>2023-09-09</end>
+        <days>3</days>
+        <timeslot_duration>00:05</timeslot_duration>
+        <base_url>https://pretalx.evolutio.pt/pycon-pt-2023/schedule/</base_url>
+        <time_zone_name>Europe/Lisbon</time_zone_name>
+    </conference>
+    <day index='1' date='2023-09-07' start='2023-09-07T04:00:00+01:00' end='2023-09-08T03:59:00+01:00'>
+        <room name='Auditorium'>
+            <event guid='4d0141fd-3698-5a06-8057-69a661e93004' id='694'>
+                <date>2023-09-07T09:00:00+01:00</date>
+                <start>09:00</start>
+                <duration>00:15</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-694-welcoming-session</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/D3JKUW/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Welcoming Session</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Other</type>
+                <language>en</language>
+                <abstract>Welcoming Session</abstract>
+                <description>Welcome to PyCon Portugal 2023, the second edition.
+
+Miguel Fonseca, Councillor at Coimbra City Council, will give us a warm welcome to the city.
+Alexandre Miguel Fernandes Gomes da Silva, President of Coimbra Business School, will welcome us to this School, as hosts of this year&apos;s edition.</description>
+                <logo></logo>
+                <persons>
+                    <person id='462'>Luis Vaz</person><person id='685'>Alexandre Miguel Fernandes Gomes da Silva</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='46c71aa7-40ac-5353-8fec-12f78b8ba08b' id='688'>
+                <date>2023-09-07T09:15:00+01:00</date>
+                <start>09:15</start>
+                <duration>01:00</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-688-optimising-for-joy</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/QLZHM3/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Optimising for joy</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Keynote</type>
+                <language>en</language>
+                <abstract>The good feeling new developers get when they begin to program for the first time fades as we get more experience and learn more. Is it possible to recapture that feeling?</abstract>
+                <description>New developers experience excitement through an abundance of things to learn and improve, often leading to a positive feedback loop of visible and rewarding progress.
+
+However as we gain experience and proficiency new ideas, techniques and knowledge become increasingly more complex, and so it becomes challenging to sustain the same level of enthusiasm.
+
+How can we overcome this hurdle so that we can all fall back into that rewarding feedback loop again, and reignite the joy and satisfaction that code can bring?</description>
+                <logo></logo>
+                <persons>
+                    <person id='675'>Tom Forbes</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='4577760c-c5e4-5d24-ae61-455d59cad8c8' id='655'>
+                <date>2023-09-07T10:15:00+01:00</date>
+                <start>10:15</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-655-amazon-codewhisperer-chatgpt-and-github-copilot-choosing-the-best-python-ai-code-assistant</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/DQMACQ/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Amazon CodeWhisperer, ChatGPT, and GitHub Copilot: Choosing the Best Python AI Code Assistant</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Discover the right helper for your Python coding needs. Explore security, code readability, cut-off limitations, creativity, ability to generate tests, and troubleshooting capabilities. Find survey results for programmers.</abstract>
+                <description>Given the recent boom of AI code assistants, more and more programmers are starting to use them to increase their day-to-day performance and delegate some routine tasks. But how to choose a suitable and robust helper? Is this possible at the moment?
+
+During this talk, we are going to compare 3 AI code assistants for Python: ChatGPT, GitHub Copilot, and Amazon CodeWhisperer. 
+The criteria will be as follows:
+- **security**: how passwords &amp; SQL queries are being handled
+- **code readability**: is generated code easy to follow?
+- **cut-off date**: what is the latest knowledge of assistant (Python version, packages awareness)
+- **creativity**: given a certain code, how good is the assistant at creating a Streamlit app?
+- **code testing**: the ability to generate unit tests to code for different scenarios
+- **debugging/troubleshooting**: the ability to find an error or to handle it
+
+In addition to comparison, the results of the programmers&apos; AI code assistants usage survey will be shared. By the end of this talk, attendants will have a good understanding of the differences between AI code assistants for Python, and they will be aware of the possible advantages/disadvantages of each mentioned assistant.</description>
+                <logo></logo>
+                <persons>
+                    <person id='653'>Darya Petrashka</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='415ea7c8-d5c6-50d5-99f8-843bf851a61b' id='615'>
+                <date>2023-09-07T11:20:00+01:00</date>
+                <start>11:20</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-615-a-simple-serverless-data-pipeline</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/AU7WHA/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>A simple serverless data pipeline</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Building and maintaining data pipelines when it&#8217;s not your full time job is a pain! So better keep things simple without the need to manage the system yourself. In this talk I&#8217;ll show a data pipeline architecture built leveraging some cloud offerings by AWS and Preset.</abstract>
+                <description>Building and maintaining data pipelines when it&#8217;s not your full time job is a pain! So better keep things simple without the need to manage the system yourself. In this talk I&#8217;ll show a data pipeline architecture built leveraging some cloud offerings by AWS and Preset.
+
+In this talk we&#8217;ll discuss:
+- an overview of the architecture
+- the data lake: AWS S3, AWS Athena
+- the exploration and visualization platform: Apache Superset
+- data formats and Python implementations
+- vendors lock-in</description>
+                <logo></logo>
+                <persons>
+                    <person id='340'>Riccardo Magliocchetti</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='e5f74614-dc94-5fa7-b881-66235c411527' id='576'>
+                <date>2023-09-07T11:55:00+01:00</date>
+                <start>11:55</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-576-building-dainty-dashboards-in-plotly-dash-for-health-data-science-</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/BQVEPV/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Building Dainty Dashboards in Plotly Dash for health data science.</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Data science projects are often characterized by visualizations which 
+enhances the creative storytelling process and allow us to derive actionable 
+insights from data. This is enabled through the use of good visualization tools/libraries which enable us to present data in a manner that is interactive and is easily understandable. Often, the action in itself tends to be more significantly remembered by the audience in comparison to static insights. This inturn 
+calls for the need for using interactive dashboards as a way to present the data.  
+Currently, the plethora of tools available for this purpose often makes it a tedious task to decide which is the best fit. Often the choice oscillates between learning to use explicit dashboarding tools or using existing python libraries which may allow visualizations but not necessarily dashboarding. 
+Apart from the cost associated with some of these explicit dashboarding tools, there might also be a learning curve associated with it.  
+Therefore, in this talk, I would like to take you through a simple pythonic approach of building dainty dashboards using Plotly Dash in python to ease the process of data exploration and allow for interactive visualizations that enable creative storytelling.</abstract>
+                <description>In this talk, we would be looking at Plotly Dash as an interactive dashboarding tool for data exploration through creative and informative visualizations. Familiarity with python would be a pre-requisite. The format of the talk is informative and hands-on. We would be creating a dashboard along the way following the learning by doing approach. We would be using an open source healthcare dataset available online for the purpose of creating these visualizations. Further we&apos;ll cover the following topics: 
+1. Introduction: A bit about Plotly Dash and why you should use it.
+2. Taking First steps: Exploring functions for loading data.
+3. Boilerplate code for our Dash app.
+4. A bit about Dash Core Components.
+5. Diving into visualizations - Adding various figures, charts, graphs to our dashboard.
+6. Experimenting with dashboard layouts.
+7. Interaction between app components: Looking at callback functions.
+8.  Finally, hosting the app for the world to see!</description>
+                <logo></logo>
+                <persons>
+                    <person id='596'>Avneet Kaur</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='696df3a2-6b6a-5df0-bc70-615bf7a6c5cd' id='614'>
+                <date>2023-09-07T12:30:00+01:00</date>
+                <start>12:30</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-614-tools-to-setup-great-python-projects</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/XBTDUJ/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Tools to setup great python projects</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>In a professional python project, there are many steps one can take to improve its quality. In this talk, I will review some tools that have been useful to me:
+
+- package managers
+- code formatters
+- code linters
+- test runners
+- python manager
+
+I will also talk about centralizing the configuration so different tools can act consistently, eg CLI, IDE and CI/CD.</abstract>
+                <description>Edit: I created a small demo in [Github](https://github.com/duarte-pompeu/great-tools-pyconpt23), if you&apos;re interested.
+
+# Package managers
+
+- no package manager is a (very) bad idea
+- requirements.txt is a good improvement, but makes it harder to do some things, eg lock sub-dependencies versions and specify development-only dependencies 
+- pipenv is good, but I prefer poetry
+
+# Python manager
+
+- pyenv makes it easy to install and manage multiple python versions
+
+# Code formatters
+
+- black: formats the code (&quot;any color you want, as long as it&apos;s black&quot;)
+- isort: sorts the imports (&quot;i sort so you don&apos;t have to&quot;)
+- darker: formats code only since last commit (gradual formatting for older projects)
+
+# Code linters
+
+- pylint: decent start but too many false positives
+- pycodestyle: popular, didn&apos;t use it much
+- flake8: popular and used it a bit, it&apos;s ok
+- ruff: the cool kid in the block: much faster and supports rules from different [linters](https://beta.ruff.rs/docs/rules/)
+
+Honorable mentions: bandit, bugbear, pyupgrade
+
+# Test runners
+
+- unittest: native, it&apos;s decent but verbose
+- pytest: widely used, supports plugins
+- locust: didn&apos;t use it much but potentially useful for load testing
+- hypothesis: property based testing
+
+# Centralized configuration
+
+Centralize your configs in pyproject.toml such that every application runs the tools consistently:
+   - CLI
+   - IDE
+   - git hooks / pre-commit
+   - CI/CD
+
+flake8 didn&apos;t support pyproject.toml because [it wasn&apos;t standard](https://github.com/PyCQA/flake8/issues/234#issuecomment-812800722) - well now it is, in [PEP 621](https://peps.python.org/pep-0621/), but it doesn&apos;t support it anyway. Bad flake8!</description>
+                <logo></logo>
+                <persons>
+                    <person id='606'>Duarte Pompeu</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='23033007-3bad-5f19-95a5-5851333aa7de' id='685'>
+                <date>2023-09-07T14:05:00+01:00</date>
+                <start>14:05</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-685-legacy-apps-deadlines-and-project-pragmatism-delivering-thousands-of-messages-every-night-in-primary-healthcare</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/T9QPRH/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Legacy apps, deadlines and project pragmatism - Delivering thousands of messages every night in primary healthcare</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>In my talk I will go over the story of how I set up the service that sends text message reminders to patients of the Portuguese primary care health system. I will explain the constraints of working with a distributed silo legacy application and other proprietary projects in a large company, and the impact of that and short deadlines on application design. Python shines through the project for its vast amazing libraries, ease of design and speed of iteration.</abstract>
+                <description>1. Introduction
+
+In 2022, in the aftermath of the COVID pandemic peak, the problem of absences in patient healthcare appointments in primary care was revisited. There was also a need to catch up to the backlog of appointments that were cancelled. In order to maximize attendance, it was decided that patients should get reminders of their scheduled appointments, by text message, as SPMS, the Shared Services of the Ministry of Health had had a great experience with them in the vaccination scheduling effort.
+
+However, the team working on Primary Care was still fully committed to the vaccination scheduling system and other tasks. The deadline was also short, basically &quot;As soon as possible&quot;. And I was the only one available to do it.
+
+Who am I? Well, I&apos;m a doctor, a family doctor to be more exact. A year and a half ago from starting this project, I was treating COVID patients in full protection suit. And as of that moment, I was a scientific consultant for Health apps. Doesn&apos;t mean I didn&apos;t spend a lot of time coding, as I had already some deployed internal apps, including a FastAPI service for your first vaccination schedule date.
+
+2. Technical challenges
+
+The task sounds simple when thinking about modern systems. Collect the upcoming appointments from the Electronic Health Record (EHR), and use a service to send the messages. However, the Portuguese primary care EHR is fragmented into multiple instances that serve a region. And the text message service used had to be a SOAP service. Given the timeframe and the fact that I still had to deliver on my other assignments, some compromises had to be made.
+
+3. Shortcuts
+
+The first and biggest shortcut to take has to be data gathering. I have to collect the data directly from the databases, as there was no time for anything else. This couples my app to the EHR data structure but it&apos;s a compromise we are willing to make.
+
+I also can&#8217;t get an actual database for my app in a short time, but I can settle for Redis. It&apos;s fast to develop with Key Value databases, it won&apos;t be a bottleneck and I can log message sending successes or failures (if there is a need to retry).
+
+Configuration can be made from environment variables.
+
+And we&apos;ll host it all on a machine we already have, using a pipeline we&apos;re familiar with... that turned out to be kubernetes K3s.
+
+Our enterprise ecosystem is made up mostly from Java apps, with legacy systems using PL-SQL. So of course I had to go with python.
+
+Why python? Because we can interact with oracle databases with a robust package (cx-oracle, now oracle-db), use a SOAP service easily with Zeep, schedule tasks with Celery, create an API to access information with FastAPI, and ensure someone else can take over really fast if we fall ill with COVID. And we can do it in a week if we have to.
+
+4. Choose well the corners you cut
+
+Don&#8217;t cut testing. At some point you start thinking that this thing you&apos;re building will actually cost money. And if we send the wrong message, we can cost someone their appointment or worse, leak personal information. There are a lot of things that can go wrong. So we must make it bullet proof. That meant creating tests for the integrations that might fail, and all of the logic. And that allowed constant improvements of the not so good code to something that has been going non stop for a year.
+
+Deployment. I can either deploy extremely fast today with a manual deployment and then suffer for eternity... or I can do it well, not perfectly but well enough. It&apos;s especially good when you can reuse tried and tested pipelines, so there is a compromise to be made here. 
+It can&apos;t fail, it can&apos;t wait for too long but it must also mean it&apos;s easy to redeploy new versions as often as needed.
+
+5. Things you can&apos;t avoid
+
+Everything in a large corporation takes longer than you wish. Want credentials to a service? Request, sign, wait. Access to databases? Wait for grants. Wait some more for firewall access. Clarification on the actual text of the message? Take a number. A pandemic is still happening and we need everything to both wait and happen simultaneously.
+Everything feels both expedited and extremely slow in the corporate world. It&apos;s demoralising sometimes because it contrasts with the extreme speed with which you&apos;re developing with the snail pace of getting someone to stop what they&apos;re doing and solve a ticket for you. It goes with the privilege of serving a whole country. It pays off, but it takes time.
+
+6. What happens the day after?
+
+Well, after you deliver that extremely urgent project, you can actually start to make it good. The pilot is only sending a hundred messages, but to send thousands, you must use async or threads. But you can&apos;t just push everything at once, you&apos;ll crash the message service.
+And the code is still terrible so it&apos;s time to refactor, because soon enough people will start to think of new things to put into the service. If everything is coupled, implementing new rules will start making big messes. If you&apos;re afraid to make changes, it&apos;s because you can&apos;t trust your tests to protect you.
+
+The key takeaway is, every time you make a new feature, leave the code better than you found it. Everything can&apos;t be an emergency every time. This certainly wasn&apos;t. At some point you have to say &quot;I can&apos;t do that in that amount of time&quot;. Compromises can be reached, but they must always include tech debt repayment warranties.
+
+7. How&apos;s it going?
+
+I&apos;m fine, thank you. And the service is fine too!
+The service is still only available to about half of the population, mostly in Lisbon. But as of the 21st of June 2023, we have sent more than five million messages. Some days we send more than 70 000. Not too bad for a service made by a doctor.</description>
+                <logo></logo>
+                <persons>
+                    <person id='671'>Joao Ferreira</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='f653576a-70c4-5284-b9fb-7e36e23c0071' id='622'>
+                <date>2023-09-07T14:40:00+01:00</date>
+                <start>14:40</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-622-artificial-intelligence-running-on-the-blockchain</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/UUSU9N/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Artificial Intelligence running on the Blockchain</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>New technology now allows machine learning models to be uploaded to the blockchain, enhancing decentralized applications&apos; (dapps) functionality and competitiveness against centralized apps. In this talk, we will discuss how anyone can easily deploy a simple machine learning model to the blockchain.</abstract>
+                <description>Until now, dapps have never been able to incorporate machine learning models. Therefore, it is hard for a dapp such as DTube to compete against centralized apps such as YouTube that can offer better content recommendations to their users. 
+Now, you can finally upload your machine learning model to the blockchain, to use in dapps, protocols, or cryptocurrencies. This technology will be explained in detail and how anyone can easily deploy a very simple machine learning model to the blockchain.
+
+The talk addresses the challenge of integrating machine learning models into decentralized applications (dapps). This has historically been a barrier, limiting the competitiveness of dapps against their centralized counterparts. The session will provide insights on how to deploy and leverage ML models on the blockchain, thus empowering dapps to deliver more personalized and advanced services. It aims to facilitate the convergence of AI and blockchain for enhanced application development.
+The goal is for attendees to leave with a clear understanding of how to deploy machine learning models on blockchain; and to see the potential of blockchain and AI convergence in creating more personalized, secure, and efficient dapps, thus bridging the gap between decentralized and centralized applications. It is also aimed to foster innovation and collaboration in the blockchain space.</description>
+                <logo>/media/pycon-pt-2023/submissions/UUSU9N/Lucas_hackathons_2_g3iPsZu.jpg</logo>
+                <persons>
+                    <person id='626'>Lucas</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='92a01c70-f250-50dd-b4d1-c9d2e82c3e28' id='630'>
+                <date>2023-09-07T15:15:00+01:00</date>
+                <start>15:15</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-630-the-aesthetics-of-unbiased-machine-learning-systems-crafting-fairness-in-practice</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/NBFQUX/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>The Aesthetics of Unbiased Machine Learning Systems: Crafting Fairness in Practice</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>In Artificial Intelligence systems, a renaissance has unfolded in recent years, captivating the imagination of many! However, a startling statistic emerges amidst the enthusiasm: merely 13% of machine learning models are deployed into production!
+
+Indeed, the artistry of building and deploying these systems supersedes mere scientific methodology as these models dwell within the realm of complexity and are characterized by an inherent reliance on data distribution. Have you ever wondered if these models are trained upon biased data they are destined to produce haywire decisions?
+
+In this talk, let us delve into the realm of ethicality, fairness, and unbiasedness, culminating in the seamless integration of machine learning models that embrace ethical considerations in their journey towards production using Python!</abstract>
+                <description>Have you ever wondered why the increasing reliance on Machine Learning systems raises concerns about fairness and bias in their data-driven decisions? What if ML models are built on skewed data or are not designed to mitigate bias - then they can perpetuate and even amplify existing inequalities and injustices!
+
+Since there&apos;s no one-size-fits-all approach, thus, building and deploying a fair and unbiased ML system is more of an art than a science! In this talk, firstly, we will explore the challenges involved in building and deploying fair and unbiased ML systems. Secondly, we will understand the technical debts which incur while building such systems and how to investigate them. Finally, we will learn fundamental strategies and best practices for ensuring your ML models are fair, unbiased, and ethical!</description>
+                <logo></logo>
+                <persons>
+                    <person id='631'>Rashmi Nagpal</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='6ee6e093-39f7-56fe-a59b-908af5695816' id='586'>
+                <date>2023-09-07T16:20:00+01:00</date>
+                <start>16:20</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-586-weird-python-a-few-ways-in-which-python-can-misbehave</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/RPVSHN/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Weird Python: A few ways in which Python can misbehave</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Python usually works the way we expect to, but sometimes it doesn&apos;t. This talk is about when to expect the unexpected.</abstract>
+                <description>Python has some weird interpreter quirks that behave in unexpected ways. In this talk, we will go over a few ways in which Python behaves unexpectedly:
+
+- Introduction: What this talk is about, and why it is important to steer clear of some known &quot;gotchas&quot;
+- Meat of the Talk: Going over examples of ways in which Python behaves weirdly:
+1. Mutable default arguments: When we provide mutable default arguments, some strange things might happen.
+2. Integer Caching: This is how the `is` operator can behave in weird ways, and sometimes it is not between -5 and 256 that the `is` operator works.
+3. Late Binding Closures: Python *late-binds* when creating functions within another function.
+4. Match/Case Weirdness: Match/Case statements actually assign the variables when binding values to variables.
+- Questions/Answers</description>
+                <logo></logo>
+                <persons>
+                    <person id='360'>Quazi Nafiul Islam</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='579e5cf8-5135-5f01-a5cf-9ef960760e76' id='660'>
+                <date>2023-09-07T16:55:00+01:00</date>
+                <start>16:55</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-660-tavern-crawler-a-tool-to-enable-fast-and-easy-development-of-automated-api-tests</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/UNF8WJ/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Tavern Crawler: a tool to enable fast and easy development of automated API tests</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Tavern is an open source pytest plugin aimed to write automated integration tests for HTTP and MQTT APIs. Currently, there isn&#8217;t any UI support for it. This talk presents a Visual Studio Code extension that enables easy and fast writing of Tavern tests .</abstract>
+                <description>Tavern is an open source pytest plugin aimed to write automated integration tests for HTTP and MQTT APIs. Although based in pytest, the tests are specified in the YAML format, which makes support out-of-the-box in major Python IDEs, such as PyCharm or Visual Studio Code, not possible. 
+
+Tavern Crawler was developed to address the non-existence of a Tavern UI tool. The tool is a Visual Studio Code (VSCode) extension, with an interface loosely based in VSCode&#8217;s Test Explorer, so that developers feel immediately familiar working with it. Having such tool eases writing tests, which can become difficult especially when the number of tests and its complexity increases; and also enables quick visual assessment of the state of these.
+
+This talk will address the following topics:
+1. Brief introduction to Tavern
+2. Issues with large Tavern projects and why an UI is important
+3. Present and explore the Tavern Crawler extension with live examples
+4. Lessons learned and the future of Tavern Crawler</description>
+                <logo></logo>
+                <persons>
+                    <person id='657'>Jorge Miranda</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='e0c047cb-aacd-5154-b5de-78e6716d4895' id='656'>
+                <date>2023-09-07T17:30:00+01:00</date>
+                <start>17:30</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-656-revealing-perspectives-the-art-of-data-insight-communication-in-the-data-driven-projects</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/L9FNWG/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Revealing Perspectives: The Art of Data Insight Communication in the Data-Driven Projects</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>&quot;Unveiling Perspectives: The Art of Data Insight Communication in the Data-Driven Projects&quot; is an engaging presentation that emphasizes the criticality of effectively communicating findings and insights in the field of Data Science. Often overlooked, the final stage of a data-driven project involves presenting results to stakeholders. This talk sheds light on the importance of this stage and explores the art of presenting findings, storytelling, and employing interactive methods to convey complex information in an intuitive manner. By leveraging powerful Python tools such as PyShiny, FastAPI, Streamlit, Flask, and ReactPy, participants will gain insights into how to effectively utilize these tools to enhance their data analysis and ensure understandability and memorability. In addition, the session will touch upon color science principles and other intriguing elements. The speaker will showcase a real-life data-driven project and demonstrate their innovative solution for result communication, providing practical examples and valuable takeaways.</abstract>
+                <description>In the world of Data Science, the ability to effectively communicate findings and insights is paramount. However, this crucial aspect is often overlooked, with researchers dedicating their efforts solely to the analytical stages of a data-driven project. My talk seeks to rectify this oversight by highlighting the significance of the final stage&#8212;presenting results to stakeholders&#8212;and exploring innovative techniques to make this process engaging and impactful.
+
+During this enlightening talk, participants will embark on a journey through the power of Python and its versatile tools such as PyShiny, FastAPI, Streamlit, Flask, and ReactPy. I will delve into practical use cases and share insights on when and how to leverage these tools effectively to enhance data analysis and visualization. Attendees will discover how to transform their findings into intuitive narratives, captivating stakeholders by immersing them in interactive experiences that facilitate a deeper understanding of complex data.
+
+Moreover, this session will go beyond technical aspects and touch upon the importance of color science in data visualization. Participants will gain an appreciation for the role of color in conveying meaning, mood, and emphasis, ultimately improving the overall impact of their presentations.
+
+The highlight of the presentation will be the speaker&apos;s real-life data-driven project, where they will showcase their own solution for result communication. Through a live demonstration, attendees will witness firsthand how the power of effective storytelling and interactive visualization can transform a dry set of numbers into a compelling narrative.
+
+&quot;Revealing Perspectives: The Art of Data Insight Communication in the Data-Driven Projects&quot; promises to be an engaging and informative session, providing attendees with valuable insights, practical examples, and actionable techniques to elevate their data analysis and ensure their findings are communicated with clarity and impact.</description>
+                <logo></logo>
+                <persons>
+                    <person id='651'>Anastasiia Kostiv</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='73a07123-9b58-58c4-9fe9-bf75fb378159' id='695'>
+                <date>2023-09-07T18:05:00+01:00</date>
+                <start>18:05</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-695-lightning-talks</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/HTYYU7/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Lightning Talks</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Other</type>
+                <language>en</language>
+                <abstract>Lightning Talks</abstract>
+                <description>Lightning Talks</description>
+                <logo></logo>
+                <persons>
+                    
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            
+        </room>
+        
+    </day>
+    <day index='2' date='2023-09-08' start='2023-09-08T04:00:00+01:00' end='2023-09-09T03:59:00+01:00'>
+        <room name='Auditorium'>
+            <event guid='8b3aa14f-c040-53e0-b88d-913c70833457' id='696'>
+                <date>2023-09-08T09:00:00+01:00</date>
+                <start>09:00</start>
+                <duration>00:15</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-696-morning-announcements</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/HGXJSK/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Morning Announcements</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Other</type>
+                <language>en</language>
+                <abstract>Morning Announcements</abstract>
+                <description>Morning Announcements</description>
+                <logo></logo>
+                <persons>
+                    
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='f4788b8c-57ff-511a-8e5e-e38f8f842595' id='673'>
+                <date>2023-09-08T09:15:00+01:00</date>
+                <start>09:15</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-673-cpython-survival-kit-basic-c-concepts-to-understand-python-better</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/GBYCCH/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>CPython Survival Kit: basic C concepts to understand Python better</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>The newest Python versions are including many changes that improve the performance and functionality, but what&apos;s going on under the hood? In this talk, you will learn the necessary topics  to start discovering how CPython internals work, and how to create a new module based in C or C++.</abstract>
+                <description>Everyone is happy with what Python 3.11 and the future 3.12 is bringing to the Python ecosystem, but in case you haven&apos;t heard already of the improvements, most of them were made at the core of CPython to affect the interpreter.
+
+It is very probable that many people out there, have ideas that can help Python to be better, but for that, you would need to dive into the CPython code at some point, and possibly perform modifications in C.
+
+A subset of the API is indeed written in Python, but most of the other crucial core components are written in C - and with that, many people might not know C so well.
+The main building block of the internals, the PyObject, is a particular C-structure with many details and components that are worth studying, similarly, basic functions Python programmers use intensively like the print function, lists, dictionaries, etc - have C at their core.
+
+The main objective of this talk is to motivate people to start being involved in low-level languages that make Python better, mainly not being afraid into picking up a bit of C knowledge to continue improving the core of CPython, and the many solutions out there that allow you to optimize the code, bindings, and why not, the creation of the &apos;next&apos; blazing fast and performant module that will improve many peoples lives.
+
+After this talk, you will be able to modify Python&apos;s functionality from its core, add new API, create your new C-based Python modules, and more.
+Some ideas of C would be good, but not necessary.
+
+Outline:
+- Highlights of new things in 3.11 and 3.12
+- How Python works internally?
++ CPython introduction and repo overview
++ PyObject description
++ Explain how data types works (lists, sets, ...)
+- Super brief introduction to the most important features of C to understand CPython
+- Creating a C-based extension for Python
+- Modifications to the common python functionality.</description>
+                <logo></logo>
+                <persons>
+                    <person id='665'>Cristi&#225;n Maureira-Fredes</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='b8812b82-2a40-51f7-8e92-5cc9cb030ccf' id='699'>
+                <date>2023-09-08T09:50:00+01:00</date>
+                <start>09:50</start>
+                <duration>01:00</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-699-breaking-bias-pywomen-0-erroralert</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/8YANQ3/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Breaking Bias: PyWomen = 0 #ErrorAlert</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Keynote</type>
+                <language>en</language>
+                <abstract>In this keynote we are going to talk about how unconscious bias can impact on business and real world IT products and learn the importance of understanding the inclusion of diverse teams.</abstract>
+                <description>In this keynote we are going to talk about how unconscious bias can impact on business and real world IT products and learn the importance of understanding the inclusion of diverse teams.</description>
+                <logo></logo>
+                <persons>
+                    <person id='680'>Cl&#225;udia Mendes</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='143f390a-590e-516c-b09b-2fe01d0e8be3' id='626'>
+                <date>2023-09-08T11:20:00+01:00</date>
+                <start>11:20</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-626-living-and-breathing-backwards-compatible-changes</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/KTDU7M/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Living and breathing backwards compatible changes</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>From the team behind AWS Lambda Powertools for Python, we will explore trade-offs in API design and UX when your project is used by thousands of customers in production.</abstract>
+                <description>Breaking changes can have a significant impact on the developer experience and the adoption of an open source project. How can we strike the right balance between developing our software and keeping our users happy and engaged with our projects?
+
+As maintainers of AWS Lambda Powertools for Python, we embrace the exciting challenges that come with developing a widely adopted project, serving thousands of customers worldwide. Throughout our journey, we&apos;ve discovered firsthand the immense complexities of managing software changes while engaging with a thriving community. Today, we stand proud, having unlocked the secrets to fostering an interactive and dynamic community around a rapidly evolving project. In this captivating presentation, we eagerly share the invaluable lessons we&apos;ve learned along the way. As an attendee, you will discover insights that will benefit both consumers and maintainers of open source projects alike.</description>
+                <logo></logo>
+                <persons>
+                    <person id='681'>Leandro Damascena</person><person id='682'>Henrique Gra&#231;a</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='16cbc679-bcc1-50ec-a504-d2d8c88a2e58' id='670'>
+                <date>2023-09-08T11:55:00+01:00</date>
+                <start>11:55</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-670-practical-guide-to-database-locks-with-django</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/A7TPJU/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Practical Guide to Database Locks with Django</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Race conditions? No problem! Dive into the world of database locks with Django and gain hands-on knowledge on how to eliminate race conditions, maintain order, and boost your application&apos;s performance.</abstract>
+                <description>Imagine organizing and managing a party with a Django project, where everyone wants to be part of the action. But how can you prevent chaos and ensure order amid the commotion? That&apos;s where database locks swoop in like party bouncers, maintaining a queue at the door!
+
+- Introduction to Database Locks (5 minutes)
+Overview of database locks and their importance in concurrent environments
+
+- Types of Database Locks (5 minutes)
+Shared locks vs. exclusive locks
+Row-level locks vs. table-level locks
+
+- Locking Strategies in Django (10 minutes)
+Database-level vs. application-level locking
+Utilizing Django&apos;s built-in locking mechanisms (select_for_update(), transaction.atomic())
+
+- Practical Use Cases (10 minutes)
+Handling concurrent requests and preventing race conditions
+Ensuring transactional integrity with locks
+Implementing optimistic locking to avoid conflicts
+
+- Q&amp;A</description>
+                <logo></logo>
+                <persons>
+                    <person id='663'>Efe &#214;ge</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='4939032d-a9c2-5cf9-8bd1-ff8921b90e7d' id='665'>
+                <date>2023-09-08T12:30:00+01:00</date>
+                <start>12:30</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-665--python-in-qiskit-enviroments-for-quantum-computing-</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/U3WE7H/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>&quot;PYTHON IN QISKIT ENVIROMENTS FOR QUANTUM COMPUTING&quot;</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Python&apos;s presence in Qiskit environments for quantum computing is vital for several reasons. Its simplicity, extensive libraries, and integration with scientific computing tools make it an ideal language for expressing quantum algorithms and designing quantum circuits. Python&apos;s versatility allows researchers to combine quantum computing with machine learning techniques, opening new possibilities for advancements in the field. Furthermore, Python&apos;s emphasis on readability and the support of a vibrant community fosters collaboration and knowledge-sharing, propelling the growth and adoption of quantum computing.</abstract>
+                <description>Python plays a crucial role in the Qiskit environment for quantum computing, providing a powerful and versatile programming language that enables researchers and developers to harness the full potential of quantum technologies. Qiskit, an open-source quantum computing framework developed by IBM, utilizes Python as its primary language for designing, simulating, and executing quantum circuits. Python&apos;s simplicity and readability make it an ideal choice for both beginners and experts in the field, allowing them to easily express complex quantum algorithms and workflows. Its extensive libraries and frameworks further enhance the capabilities of Qiskit, enabling seamless integration with classical computing and data analysis tools.
+
+The integration of Python in Qiskit environments brings numerous advantages to quantum computing. Python&apos;s extensive ecosystem of scientific computing libraries, such as NumPy and SciPy, provides essential functionalities for mathematical operations, linear algebra, and optimization algorithms, all of which are vital in quantum computing. These libraries enable efficient manipulation of quantum states and gates, facilitating the development and testing of quantum algorithms. Moreover, Python&apos;s versatility allows researchers to leverage machine learning and artificial intelligence techniques to enhance quantum algorithms and optimize quantum circuit designs, opening new avenues for discovery and advancement in the field.
+
+Another key aspect of Python&apos;s importance in Qiskit environments is its emphasis on code readability and community support. Python&apos;s clean syntax and well-documented libraries make it easier for researchers and developers to collaborate, share code, and build upon each other&apos;s work. The vibrant Python community provides a wealth of resources, tutorials, and forums where quantum enthusiasts can exchange ideas, seek guidance, and foster innovation. This collaborative environment accelerates the growth and adoption of quantum computing, enabling researchers to tackle complex problems and explore the potential applications of quantum technologies across various domains.</description>
+                <logo></logo>
+                <persons>
+                    <person id='661'>Francisco Lavrador Pires</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='745e29b5-71c7-502c-8fcd-d2f8f0c0ac51' id='669'>
+                <date>2023-09-08T14:05:00+01:00</date>
+                <start>14:05</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-669-i-know-polars-is-fast-but-my-data-pipelines-are-written-in-pandas-</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/HB9X8G/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>I know Polars is fast, but my data pipelines are written in pandas!</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>We all know it by now: Polars is blazingly fast&#8482;&#65039;. Yet my pipelines are all written in pandas, and it will just take too much time to rewrite them in Polars... won&apos;t it? Turns out, it takes less than thirty minutes to tame this new arctic beast!</abstract>
+                <description>How long do you think it would take to rewrite your data pipelines from pandas to Polars? It turns out, less than you would expect! Of course, &quot;if it ain&apos;t broke, don&apos;t fix it&quot; - yet there are some fruits that are just hanging too low for you to ignore.
+
+Starting from I/O, to (almost) zero-copy conversion from pandas to Polars, you will quickly realise how cheap and convenient it is to swap some bits of your pipelines from pandas to Polars. Though pandas&apos; API is incredibly good, you will soon realise how Polars took it to the next level and made it much more powerful, expressive and intuitive.
+
+Come for the speed, stay for the syntax!
+
+&#128205; Keynote outline
+
+- Polars: the cheapest ways to reap its benefits.
+- Blazingly fast I/O with `LazyDataFrame`s.
+- Powerful column selection with the new `selectors` module.
+- `df.filter()`: no more &quot;setting a view vs a copy&quot; warnings.
+- How to write expressive `groupby` statements and window functions.
+- Nested data? Not a problem!
+- Work with datasets larger than memory.
+- Don&apos;t like the syntax? Just use SQL - it even works from the CLI!</description>
+                <logo></logo>
+                <persons>
+                    <person id='664'>Luca Baggi</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='c496e3d2-cd9f-5e27-98bc-0eac50a394a6' id='644'>
+                <date>2023-09-08T14:40:00+01:00</date>
+                <start>14:40</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-644-faster-python-with-friends</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/P9GAJB/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Faster Python with friends</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Python&apos;s flexible and intuitive syntax enables developers to quickly build applications. But on the other hand, it may be slow during runtime. Luckily, there are different ways we can speed up a Python program. In this talk, we&apos;ll explore different alternatives to make Python programs faster.</abstract>
+                <description>## About the talk
+
+Python&apos;s &quot;speed problem&quot; is not a new issue, but there are different ways to speed a Python program up. In recent years, Python 3.11 was released and popularized as the [&quot;faster Python&quot;](https://docs.python.org/3/whatsnew/3.11.html#summary-release-highlights) and [Mojo](https://www.modular.com/mojo) programming language was recently announced, advertised as having &quot;usability of Python with the performance of C&quot;. Going back further, we see languages such as Cython, Just In Time (JIT) compilers and bindings.
+
+In this talk, we&apos;ll go over the different approaches to increasing the speed of a Python application. We&apos;ll briefly explain how they work, compare the performance through a simple use case, and look at the limitations, tooling, trade-offs, and ease of use.
+
+## Outline
+
+- Introduction and setup (3min)
+- Baseline - Python 3.9 (3min)
+- Alternatives (20min):
+  - Python 3.11
+  - Cython &amp; Mypyc
+  - Pypy3
+  - PyO3
+  - Mojo
+- Recap and takeaways (4min)</description>
+                <logo></logo>
+                <persons>
+                    <person id='307'>Murilo Cunha</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='c0008e5a-b230-54d3-8b05-e69d4da104e4' id='540'>
+                <date>2023-09-08T15:15:00+01:00</date>
+                <start>15:15</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-540-comprehending-comprehensions</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/FMZMGP/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Comprehending Comprehensions</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Discover the immense potential of Python&apos;s list comprehensions, dictionary comprehensions, set comprehensions, and generator expressions, as we present them as an idiom that focuses on data transformations.
+
+Using real-world examples, we&apos;ll demonstrate how these tools can streamline data manipulation and transformation tasks while enhancing code readability. We&apos;ll also provide insights on best practices and use cases to maximize their effectiveness.
+
+By the end of this talk, you will be equipped to confidently harness the full potential of comprehensions and generator expressions, empowering you to create more expressive and elegant Python code. Join us on this exciting journey and level up your Python programming!</abstract>
+                <description>We will start by going over the full anatomy of a list comprehension, both by motivating the need for such a construct and by comparison to the equivalent for loop.
+
+Then, we will take a look at some real-world examples of good list comprehensions, pointing out the qualities that make them elegant and expressive, which we will present as best practices.
+
+Finally, we will use our understanding of list comprehensions to extend the syntax to dictionary and set comprehensions, as well as generator expressions.</description>
+                <logo></logo>
+                <persons>
+                    <person id='317'>Rodrigo Gir&#227;o Serr&#227;o</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='2045d4db-d8d8-5bc9-8dbc-a5f0dc3b6bf7' id='700'>
+                <date>2023-09-08T16:20:00+01:00</date>
+                <start>16:20</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-700-building-advanced-back-office-interfaces-using-django-htmx</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/SHF7YM/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Building advanced back-office interfaces using Django &amp; HTMX</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Explore a pragmatic approach to enhancing Django&apos;s back-office interfaces. Delve into the practical integration of lightweight frameworks like HTMX and AlpineJS to introduce interactivity with minimal JavaScript. This talk focuses on custom generic class-based views, offering insights into CRUD operations, formsets, and advanced techniques for managing Django models. Join me for a comprehensive overview of these techniques, from read-only forms to patching HTMX into the Django Admin, as we redefine Django development practices.</abstract>
+                <description>Modern applications often necessitate a back-office interface to facilitate administrative tasks. While Django&apos;s generic class-based views are valuable for fundamental CRUD operations, they may fall short when it comes to meeting specific UI/UX requirements.
+These views, while reliable for CRUD tasks, tend to lack interactivity due to the absence of JavaScript and their tendency to refresh the entire page upon use.
+Traditionally, the go-to solution has been to construct the interface with a frontend framework, but this approach can be resource-intensive and time-consuming.
+Now, with the emergence of lightweight frameworks like HTMX and AlpineJS, it&apos;s possible to introduce interactivity into your application with minimal JavaScript or reliance on dedicated frontend frameworks. This approach allows you to maintain the interface layout within Django templates and keep the application state on the server.
+This presentation explores various use cases for common development patterns in CRUD interfaces and the management of extensive Django models. It places a special emphasis on custom generic class-based views and how to seamlessly integrate them with HTMX to deliver a frontend-like user experience.
+
+Key Topics Covered:
+* Leveraging Django&apos;s generic class-based views for CRUD functionality.
+* Evaluating Formsets and alternative options.
+* Comparing HTMX &amp; HATEOAS to Frontend &amp; REST approaches.
+* Implementing CRUD operations within a Single View: CreateUpdateDeleteView.
+* Achieving inline object manipulation without relying on formsets.
+* Handling complex models with multi-step processes using WizardView.
+* Presenting form data in read-only mode via the form layout with ReadOnlyFormView.
+* Delving into advanced, out-of-scope examples, including Sortable UIs and WebComponents.
+* Exploring the possibilities of integrating HTMX into the Django Admin to transform it into a frontend-like experience.
+
+This presentation aims to shed light on how to enhance your Django-based applications with a more interactive and efficient administrative interface, all while minimizing the need for extensive frontend development.</description>
+                <logo></logo>
+                <persons>
+                    <person id='684'>Lucas Pires</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='06dc913d-f6b9-50a1-a5f3-68a5d2b06aa9' id='549'>
+                <date>2023-09-08T16:55:00+01:00</date>
+                <start>16:55</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-549-getting-started-with-modern-python-packaging</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/UVAQW3/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Getting started with (modern) Python packaging</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Let&apos;s make sense of modern Python packaging tooling.</abstract>
+                <description>Python packaging has seen a lot of change recently. In the last few years lots of different tools showed up and getting started with Python packaging can be confusing. In this talk, I will introduce you to the available tooling, help you make sense of it, and guide you through the process of creating and releasing a Python package.</description>
+                <logo></logo>
+                <persons>
+                    <person id='583'>Filipe La&#237;ns</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='d870d8b3-f617-5245-bf9e-82d6ddb4f618' id='546'>
+                <date>2023-09-08T17:30:00+01:00</date>
+                <start>17:30</start>
+                <duration>00:35</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-546-esmerald-and-saffier-complex-python-made-it-easy-with-async</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/D7X3HN/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Esmerald and Saffier - Complex Python made it easy with async</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Python in the context of data for python developers, non python engineers and businesses using Esmerald and Saffier with the power of async python.</abstract>
+                <description>There are great frameworks out there like FastAPI, Flama, Flask, Django... All of them solving majority of the current day-to-day problems of 99% of the applications but leaving the 1% that is usually around structure and design/business without to much to do.
+
+Esmerald got the inspiration from those great frameworks out there and was built with all the known amazing features but with business in mind as well.
+
+Saffier leverages the power of Pydantic for its fields while offering a friendly, familiar and easy to use interface.
+
+This ORM was designed to be flexible and compatible with pretty much every ASGI framework, like Esmerald, Starlette, FastAPI, Sanic, Quart... With simple pluggable design thanks to its origins.
+
+For this 30 minute session it is aimed to showcase:
+
+A robust and organized python application with Esmerald (https://esmerald.dev) and Saffier (https://saffier.tarsild.io) while integrating the native JWT authentication with a clean API design using Esmerald native routing system and leveraging Esmerald native validations using pydantic with python typing system.</description>
+                <logo>/media/pycon-pt-2023/submissions/D7X3HN/dymmond_1DTUE0D.png</logo>
+                <persons>
+                    <person id='580'>Tiago Silva</person><person id='677'>Pedro Correia</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='132ceff0-1c99-523d-be2b-7d0d66c0f259' id='697'>
+                <date>2023-09-08T18:05:00+01:00</date>
+                <start>18:05</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>pycon-pt-2023-697-lightning-talks</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/BLPSVZ/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Lightning Talks</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Other</type>
+                <language>en</language>
+                <abstract>Lightning Talks</abstract>
+                <description>Lightning Talks</description>
+                <logo></logo>
+                <persons>
+                    
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            
+        </room>
+        
+    </day>
+    <day index='3' date='2023-09-09' start='2023-09-09T04:00:00+01:00' end='2023-09-10T03:59:00+01:00'>
+        <room name='Workshop I'>
+            <event guid='8fd2110e-c9bd-57cf-9768-def2e7aa5ad8' id='625'>
+                <date>2023-09-09T09:00:00+01:00</date>
+                <start>09:00</start>
+                <duration>02:00</duration>
+                <room>Workshop I</room>
+                <slug>pycon-pt-2023-625-beyond-the-basics-data-visualization-in-python</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/STX8K3/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Beyond the Basics: Data Visualization in Python</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>The human brain excels at finding patterns in visual representations, which is why data visualizations are essential to any analysis. Done right, they bridge the gap between those analyzing the data and those consuming the analysis. However, learning to create impactful, aesthetically-pleasing visualizations can often be challenging. This session will equip you with the skills to make customized visualizations using Python.</abstract>
+                <description>#### Section 1: Getting Started With Matplotlib
+While there are many plotting libraries to choose from, the prolific Matplotlib library is always a great place to start. Since various Python data science libraries utilize Matplotlib under the hood, familiarity with Matplotlib itself gives you the flexibility to fine tune the resulting visualizations (e.g., add annotations, animate, etc.). Moving beyond the default options, we will explore how to customize various aspects of our visualizations. Afterward, you will be able to generate plots using the Matplotlib API directly, as well as customize the plots that other libraries create for you.
+
+#### Section 2: Moving Beyond Static Visualizations
+While static visualizations are limited in how much information they can show, animations make it possible for our visualizations to tell a story through movement of the plot components (e.g., bars, points, lines), which can encode another dimension of the data. In this section, we will focus on creating animated visualizations before moving on to create interactive visualizations in the next section.
+
+#### Section 3: Building Interactive Visualizations for Data Exploration
+When exploring our data, interactive visualizations can provide the most value. Without having to create multiple iterations of the same plot, we can use mouse actions (e.g., click, hover, zoom, etc.) to explore different aspects and subsets of the data. In this section, we will learn how to use HoloViz to create interactive visualizations for exploring our data utilizing the Bokeh backend.
+
+---
+
+#### Target Audience
+This tutorial is for anyone with basic knowledge of Python and an interest in learning how to analyze data in Python. We will be working with Jupyter Notebooks, so attendees should familiarize themselves with the interface (i.e., know how to run/edit a cell) beforehand.
+
+#### Environment Setup
+Please set up your environments ahead of time by following the instructions [here](https://github.com/stefmolin/python-data-viz-workshop#setup-instructions).</description>
+                <logo></logo>
+                <persons>
+                    <person id='402'>Stefanie Molin</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='39e428f7-fa21-5d23-bac6-5266c89eae0a' id='558'>
+                <date>2023-09-09T11:30:00+01:00</date>
+                <start>11:30</start>
+                <duration>02:00</duration>
+                <room>Workshop I</room>
+                <slug>pycon-pt-2023-558-micropython-and-time-series-analysis-forecasting-and-trend-analysis</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/KDT9ZL/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>MicroPython and time series analysis: Forecasting and trend analysis</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>The workshop on &quot;MicroPython and time series analysis: Forecasting and trend analysis&quot; is designed to help attendees learn how to perform time series analysis, forecasting, and trend analysis using MicroPython. This workshop is ideal for anyone interested in learning how to analyze data collected over time, and how to use MicroPython to implement these analyses on microcontrollers.</abstract>
+                <description>The workshop on &quot;MicroPython and time series analysis: Forecasting and trend analysis&quot; is designed to help attendees learn how to perform time series analysis, forecasting, and trend analysis using MicroPython. This workshop is ideal for anyone interested in learning how to analyze data collected over time, and how to use MicroPython to implement these analyses on microcontrollers.
+
+The workshop will begin with an introduction to time series analysis, which is the study of data points collected over time. I will explore the different types of time series data, including univariate and multivariate time series, and the common methods used to analyze this data, such as trend analysis and forecasting.
+
+Next, I will discuss the advantages of using MicroPython for time series analysis on microcontrollers. Attendees will learn how to use MicroPython to read time series data from sensors and how to preprocess this data for analysis. They will also learn how to implement different types of time series analysis, such as trend analysis and forecasting, using MicroPython.
+
+I will then showcase some practical examples of time series analysis,  weather forecasting and demonstrate how to implement these using MicroPython. Attendees will have the opportunity to work on hands-on exercises and build their own time series analysis models using MicroPython.
+
+In the second half of the workshop, I will focus on deploying and running the time series analysis models on microcontrollers. Attendees will learn how to optimize the models for microcontrollers and how to deploy them using MicroPython. I will also discuss the challenges of working with limited computational resources and how to overcome them.
+
+By the end of the workshop, attendees will have gained practical experience in performing time series analysis using MicroPython. They will be equipped with the knowledge and tools needed to develop their own time series analysis models using MicroPython and will have a solid understanding of the benefits and limitations of using MicroPython for time series analysis on microcontrollers.
+
+This workshop is suitable for anyone interested in time series analysis, microcontrollers, and MicroPython, from beginners to experienced practitioners. Attendees are expected to have a basic understanding of Python programming and data analysis, but no prior experience with time series analysis or microcontrollers is necessary.</description>
+                <logo>/media/pycon-pt-2023/submissions/KDT9ZL/Micropython-350x376_VArIYFd.jpg</logo>
+                <persons>
+                    <person id='584'>Olaniyan Adewale</person><person id='585'>Sulaiman Adisa Adigun</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='7efe11f1-1d01-5f37-a457-c38aa9b07c0a' id='599'>
+                <date>2023-09-09T14:30:00+01:00</date>
+                <start>14:30</start>
+                <duration>02:00</duration>
+                <room>Workshop I</room>
+                <slug>pycon-pt-2023-599-from-websites-to-datasets-unleashing-the-power-of-data-harvesting-with-python</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/M88V9R/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>From WebSites to Datasets: Unleashing the Power of Data Harvesting with Python</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>Learn how to develop multiparadigm web scrapers and crawlers leveraging an async model. Discover how to extract valuable information from websites using Python&apos;s environment and powerful tools. Master the art of collecting data at scale. Join this exhilarating journey of web exploration.</abstract>
+                <description>We will enbark in a captivating journey of extracting and parsing data from the vast online universe. I&apos;ll be talking a bit about web app reverse engineering for understanding a bit of how the web is modelled and how we think of it when building scrapers. Present some open source libraries that will help us get to our solution. Will introduce some OOP design concepts when building our Scraper and Crawler and how we can publish our first open source PyPi python library. Then finalise with some insights about customisation and efficiency in terms of execution speed and memory.</description>
+                <logo>/media/pycon-pt-2023/submissions/M88V9R/session_img_6FY3hXG.png</logo>
+                <persons>
+                    <person id='608'>Gon&#231;alo Marques</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='558545a6-b040-5338-869d-60c9a03ec2d2' id='650'>
+                <date>2023-09-09T17:00:00+01:00</date>
+                <start>17:00</start>
+                <duration>02:00</duration>
+                <room>Workshop I</room>
+                <slug>pycon-pt-2023-650-boosting-up-your-tests-property-based-testing-workshop</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/YDTNVL/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Boosting up your tests: property-based testing workshop</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>Have you introduced bugs to your project when refactoring or making a &#8220;small&#8221; change to your code? Do you want to make your code base bulletproof? Learn how and when to write property-based tests, with little effort but significant benefits.</abstract>
+                <description>One of the main premises when writing production-ready code is to make it as reliable as possible, therefore we can implement new features, refactor and make changes to our code with confidence. One tool that helps us achieve this goal is testing. 
+
+What is the first thing that comes to mind when talking about testing? Probably the test pyramid: unit, integrations, and E2E tests, and often that is enough when implementing tests in our codebase. But, what if you could boost all of them with little effort and make your codebase even more reliable?
+It&apos;s almost impossible to capture all of the edge cases that can occur in our application and reflect those cases as tests. In this workshop, we&#8217;ll use the Hypothesis Python testing library to help us generate random data and run multiple test cases with arbitrary inputs in order to increase our trust and coverage in our test suite. So we can break&#8230; sorry, refactor our code with confidence :).
+After this workshop, you&#8217;ll be able to start including property-based tests in your project, and you&#8217;ll also be able to identify the main cases where property testing makes sense (Spoiler alert! Not all tests should be implemented with a property-based approach)</description>
+                <logo></logo>
+                <persons>
+                    <person id='332'>Felix Mino</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            
+        </room>
+        <room name='Workshop II'>
+            <event guid='b68750e8-91ea-5fbb-a75c-37a58a69ea4c' id='553'>
+                <date>2023-09-09T09:00:00+01:00</date>
+                <start>09:00</start>
+                <duration>02:00</duration>
+                <room>Workshop II</room>
+                <slug>pycon-pt-2023-553-django-and-reportlab-create-pdf-like-a-boss-</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/33WFNT/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Django and ReportLab: create PDF Like A Boss .</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>PDF document guarantees 100% delivery of content to the customers as planned.
+The workshop shows how to use the REPORTLab library to create PDF generator, based on Django Models and Templates to allow complex document layout for auto-generated catalogs or reports in PDF format.</abstract>
+                <description>In this talk, I discuss my experience of developing the PDF generator last 8 years:
+
+1. The current state of python PDF generators. 
+PDF ensures the document&apos;s appearance remains consistent across different devices and platforms. When working with large amounts of data it is easy to automate data conversion using the Python PDF generator.
+
+2.Why we choose a ReportLab for our PDF generator.
+It depends on complexity of the document in the end.
+- We need table of contents, grouping of information, term tables.
+- We use complex data visualization layouts.
+- We use media and Special fonts in the document.
+- We want to mix multiple documents into one document.
+This all offers only ReportLab package.
+_________________________________________________
+After intro:
+_________________________________________________
+
+3. Create some Django Models to setup Generator Possibilities.
+
+4. Create some Templates for Objects
+
+5. Render to PDF with ReportLab and &quot;Platipus&quot;
+
+6. The owerview a result and discuss the potential obstacles in using PDF generators for business and provides tips to avoid them.
+
+7. Q&amp;A</description>
+                <logo>/media/pycon-pt-2023/submissions/33WFNT/a_laptop_screen_with_Django_interface_using_REPORTLab_t_HZQQBtT.jpg</logo>
+                <persons>
+                    <person id='285'>Maxim Danilov</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='ae95027e-b563-54a6-a8b6-7aab6a9a013a' id='636'>
+                <date>2023-09-09T11:30:00+01:00</date>
+                <start>11:30</start>
+                <duration>02:00</duration>
+                <room>Workshop II</room>
+                <slug>pycon-pt-2023-636-learn-flask-the-hard-way-introduce-architecture-patterns</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/LA7CBV/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Learn Flask the hard way: Introduce Architecture Patterns</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>Level up your Flask skills in this workshop! Learn Flask the hard way by diving into architectural patterns. Discover how to build scalable and maintainable applications using Repository, Unit of Work, and Use Cases. Don&apos;t miss this opportunity to become a Flask pro!</abstract>
+                <description>Flask is a popular and flexible web framework for Python, but building scalable and maintainable Flask applications can be challenging without a solid understanding of architecture patterns. 
+This workshop aims to provide participants with a detailed explanation of applying architecture patterns to Flask projects. By exploring various design principles and best practices, attendees will learn how to structure their Flask applications for improved scalability, modularity, and maintainability.
+
+Focusing on the Repository, Unit of Work, and Use Cases patterns, attendees will gain experience in applying these patterns to enhance code organization, maintainability, and testability. All these layers are wired together using Dependency Injection, which is yet another powerful tool to use in your applications.
+
+The application we are going to build is stored in: https://github.com/ShahriyarR/hexagonal-flask-blog-tutorial 
+
+We are going to completely rewrite the official Blog application described in [Flask documentation](https://flask.palletsprojects.com/en/2.3.x/tutorial/blog/) by applying architecture patterns.
+
+All abstraction layers are covered by unit and integration tests, which will give the attendees a detailed view of why it is important to structure the application using architecture patterns.</description>
+                <logo></logo>
+                <persons>
+                    <person id='637'>Shahriyar Rzayev</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='98ec8c32-e374-5481-8bc2-c7b1d2da73ef' id='698'>
+                <date>2023-09-09T14:30:00+01:00</date>
+                <start>14:30</start>
+                <duration>02:00</duration>
+                <room>Workshop II</room>
+                <slug>pycon-pt-2023-698-data-storytelling-using-python</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/DX3MTL/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Data Storytelling using Python</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>In this captivating workshop, participants will embark on an exciting journey to explore the art of data storytelling with the power of Python. Led by Jayesh Kothari, a Python enthusiast and data storytelling expert, this session promises to be both informative and engaging.</abstract>
+                <description>Through hands-on exercises and real-world examples, attendees will learn how to leverage Python&apos;s data manipulation and visualization libraries to craft compelling narratives from raw data. Participants will discover the secrets of weaving data into impactful stories, enabling them to communicate complex insights effectively.
+
+Whether you&apos;re a seasoned Python developer or a data enthusiast, this workshop offers valuable skills to enhance your storytelling prowess and leave a lasting impression on your audience. Join us for an enlightening experience at the Python Conference in Portugal.</description>
+                <logo></logo>
+                <persons>
+                    <person id='678'>Jayesh Kothari</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='27ed0601-7914-5190-bd6e-ea54e1853176' id='542'>
+                <date>2023-09-09T17:00:00+01:00</date>
+                <start>17:00</start>
+                <duration>02:00</duration>
+                <room>Workshop II</room>
+                <slug>pycon-pt-2023-542-mastering-comprehensions</slug>
+                <url>https://pretalx.evolutio.pt//pycon-pt-2023/talk/FFD9RU/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Mastering comprehensions</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>Practice how to write elegant comprehensions to make your code more idiomatic and easier to follow. With dozens of exercises, this tutorial will be perfect for you to finally get to grips with:
+
+ &#8226; list comprehensions;
+ &#8226; dictionary comprehensions;
+ &#8226; set comprehensions; and
+ &#8226; generator expressions.
+
+Among other things, you will learn to identify situations where you should be using these powerful and elegant Python constructs. You will also learn how to use them to level up your Python skills.
+
+By the end of the tutorial, you will learn all of the ins and outs of comprehensions, their use cases, best practices and things to avoid, and some advanced usage patterns as well!</abstract>
+                <description>The tutorial will start by presenting the simple anatomy of a list comprehension with a single looping construct and a single (optional) filter. We will motivate this anatomy from the point of view of a data transformation, which is an analogy that is well-received by audiences of all technical backgrounds and levels.
+
+Then, we will move on to solving exercises about common usage patterns, and then we will extend the idea of a list comprehension to set/dict comprehensions and generator expressions.
+
+Finally, we will deconstruct more advanced use cases, so that participants gain a clear understanding of all types of comprehensions.</description>
+                <logo></logo>
+                <persons>
+                    <person id='317'>Rodrigo Gir&#227;o Serr&#227;o</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            
+        </room>
+        
+    </day>
+    
+</schedule>

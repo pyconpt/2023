@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-pt-2023//DZDVGN
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-M88V9R@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230909T143000
+DTEND;TZID=WET:20230909T163000
+DESCRIPTION:Learn how to develop multiparadigm web scrapers and crawlers le
+ veraging an async model. Discover how to extract valuable information from
+  websites using Python's environment and powerful tools. Master the art of
+  collecting data at scale. Join this exhilarating journey of web explorati
+ on.
+DTSTAMP:20231211T151338Z
+LOCATION:Workshop I
+SUMMARY:From WebSites to Datasets: Unleashing the Power of Data Harvesting 
+ with Python - Gonçalo Marques
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/M88V9R/
+END:VEVENT
+END:VCALENDAR

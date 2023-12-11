@@ -1,0 +1,230 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from pretalx.evolutio.pt/pycon-pt-2023/talk/GBYCCH/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 15:14:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <title>CPython Survival Kit: basic C concepts to understand Python better ::  PyCon Portugal 2023 :: pretalx</title>
+        <meta name="title" content="CPython Survival Kit: basic C concepts to understand Python better  - PyCon Portugal 2023 pretalx">
+        <meta name="description" content="Everyone is happy with what Python 3.11 and the future 3.12 is bringing to the Python ecosystem, but in case you haven&#x27;t heard already of the improvements, most of them were made at the core of CPython to affect the interpreter.
+
+It is very probable that many people out there, have ideas that can help Python to be better, but for that, you would need to dive into the CPython code at some point, and possibly perform modifications in C.
+
+A subset of the API is indeed written in Python, but most of the other crucial core components are written in C - and with that, many people might not know C so well.
+The main building block of the internals, the PyObject, is a particular C-structure with many details and components that are worth studying, similarly, basic functions Python programmers use intensively like the print function, lists, dictionaries, etc - have C at their core.
+
+The main objective of this talk is to motivate people to start being involved in low-level languages that make Python better, mainly not being afraid into picking up a bit of C knowledge to continue improving the core of CPython, and the many solutions out there that allow you to optimize the code, bindings, and why not, the creation of the &#x27;next&#x27; blazing fast and performant module that will improve many peoples lives.
+
+After this talk, you will be able to modify Python&#x27;s functionality from its core, add new API, create your new C-based Python modules, and more.
+Some ideas of C would be good, but not necessary.
+
+Outline:
+- Highlights of new things in 3.11 and 3.12
+- How Python works internally?
++ CPython introduction and repo overview
++ PyObject description
++ Explain how data types works (lists, sets, ...)
+- Super brief introduction to the most important features of C to understand CPython
+- Creating a C-based extension for Python
+- Modifications to the common python functionality.">
+        <meta name="application-name" content="pretalx">
+        <meta name="generator" content="pretalx">
+        <meta name="keywords" content="PyCon Portugal 2023, pycon-pt-2023, 2023, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+        
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#3aa57c">
+        <meta name="HandheldFriendly" content="True"/>
+        <meta property="thumbnail" content="logo-pycon2023-01_siVNJKr.png">
+    <meta property="og:image" content="logo-pycon2023-01_siVNJKr.png">
+        <meta property="og:title" content="CPython Survival Kit: basic C concepts to understand Python better PyCon Portugal 2023">
+        <meta property="og:description" content="Everyone is happy with what Python 3.11 and the future 3.12 is bringing to the Python ecosystem, but in case you haven&#x27;t heard already of the improvements, most of them were made at the core of CPython to affect the interpreter.
+
+It is very probable that many people out there, have ideas that can help Python to be better, but for that, you would need to dive into the CPython code at some point, and possibly perform modifications in C.
+
+A subset of the API is indeed written in Python, but most of the other crucial core components are written in C - and with that, many people might not know C so well.
+The main building block of the internals, the PyObject, is a particular C-structure with many details and components that are worth studying, similarly, basic functions Python programmers use intensively like the print function, lists, dictionaries, etc - have C at their core.
+
+The main objective of this talk is to motivate people to start being involved in low-level languages that make Python better, mainly not being afraid into picking up a bit of C knowledge to continue improving the core of CPython, and the many solutions out there that allow you to optimize the code, bindings, and why not, the creation of the &#x27;next&#x27; blazing fast and performant module that will improve many peoples lives.
+
+After this talk, you will be able to modify Python&#x27;s functionality from its core, add new API, create your new C-based Python modules, and more.
+Some ideas of C would be good, but not necessary.
+
+Outline:
+- Highlights of new things in 3.11 and 3.12
+- How Python works internally?
++ CPython introduction and repo overview
++ PyObject description
++ Explain how data types works (lists, sets, ...)
+- Super brief introduction to the most important features of C to understand CPython
+- Creating a C-based extension for Python
+- Modifications to the common python functionality.">
+        <meta property="og:url" content="index.html">
+        <meta property="twitter:card" content="summary">
+
+        
+            <link rel="icon" type="image/png" sizes="32x32" href="../../../static/common/img/favicon-32x32.38c2aab28d3a.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="../../../static/common/img/favicon-16x16.02f8a56e1af3.png">
+        
+
+        <link rel="stylesheet" type="text/css" href="../../../static/common/scss/uncompressed.cabbf3759e3e.css" />
+        
+            <link rel="stylesheet" href="../../../static/CACHE/css/output.e2c9f5fa2f21.css" type="text/css">
+        
+        
+        <script src="../../../static/CACHE/js/output.079684506270.js" defer></script>
+        
+    
+    <link rel="alternate" type="application/json" title="PyCon Portugal 2023 API" href="https://pretalx.evolutio.pt/api/events/pycon-pt-2023/talks/GBYCCH" />
+
+    
+    
+
+    </head>
+    <body data-datetimeformat="YYYY-MM-DD HH:mm:ss" data-dateformat="YYYY-MM-DD" data-datetimelocale="pt-PT">
+        <div id="top-bg" class="header bg-primary">
+            
+                <img src="https://pretalx.evolutio.pt/media/pycon-pt-2023/img/Screenshot_2023-04-11_at_12.04.53_FkhcUZ3.png" id="header-image">
+            
+        </div>
+        
+        <div class="container" id="main-container">
+            <header>
+                <h1>
+                    <a href="../../schedule/index.html">
+                        
+                            <img src="https://pretalx.evolutio.pt/media/pycon-pt-2023/img/logo-pycon2023-01_siVNJKr.png" id="event-logo" alt="The event's logo">
+                        
+                    </a>
+                </h1>
+                <div class="d-flex" id="header-row">
+                    
+                    
+                        <a href="../../login/index.html">login</a>
+                    
+                </div>
+            </header>
+            <div class="card" id="main-card">
+                <main>
+                    
+
+                    
+    
+    
+    <article>
+        
+        <h3 class="talk-title">
+            <div class="heading-with-buttons">
+                CPython Survival Kit: basic C concepts to understand Python better
+                <div class="buttons" id="talk-buttons">
+                    
+                        <a class="btn btn-outline-primary" href="../pycon-pt-2023-GBYCCH.ics">
+                            <i class="fa fa-calendar"></i> .ical
+                        </a>
+                    
+                    
+                        <a href="feedback/index.html"
+                           class="btn btn-success">
+                            <i class="fa fa-comments"></i> 
+                        </a>
+                    
+                    
+                </div>
+            </div>
+            <small>
+                
+                    09-08, 09:15–09:50 (Europe/Lisbon), Auditorium 
+                
+                
+                
+            </small>
+        </h3>
+        <div class="talk row">
+            <div class="talk-content">
+                
+                
+                
+                <section class="abstract">
+                    <p>The newest Python versions are including many changes that improve the performance and functionality, but what's going on under the hood? In this talk, you will learn the necessary topics  to start discovering how CPython internals work, and how to create a new module based in C or C++.</p>
+                </section>
+                
+                    <hr />
+                
+                <section class="description">
+                    <p>Everyone is happy with what Python 3.11 and the future 3.12 is bringing to the Python ecosystem, but in case you haven't heard already of the improvements, most of them were made at the core of CPython to affect the interpreter.</p>
+<p>It is very probable that many people out there, have ideas that can help Python to be better, but for that, you would need to dive into the CPython code at some point, and possibly perform modifications in C.</p>
+<p>A subset of the API is indeed written in Python, but most of the other crucial core components are written in C - and with that, many people might not know C so well.<br>
+The main building block of the internals, the PyObject, is a particular C-structure with many details and components that are worth studying, similarly, basic functions Python programmers use intensively like the print function, lists, dictionaries, etc - have C at their core.</p>
+<p>The main objective of this talk is to motivate people to start being involved in low-level languages that make Python better, mainly not being afraid into picking up a bit of C knowledge to continue improving the core of CPython, and the many solutions out there that allow you to optimize the code, bindings, and why not, the creation of the 'next' blazing fast and performant module that will improve many peoples lives.</p>
+<p>After this talk, you will be able to modify Python's functionality from its core, add new API, create your new C-based Python modules, and more.<br>
+Some ideas of C would be good, but not necessary.</p>
+<p>Outline:<br>
+- Highlights of new things in 3.11 and 3.12<br>
+- How Python works internally?<br>
++ CPython introduction and repo overview<br>
++ PyObject description<br>
++ Explain how data types works (lists, sets, ...)<br>
+- Super brief introduction to the most important features of C to understand CPython<br>
+- Creating a C-based extension for Python<br>
+- Modifications to the common python functionality.</p>
+                </section>
+                
+            </section>
+            
+            <section>
+                
+            </section>
+        </div>
+    </div>
+    
+        
+            <div class="pretalx-session">
+                <div class="pretalx-session-time-box avatar">
+                    <a href="../../speaker/8DMJYJ/index.html">
+                        <div class="avatar-wrapper">
+                            
+                                <img src="https://pretalx.evolutio.pt/media/avatars/kYnHLWgc_400x400_lv7vu5A.jpg">
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="pretalx-session-info">
+                    <div class="title">
+                        <a href="../../speaker/8DMJYJ/index.html">Cristián Maureira-Fredes</a>
+                    </div>
+                    <div class="abstract"><p>Hello! My name is Cristián and I currently work as Sr. R&amp;D Manager at The Qt Company. One of my main responsibilities is the Qt for Python project (PySide/Shiboken), which is the set of official bindings of the Qt Framework to Python. In my day to day, I work with C++, Python and CPython, which are usually the topics of my talks. In my spare time, I like to collaborate with Open Source communities, mainly Python such as Python en Español <a href="https://hablemospython.dev/" rel="nofollow" target="_blank">https://hablemospython.dev</a>, Python Chile <a href="https://pythonchile.cl/" rel="nofollow" target="_blank">https://pythonchile.cl</a>, Python España <a href="https://es.python.org/" rel="nofollow" target="_blank">https://es.python.org</a>, and conferences like PyConUS and Europython, and much more!</p></div>
+                    
+                </div>
+            </div>
+        
+    
+    </article>
+
+
+                </main>
+            </div>
+            <footer>
+                
+                
+
+
+    powered by <a href="https://pretalx.com/" target="_blank" rel="noopener">pretalx</a>
+
+
+                
+                    &middot;
+                    <a href="mailto:content@pycon.pt">Contact us</a>
+                
+                
+                
+            </footer>
+        </div>
+    </body>
+
+<!-- Mirrored from pretalx.evolutio.pt/pycon-pt-2023/talk/GBYCCH/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 15:14:29 GMT -->
+</html>

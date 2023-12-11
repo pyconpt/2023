@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//BQVEPV
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-BQVEPV@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T115500
+DTEND;TZID=WET:20230907T123000
+DESCRIPTION:Data science projects are often characterized by visualizations
+  which \nenhances the creative storytelling process and allow us to derive
+  actionable \ninsights from data. This is enabled through the use of good 
+ visualization tools/libraries which enable us to present data in a manner 
+ that is interactive and is easily understandable. Often\, the action in it
+ self tends to be more significantly remembered by the audience in comparis
+ on to static insights. This inturn \ncalls for the need for using interact
+ ive dashboards as a way to present the data.  \nCurrently\, the plethora o
+ f tools available for this purpose often makes it a tedious task to decide
+  which is the best fit. Often the choice oscillates between learning to us
+ e explicit dashboarding tools or using existing python libraries which may
+  allow visualizations but not necessarily dashboarding. \nApart from the c
+ ost associated with some of these explicit dashboarding tools\, there migh
+ t also be a learning curve associated with it.  \nTherefore\, in this talk
+ \, I would like to take you through a simple pythonic approach of building
+  dainty dashboards using Plotly Dash in python to ease the process of data
+  exploration and allow for interactive visualizations that enable creative
+  storytelling.
+DTSTAMP:20231211T151446Z
+LOCATION:Auditorium
+SUMMARY:Building Dainty Dashboards in Plotly Dash for health data science. 
+ - Avneet Kaur
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/BQVEPV/
+END:VEVENT
+END:VCALENDAR

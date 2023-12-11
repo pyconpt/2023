@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//L9FNWG
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-L9FNWG@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T173000
+DTEND;TZID=WET:20230907T180500
+DESCRIPTION:"Unveiling Perspectives: The Art of Data Insight Communication 
+ in the Data-Driven Projects" is an engaging presentation that emphasizes t
+ he criticality of effectively communicating findings and insights in the f
+ ield of Data Science. Often overlooked\, the final stage of a data-driven 
+ project involves presenting results to stakeholders. This talk sheds light
+  on the importance of this stage and explores the art of presenting findin
+ gs\, storytelling\, and employing interactive methods to convey complex in
+ formation in an intuitive manner. By leveraging powerful Python tools such
+  as PyShiny\, FastAPI\, Streamlit\, Flask\, and ReactPy\, participants wil
+ l gain insights into how to effectively utilize these tools to enhance the
+ ir data analysis and ensure understandability and memorability. In additio
+ n\, the session will touch upon color science principles and other intrigu
+ ing elements. The speaker will showcase a real-life data-driven project an
+ d demonstrate their innovative solution for result communication\, providi
+ ng practical examples and valuable takeaways.
+DTSTAMP:20231211T151519Z
+LOCATION:Auditorium
+SUMMARY:Revealing Perspectives: The Art of Data Insight Communication in th
+ e Data-Driven Projects - Anastasiia Kostiv
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/L9FNWG/
+END:VEVENT
+END:VCALENDAR

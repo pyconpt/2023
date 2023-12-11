@@ -1,0 +1,227 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from pretalx.evolutio.pt/pycon-pt-2023/talk/SHF7YM/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 15:14:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <title>Building advanced back-office interfaces using Django &amp; HTMX ::  PyCon Portugal 2023 :: pretalx</title>
+        <meta name="title" content="Building advanced back-office interfaces using Django &amp; HTMX  - PyCon Portugal 2023 pretalx">
+        <meta name="description" content="Modern applications often necessitate a back-office interface to facilitate administrative tasks. While Django&#x27;s generic class-based views are valuable for fundamental CRUD operations, they may fall short when it comes to meeting specific UI/UX requirements.
+These views, while reliable for CRUD tasks, tend to lack interactivity due to the absence of JavaScript and their tendency to refresh the entire page upon use.
+Traditionally, the go-to solution has been to construct the interface with a frontend framework, but this approach can be resource-intensive and time-consuming.
+Now, with the emergence of lightweight frameworks like HTMX and AlpineJS, it&#x27;s possible to introduce interactivity into your application with minimal JavaScript or reliance on dedicated frontend frameworks. This approach allows you to maintain the interface layout within Django templates and keep the application state on the server.
+This presentation explores various use cases for common development patterns in CRUD interfaces and the management of extensive Django models. It places a special emphasis on custom generic class-based views and how to seamlessly integrate them with HTMX to deliver a frontend-like user experience.
+
+Key Topics Covered:
+* Leveraging Django&#x27;s generic class-based views for CRUD functionality.
+* Evaluating Formsets and alternative options.
+* Comparing HTMX &amp; HATEOAS to Frontend &amp; REST approaches.
+* Implementing CRUD operations within a Single View: CreateUpdateDeleteView.
+* Achieving inline object manipulation without relying on formsets.
+* Handling complex models with multi-step processes using WizardView.
+* Presenting form data in read-only mode via the form layout with ReadOnlyFormView.
+* Delving into advanced, out-of-scope examples, including Sortable UIs and WebComponents.
+* Exploring the possibilities of integrating HTMX into the Django Admin to transform it into a frontend-like experience.
+
+This presentation aims to shed light on how to enhance your Django-based applications with a more interactive and efficient administrative interface, all while minimizing the need for extensive frontend development.">
+        <meta name="application-name" content="pretalx">
+        <meta name="generator" content="pretalx">
+        <meta name="keywords" content="PyCon Portugal 2023, pycon-pt-2023, 2023, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+        
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#3aa57c">
+        <meta name="HandheldFriendly" content="True"/>
+        <meta property="thumbnail" content="logo-pycon2023-01_siVNJKr.png">
+    <meta property="og:image" content="logo-pycon2023-01_siVNJKr.png">
+        <meta property="og:title" content="Building advanced back-office interfaces using Django &amp; HTMX PyCon Portugal 2023">
+        <meta property="og:description" content="Modern applications often necessitate a back-office interface to facilitate administrative tasks. While Django&#x27;s generic class-based views are valuable for fundamental CRUD operations, they may fall short when it comes to meeting specific UI/UX requirements.
+These views, while reliable for CRUD tasks, tend to lack interactivity due to the absence of JavaScript and their tendency to refresh the entire page upon use.
+Traditionally, the go-to solution has been to construct the interface with a frontend framework, but this approach can be resource-intensive and time-consuming.
+Now, with the emergence of lightweight frameworks like HTMX and AlpineJS, it&#x27;s possible to introduce interactivity into your application with minimal JavaScript or reliance on dedicated frontend frameworks. This approach allows you to maintain the interface layout within Django templates and keep the application state on the server.
+This presentation explores various use cases for common development patterns in CRUD interfaces and the management of extensive Django models. It places a special emphasis on custom generic class-based views and how to seamlessly integrate them with HTMX to deliver a frontend-like user experience.
+
+Key Topics Covered:
+* Leveraging Django&#x27;s generic class-based views for CRUD functionality.
+* Evaluating Formsets and alternative options.
+* Comparing HTMX &amp; HATEOAS to Frontend &amp; REST approaches.
+* Implementing CRUD operations within a Single View: CreateUpdateDeleteView.
+* Achieving inline object manipulation without relying on formsets.
+* Handling complex models with multi-step processes using WizardView.
+* Presenting form data in read-only mode via the form layout with ReadOnlyFormView.
+* Delving into advanced, out-of-scope examples, including Sortable UIs and WebComponents.
+* Exploring the possibilities of integrating HTMX into the Django Admin to transform it into a frontend-like experience.
+
+This presentation aims to shed light on how to enhance your Django-based applications with a more interactive and efficient administrative interface, all while minimizing the need for extensive frontend development.">
+        <meta property="og:url" content="index.html">
+        <meta property="twitter:card" content="summary">
+
+        
+            <link rel="icon" type="image/png" sizes="32x32" href="../../../static/common/img/favicon-32x32.38c2aab28d3a.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="../../../static/common/img/favicon-16x16.02f8a56e1af3.png">
+        
+
+        <link rel="stylesheet" type="text/css" href="../../../static/common/scss/uncompressed.cabbf3759e3e.css" />
+        
+            <link rel="stylesheet" href="../../../static/CACHE/css/output.e2c9f5fa2f21.css" type="text/css">
+        
+        
+        <script src="../../../static/CACHE/js/output.079684506270.js" defer></script>
+        
+    
+    <link rel="alternate" type="application/json" title="PyCon Portugal 2023 API" href="https://pretalx.evolutio.pt/api/events/pycon-pt-2023/talks/SHF7YM" />
+
+    
+    
+
+    </head>
+    <body data-datetimeformat="YYYY-MM-DD HH:mm:ss" data-dateformat="YYYY-MM-DD" data-datetimelocale="pt-PT">
+        <div id="top-bg" class="header bg-primary">
+            
+                <img src="https://pretalx.evolutio.pt/media/pycon-pt-2023/img/Screenshot_2023-04-11_at_12.04.53_FkhcUZ3.png" id="header-image">
+            
+        </div>
+        
+        <div class="container" id="main-container">
+            <header>
+                <h1>
+                    <a href="../../schedule/index.html">
+                        
+                            <img src="https://pretalx.evolutio.pt/media/pycon-pt-2023/img/logo-pycon2023-01_siVNJKr.png" id="event-logo" alt="The event's logo">
+                        
+                    </a>
+                </h1>
+                <div class="d-flex" id="header-row">
+                    
+                    
+                        <a href="../../login/index.html">login</a>
+                    
+                </div>
+            </header>
+            <div class="card" id="main-card">
+                <main>
+                    
+
+                    
+    
+    
+    <article>
+        
+        <h3 class="talk-title">
+            <div class="heading-with-buttons">
+                Building advanced back-office interfaces using Django &amp; HTMX
+                <div class="buttons" id="talk-buttons">
+                    
+                        <a class="btn btn-outline-primary" href="../pycon-pt-2023-SHF7YM.ics">
+                            <i class="fa fa-calendar"></i> .ical
+                        </a>
+                    
+                    
+                        <a href="feedback/index.html"
+                           class="btn btn-success">
+                            <i class="fa fa-comments"></i> 
+                        </a>
+                    
+                    
+                </div>
+            </div>
+            <small>
+                
+                    09-08, 16:20–16:55 (Europe/Lisbon), Auditorium 
+                
+                
+                
+            </small>
+        </h3>
+        <div class="talk row">
+            <div class="talk-content">
+                
+                
+                
+                <section class="abstract">
+                    <p>Explore a pragmatic approach to enhancing Django's back-office interfaces. Delve into the practical integration of lightweight frameworks like HTMX and AlpineJS to introduce interactivity with minimal JavaScript. This talk focuses on custom generic class-based views, offering insights into CRUD operations, formsets, and advanced techniques for managing Django models. Join me for a comprehensive overview of these techniques, from read-only forms to patching HTMX into the Django Admin, as we redefine Django development practices.</p>
+                </section>
+                
+                    <hr />
+                
+                <section class="description">
+                    <p>Modern applications often necessitate a back-office interface to facilitate administrative tasks. While Django's generic class-based views are valuable for fundamental CRUD operations, they may fall short when it comes to meeting specific UI/UX requirements.<br>
+These views, while reliable for CRUD tasks, tend to lack interactivity due to the absence of JavaScript and their tendency to refresh the entire page upon use.<br>
+Traditionally, the go-to solution has been to construct the interface with a frontend framework, but this approach can be resource-intensive and time-consuming.<br>
+Now, with the emergence of lightweight frameworks like HTMX and AlpineJS, it's possible to introduce interactivity into your application with minimal JavaScript or reliance on dedicated frontend frameworks. This approach allows you to maintain the interface layout within Django templates and keep the application state on the server.<br>
+This presentation explores various use cases for common development patterns in CRUD interfaces and the management of extensive Django models. It places a special emphasis on custom generic class-based views and how to seamlessly integrate them with HTMX to deliver a frontend-like user experience.</p>
+<p>Key Topics Covered:<br>
+* Leveraging Django's generic class-based views for CRUD functionality.<br>
+* Evaluating Formsets and alternative options.<br>
+* Comparing HTMX &amp; HATEOAS to Frontend &amp; REST approaches.<br>
+* Implementing CRUD operations within a Single View: CreateUpdateDeleteView.<br>
+* Achieving inline object manipulation without relying on formsets.<br>
+* Handling complex models with multi-step processes using WizardView.<br>
+* Presenting form data in read-only mode via the form layout with ReadOnlyFormView.<br>
+* Delving into advanced, out-of-scope examples, including Sortable UIs and WebComponents.<br>
+* Exploring the possibilities of integrating HTMX into the Django Admin to transform it into a frontend-like experience.</p>
+<p>This presentation aims to shed light on how to enhance your Django-based applications with a more interactive and efficient administrative interface, all while minimizing the need for extensive frontend development.</p>
+                </section>
+                
+            </section>
+            
+            <section>
+                
+            </section>
+        </div>
+    </div>
+    
+        
+            <div class="pretalx-session">
+                <div class="pretalx-session-time-box avatar">
+                    <a href="../../speaker/A3HDM9/index.html">
+                        <div class="avatar-wrapper">
+                            
+                                <img src="https://pretalx.evolutio.pt/media/avatars/IMG_9559_7yasCpc.jpeg">
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="pretalx-session-info">
+                    <div class="title">
+                        <a href="../../speaker/A3HDM9/index.html">Lucas Pires</a>
+                    </div>
+                    <div class="abstract"><p>Originally from Porto, Portugal, and holding an Msc. in Networks &amp; Computer Engineering from the University of Porto, I've passionately pursued a career as a versatile freelancer, specializing in the development and maintenance of websites, back-end systems, and mobile applications for a diverse range of small companies. My skill set encompasses a variety of technologies, including PHP, NodeJS, Flutter, Ionic, HTMX, and Django.<br>
+Currently, I am fully committed to my role at Evolutio, where I lead the development of comprehensive applications for an array of clients from various sectors. My projects have ranged from creating housing market statistics platforms to crafting CMS applications for housing news and events management, utilizing a combination of Django, SvelteKit, and HTMX.<br>
+In my spare time, I enjoy sharing my knowledge through Full-stack Web Development courses, primarily aimed at university students. I am continually expanding my knowledge base, diving deep into topics such as DevOps tools and exploring the ever-evolving landscape of frontend frameworks, with a particular focus on SvelteKit.<br>
+When I'm not immersed in code, you can find me enjoying my other passions, including retro video games, fine-tuning my music mixing skills, and exploring the wonders of our world through travel.</p></div>
+                    
+                </div>
+            </div>
+        
+    
+    </article>
+
+
+                </main>
+            </div>
+            <footer>
+                
+                
+
+
+    powered by <a href="https://pretalx.com/" target="_blank" rel="noopener">pretalx</a>
+
+
+                
+                    &middot;
+                    <a href="mailto:content@pycon.pt">Contact us</a>
+                
+                
+                
+            </footer>
+        </div>
+    </body>
+
+<!-- Mirrored from pretalx.evolutio.pt/pycon-pt-2023/talk/SHF7YM/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 15:14:33 GMT -->
+</html>

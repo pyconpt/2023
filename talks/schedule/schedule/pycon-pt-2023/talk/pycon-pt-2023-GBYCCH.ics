@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//GBYCCH
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-GBYCCH@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230908T091500
+DTEND;TZID=WET:20230908T095000
+DESCRIPTION:The newest Python versions are including many changes that impr
+ ove the performance and functionality\, but what's going on under the hood
+ ? In this talk\, you will learn the necessary topics  to start discovering
+  how CPython internals work\, and how to create a new module based in C or
+  C++.
+DTSTAMP:20231211T151428Z
+LOCATION:Auditorium
+SUMMARY:CPython Survival Kit: basic C concepts to understand Python better 
+ - Cristián Maureira-Fredes
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/GBYCCH/
+END:VEVENT
+END:VCALENDAR

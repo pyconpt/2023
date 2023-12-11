@@ -1,0 +1,201 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from pretalx.evolutio.pt/pycon-pt-2023/talk/FFD9RU/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 15:14:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <title>Mastering comprehensions ::  PyCon Portugal 2023 :: pretalx</title>
+        <meta name="title" content="Mastering comprehensions  - PyCon Portugal 2023 pretalx">
+        <meta name="description" content="The tutorial will start by presenting the simple anatomy of a list comprehension with a single looping construct and a single (optional) filter. We will motivate this anatomy from the point of view of a data transformation, which is an analogy that is well-received by audiences of all technical backgrounds and levels.
+
+Then, we will move on to solving exercises about common usage patterns, and then we will extend the idea of a list comprehension to set/dict comprehensions and generator expressions.
+
+Finally, we will deconstruct more advanced use cases, so that participants gain a clear understanding of all types of comprehensions.">
+        <meta name="application-name" content="pretalx">
+        <meta name="generator" content="pretalx">
+        <meta name="keywords" content="PyCon Portugal 2023, pycon-pt-2023, 2023, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+        
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#3aa57c">
+        <meta name="HandheldFriendly" content="True"/>
+        <meta property="thumbnail" content="logo-pycon2023-01_siVNJKr.png">
+    <meta property="og:image" content="logo-pycon2023-01_siVNJKr.png">
+        <meta property="og:title" content="Mastering comprehensions PyCon Portugal 2023">
+        <meta property="og:description" content="The tutorial will start by presenting the simple anatomy of a list comprehension with a single looping construct and a single (optional) filter. We will motivate this anatomy from the point of view of a data transformation, which is an analogy that is well-received by audiences of all technical backgrounds and levels.
+
+Then, we will move on to solving exercises about common usage patterns, and then we will extend the idea of a list comprehension to set/dict comprehensions and generator expressions.
+
+Finally, we will deconstruct more advanced use cases, so that participants gain a clear understanding of all types of comprehensions.">
+        <meta property="og:url" content="index.html">
+        <meta property="twitter:card" content="summary">
+
+        
+            <link rel="icon" type="image/png" sizes="32x32" href="../../../static/common/img/favicon-32x32.38c2aab28d3a.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="../../../static/common/img/favicon-16x16.02f8a56e1af3.png">
+        
+
+        <link rel="stylesheet" type="text/css" href="../../../static/common/scss/uncompressed.cabbf3759e3e.css" />
+        
+            <link rel="stylesheet" href="../../../static/CACHE/css/output.e2c9f5fa2f21.css" type="text/css">
+        
+        
+        <script src="../../../static/CACHE/js/output.079684506270.js" defer></script>
+        
+    
+    <link rel="alternate" type="application/json" title="PyCon Portugal 2023 API" href="https://pretalx.evolutio.pt/api/events/pycon-pt-2023/talks/FFD9RU" />
+
+    
+    
+
+    </head>
+    <body data-datetimeformat="YYYY-MM-DD HH:mm:ss" data-dateformat="YYYY-MM-DD" data-datetimelocale="pt-PT">
+        <div id="top-bg" class="header bg-primary">
+            
+                <img src="https://pretalx.evolutio.pt/media/pycon-pt-2023/img/Screenshot_2023-04-11_at_12.04.53_FkhcUZ3.png" id="header-image">
+            
+        </div>
+        
+        <div class="container" id="main-container">
+            <header>
+                <h1>
+                    <a href="../../schedule/index.html">
+                        
+                            <img src="https://pretalx.evolutio.pt/media/pycon-pt-2023/img/logo-pycon2023-01_siVNJKr.png" id="event-logo" alt="The event's logo">
+                        
+                    </a>
+                </h1>
+                <div class="d-flex" id="header-row">
+                    
+                    
+                        <a href="../../login/index.html">login</a>
+                    
+                </div>
+            </header>
+            <div class="card" id="main-card">
+                <main>
+                    
+
+                    
+    
+    
+    <article>
+        
+        <h3 class="talk-title">
+            <div class="heading-with-buttons">
+                Mastering comprehensions
+                <div class="buttons" id="talk-buttons">
+                    
+                        <a class="btn btn-outline-primary" href="../pycon-pt-2023-FFD9RU.ics">
+                            <i class="fa fa-calendar"></i> .ical
+                        </a>
+                    
+                    
+                        <a href="feedback/index.html"
+                           class="btn btn-success">
+                            <i class="fa fa-comments"></i> 
+                        </a>
+                    
+                    
+                </div>
+            </div>
+            <small>
+                
+                    09-09, 17:00–19:00 (Europe/Lisbon), Workshop II 
+                
+                
+                
+            </small>
+        </h3>
+        <div class="talk row">
+            <div class="talk-content">
+                
+                
+                
+                <section class="abstract">
+                    <p>Practice how to write elegant comprehensions to make your code more idiomatic and easier to follow. With dozens of exercises, this tutorial will be perfect for you to finally get to grips with:</p>
+<p>• list comprehensions;<br>
+ • dictionary comprehensions;<br>
+ • set comprehensions; and<br>
+ • generator expressions.</p>
+<p>Among other things, you will learn to identify situations where you should be using these powerful and elegant Python constructs. You will also learn how to use them to level up your Python skills.</p>
+<p>By the end of the tutorial, you will learn all of the ins and outs of comprehensions, their use cases, best practices and things to avoid, and some advanced usage patterns as well!</p>
+                </section>
+                
+                    <hr />
+                
+                <section class="description">
+                    <p>The tutorial will start by presenting the simple anatomy of a list comprehension with a single looping construct and a single (optional) filter. We will motivate this anatomy from the point of view of a data transformation, which is an analogy that is well-received by audiences of all technical backgrounds and levels.</p>
+<p>Then, we will move on to solving exercises about common usage patterns, and then we will extend the idea of a list comprehension to set/dict comprehensions and generator expressions.</p>
+<p>Finally, we will deconstruct more advanced use cases, so that participants gain a clear understanding of all types of comprehensions.</p>
+                </section>
+                
+            </section>
+            
+            <section>
+                
+            </section>
+        </div>
+    </div>
+    
+        
+            <div class="pretalx-session">
+                <div class="pretalx-session-time-box avatar">
+                    <a href="../../speaker/D33C79/index.html">
+                        <div class="avatar-wrapper">
+                            
+                                <img src="https://pretalx.evolutio.pt/media/avatars/rgs_square_NmywhS6.jpg">
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="pretalx-session-info">
+                    <div class="title">
+                        <a href="../../speaker/D33C79/index.html">Rodrigo Girão Serrão</a>
+                    </div>
+                    <div class="abstract"><p>Rodrigo has always been fascinated by problem solving and that is why he picked up programming – so that he could solve more problems. He also loves sharing knowledge, and that is why he spends so much time writing articles in his blog <a href="https://mathspp.com/blog" rel="nofollow" target="_blank">mathspp.com/blog</a>, writing on Twitter <a href="https://twitter.com/mathsppblog" rel="nofollow" target="_blank">@mathsppblog</a>, and giving workshops and courses. You can also find his past talks on <a href="https://github.com/mathspp/talks" rel="nofollow" target="_blank">github.com/mathspp/talks</a>.</p>
+<p>His main areas of scientific interest are mathematics (numerical analysis in particular) and programming in general (with a preference for the Python and APL languages), but Rodrigo also enjoys reading fantasy books, watching silly comedy movies and eating chocolate.</p></div>
+                    
+                        This speaker also appears in:
+                        <ul>
+                            
+                                <li>
+                                    <a href="../FMZMGP/index.html">Comprehending Comprehensions</a>
+                                </li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        
+    
+    </article>
+
+
+                </main>
+            </div>
+            <footer>
+                
+                
+
+
+    powered by <a href="https://pretalx.com/" target="_blank" rel="noopener">pretalx</a>
+
+
+                
+                    &middot;
+                    <a href="mailto:content@pycon.pt">Contact us</a>
+                
+                
+                
+            </footer>
+        </div>
+    </body>
+
+<!-- Mirrored from pretalx.evolutio.pt/pycon-pt-2023/talk/FFD9RU/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 15:14:51 GMT -->
+</html>

@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//FFD9RU
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-FFD9RU@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230909T170000
+DTEND;TZID=WET:20230909T190000
+DESCRIPTION:Practice how to write elegant comprehensions to make your code 
+ more idiomatic and easier to follow. With dozens of exercises\, this tutor
+ ial will be perfect for you to finally get to grips with:\n\n • list com
+ prehensions\;\n • dictionary comprehensions\;\n • set comprehensions\;
+  and\n • generator expressions.\n\nAmong other things\, you will learn t
+ o identify situations where you should be using these powerful and elegant
+  Python constructs. You will also learn how to use them to level up your P
+ ython skills.\n\nBy the end of the tutorial\, you will learn all of the in
+ s and outs of comprehensions\, their use cases\, best practices and things
+  to avoid\, and some advanced usage patterns as well!
+DTSTAMP:20231211T151450Z
+LOCATION:Workshop II
+SUMMARY:Mastering comprehensions - Rodrigo Girão Serrão
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/FFD9RU/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//STX8K3
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-STX8K3@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230909T090000
+DTEND;TZID=WET:20230909T110000
+DESCRIPTION:The human brain excels at finding patterns in visual representa
+ tions\, which is why data visualizations are essential to any analysis. Do
+ ne right\, they bridge the gap between those analyzing the data and those 
+ consuming the analysis. However\, learning to create impactful\, aesthetic
+ ally-pleasing visualizations can often be challenging. This session will e
+ quip you with the skills to make customized visualizations using Python.
+DTSTAMP:20231211T151525Z
+LOCATION:Workshop I
+SUMMARY:Beyond the Basics: Data Visualization in Python - Stefanie Molin
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/STX8K3/
+END:VEVENT
+END:VCALENDAR

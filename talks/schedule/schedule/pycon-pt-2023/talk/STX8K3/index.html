@@ -1,0 +1,215 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from pretalx.evolutio.pt/pycon-pt-2023/talk/STX8K3/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 15:15:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <title>Beyond the Basics: Data Visualization in Python ::  PyCon Portugal 2023 :: pretalx</title>
+        <meta name="title" content="Beyond the Basics: Data Visualization in Python  - PyCon Portugal 2023 pretalx">
+        <meta name="description" content="#### Section 1: Getting Started With Matplotlib
+While there are many plotting libraries to choose from, the prolific Matplotlib library is always a great place to start. Since various Python data science libraries utilize Matplotlib under the hood, familiarity with Matplotlib itself gives you the flexibility to fine tune the resulting visualizations (e.g., add annotations, animate, etc.). Moving beyond the default options, we will explore how to customize various aspects of our visualizations. Afterward, you will be able to generate plots using the Matplotlib API directly, as well as customize the plots that other libraries create for you.
+
+#### Section 2: Moving Beyond Static Visualizations
+While static visualizations are limited in how much information they can show, animations make it possible for our visualizations to tell a story through movement of the plot components (e.g., bars, points, lines), which can encode another dimension of the data. In this section, we will focus on creating animated visualizations before moving on to create interactive visualizations in the next section.
+
+#### Section 3: Building Interactive Visualizations for Data Exploration
+When exploring our data, interactive visualizations can provide the most value. Without having to create multiple iterations of the same plot, we can use mouse actions (e.g., click, hover, zoom, etc.) to explore different aspects and subsets of the data. In this section, we will learn how to use HoloViz to create interactive visualizations for exploring our data utilizing the Bokeh backend.
+
+---
+
+#### Target Audience
+This tutorial is for anyone with basic knowledge of Python and an interest in learning how to analyze data in Python. We will be working with Jupyter Notebooks, so attendees should familiarize themselves with the interface (i.e., know how to run/edit a cell) beforehand.
+
+#### Environment Setup
+Please set up your environments ahead of time by following the instructions [here](https://github.com/stefmolin/python-data-viz-workshop#setup-instructions).">
+        <meta name="application-name" content="pretalx">
+        <meta name="generator" content="pretalx">
+        <meta name="keywords" content="PyCon Portugal 2023, pycon-pt-2023, 2023, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+        
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#3aa57c">
+        <meta name="HandheldFriendly" content="True"/>
+        <meta property="thumbnail" content="logo-pycon2023-01_siVNJKr.png">
+    <meta property="og:image" content="logo-pycon2023-01_siVNJKr.png">
+        <meta property="og:title" content="Beyond the Basics: Data Visualization in Python PyCon Portugal 2023">
+        <meta property="og:description" content="#### Section 1: Getting Started With Matplotlib
+While there are many plotting libraries to choose from, the prolific Matplotlib library is always a great place to start. Since various Python data science libraries utilize Matplotlib under the hood, familiarity with Matplotlib itself gives you the flexibility to fine tune the resulting visualizations (e.g., add annotations, animate, etc.). Moving beyond the default options, we will explore how to customize various aspects of our visualizations. Afterward, you will be able to generate plots using the Matplotlib API directly, as well as customize the plots that other libraries create for you.
+
+#### Section 2: Moving Beyond Static Visualizations
+While static visualizations are limited in how much information they can show, animations make it possible for our visualizations to tell a story through movement of the plot components (e.g., bars, points, lines), which can encode another dimension of the data. In this section, we will focus on creating animated visualizations before moving on to create interactive visualizations in the next section.
+
+#### Section 3: Building Interactive Visualizations for Data Exploration
+When exploring our data, interactive visualizations can provide the most value. Without having to create multiple iterations of the same plot, we can use mouse actions (e.g., click, hover, zoom, etc.) to explore different aspects and subsets of the data. In this section, we will learn how to use HoloViz to create interactive visualizations for exploring our data utilizing the Bokeh backend.
+
+---
+
+#### Target Audience
+This tutorial is for anyone with basic knowledge of Python and an interest in learning how to analyze data in Python. We will be working with Jupyter Notebooks, so attendees should familiarize themselves with the interface (i.e., know how to run/edit a cell) beforehand.
+
+#### Environment Setup
+Please set up your environments ahead of time by following the instructions [here](https://github.com/stefmolin/python-data-viz-workshop#setup-instructions).">
+        <meta property="og:url" content="index.html">
+        <meta property="twitter:card" content="summary">
+
+        
+            <link rel="icon" type="image/png" sizes="32x32" href="../../../static/common/img/favicon-32x32.38c2aab28d3a.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="../../../static/common/img/favicon-16x16.02f8a56e1af3.png">
+        
+
+        <link rel="stylesheet" type="text/css" href="../../../static/common/scss/uncompressed.cabbf3759e3e.css" />
+        
+            <link rel="stylesheet" href="../../../static/CACHE/css/output.e2c9f5fa2f21.css" type="text/css">
+        
+        
+        <script src="../../../static/CACHE/js/output.079684506270.js" defer></script>
+        
+    
+    <link rel="alternate" type="application/json" title="PyCon Portugal 2023 API" href="https://pretalx.evolutio.pt/api/events/pycon-pt-2023/talks/STX8K3" />
+
+    
+    
+
+    </head>
+    <body data-datetimeformat="YYYY-MM-DD HH:mm:ss" data-dateformat="YYYY-MM-DD" data-datetimelocale="pt-PT">
+        <div id="top-bg" class="header bg-primary">
+            
+                <img src="https://pretalx.evolutio.pt/media/pycon-pt-2023/img/Screenshot_2023-04-11_at_12.04.53_FkhcUZ3.png" id="header-image">
+            
+        </div>
+        
+        <div class="container" id="main-container">
+            <header>
+                <h1>
+                    <a href="../../schedule/index.html">
+                        
+                            <img src="https://pretalx.evolutio.pt/media/pycon-pt-2023/img/logo-pycon2023-01_siVNJKr.png" id="event-logo" alt="The event's logo">
+                        
+                    </a>
+                </h1>
+                <div class="d-flex" id="header-row">
+                    
+                    
+                        <a href="../../login/index.html">login</a>
+                    
+                </div>
+            </header>
+            <div class="card" id="main-card">
+                <main>
+                    
+
+                    
+    
+    
+    <article>
+        
+        <h3 class="talk-title">
+            <div class="heading-with-buttons">
+                Beyond the Basics: Data Visualization in Python
+                <div class="buttons" id="talk-buttons">
+                    
+                        <a class="btn btn-outline-primary" href="../pycon-pt-2023-STX8K3.ics">
+                            <i class="fa fa-calendar"></i> .ical
+                        </a>
+                    
+                    
+                        <a href="feedback/index.html"
+                           class="btn btn-success">
+                            <i class="fa fa-comments"></i> 
+                        </a>
+                    
+                    
+                </div>
+            </div>
+            <small>
+                
+                    09-09, 09:00–11:00 (Europe/Lisbon), Workshop I 
+                
+                
+                
+            </small>
+        </h3>
+        <div class="talk row">
+            <div class="talk-content">
+                
+                
+                
+                <section class="abstract">
+                    <p>The human brain excels at finding patterns in visual representations, which is why data visualizations are essential to any analysis. Done right, they bridge the gap between those analyzing the data and those consuming the analysis. However, learning to create impactful, aesthetically-pleasing visualizations can often be challenging. This session will equip you with the skills to make customized visualizations using Python.</p>
+                </section>
+                
+                    <hr />
+                
+                <section class="description">
+                    <h4>Section 1: Getting Started With Matplotlib</h4>
+<p>While there are many plotting libraries to choose from, the prolific Matplotlib library is always a great place to start. Since various Python data science libraries utilize Matplotlib under the hood, familiarity with Matplotlib itself gives you the flexibility to fine tune the resulting visualizations (e.g., add annotations, animate, etc.). Moving beyond the default options, we will explore how to customize various aspects of our visualizations. Afterward, you will be able to generate plots using the Matplotlib API directly, as well as customize the plots that other libraries create for you.</p>
+<h4>Section 2: Moving Beyond Static Visualizations</h4>
+<p>While static visualizations are limited in how much information they can show, animations make it possible for our visualizations to tell a story through movement of the plot components (e.g., bars, points, lines), which can encode another dimension of the data. In this section, we will focus on creating animated visualizations before moving on to create interactive visualizations in the next section.</p>
+<h4>Section 3: Building Interactive Visualizations for Data Exploration</h4>
+<p>When exploring our data, interactive visualizations can provide the most value. Without having to create multiple iterations of the same plot, we can use mouse actions (e.g., click, hover, zoom, etc.) to explore different aspects and subsets of the data. In this section, we will learn how to use HoloViz to create interactive visualizations for exploring our data utilizing the Bokeh backend.</p>
+<hr>
+<h4>Target Audience</h4>
+<p>This tutorial is for anyone with basic knowledge of Python and an interest in learning how to analyze data in Python. We will be working with Jupyter Notebooks, so attendees should familiarize themselves with the interface (i.e., know how to run/edit a cell) beforehand.</p>
+<h4>Environment Setup</h4>
+<p>Please set up your environments ahead of time by following the instructions <a href="https://github.com/stefmolin/python-data-viz-workshop#setup-instructions" rel="nofollow" target="_blank">here</a>.</p>
+                </section>
+                
+            </section>
+            
+            <section>
+                
+            </section>
+        </div>
+    </div>
+    
+        
+            <div class="pretalx-session">
+                <div class="pretalx-session-time-box avatar">
+                    <a href="../../speaker/9NHRV8/index.html">
+                        <div class="avatar-wrapper">
+                            
+                                <img src="https://pretalx.evolutio.pt/media/avatars/li_2V5oeN2.jpeg">
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="pretalx-session-info">
+                    <div class="title">
+                        <a href="../../speaker/9NHRV8/index.html">Stefanie Molin</a>
+                    </div>
+                    <div class="abstract"><p>Stefanie Molin is a software engineer and data scientist at Bloomberg in New York City, where she tackles tough problems in information security, particularly those revolving around data wrangling/visualization, building tools for gathering data, and knowledge sharing. She is also the author of <a href="https://www.amazon.com/Hands-Data-Analysis-Pandas-visualization/dp/1800563450" rel="nofollow" target="_blank">Hands-On Data Analysis with Pandas</a>, which is currently in its second edition and has been translated into Korean. She holds a bachelor’s of science degree in operations research from Columbia University's Fu Foundation School of Engineering and Applied Science, as well as a master’s degree in computer science, with a specialization in machine learning, from Georgia Tech. In her free time, she enjoys traveling the world, inventing new recipes, and learning new languages spoken among both people and computers.</p></div>
+                    
+                </div>
+            </div>
+        
+    
+    </article>
+
+
+                </main>
+            </div>
+            <footer>
+                
+                
+
+
+    powered by <a href="https://pretalx.com/" target="_blank" rel="noopener">pretalx</a>
+
+
+                
+                    &middot;
+                    <a href="mailto:content@pycon.pt">Contact us</a>
+                
+                
+                
+            </footer>
+        </div>
+    </body>
+
+<!-- Mirrored from pretalx.evolutio.pt/pycon-pt-2023/talk/STX8K3/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 15:15:26 GMT -->
+</html>

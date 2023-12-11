@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-pt-2023//SVMWFM
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-NBFQUX@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T151500
+DTEND;TZID=WET:20230907T155000
+DESCRIPTION:In Artificial Intelligence systems\, a renaissance has unfolded
+  in recent years\, captivating the imagination of many! However\, a startl
+ ing statistic emerges amidst the enthusiasm: merely 13% of machine learnin
+ g models are deployed into production!\n\nIndeed\, the artistry of buildin
+ g and deploying these systems supersedes mere scientific methodology as th
+ ese models dwell within the realm of complexity and are characterized by a
+ n inherent reliance on data distribution. Have you ever wondered if these 
+ models are trained upon biased data they are destined to produce haywire d
+ ecisions?\n\nIn this talk\, let us delve into the realm of ethicality\, fa
+ irness\, and unbiasedness\, culminating in the seamless integration of mac
+ hine learning models that embrace ethical considerations in their journey 
+ towards production using Python!
+DTSTAMP:20231211T151408Z
+LOCATION:Auditorium
+SUMMARY:The Aesthetics of Unbiased Machine Learning Systems: Crafting Fairn
+ ess in Practice - Rashmi Nagpal
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/NBFQUX/
+END:VEVENT
+END:VCALENDAR

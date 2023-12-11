@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-pt-2023//YPYG8X
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-pt-2023-T9QPRH@pretalx.evolutio.pt
+DTSTART;TZID=WET:20230907T140500
+DTEND;TZID=WET:20230907T144000
+DESCRIPTION:In my talk I will go over the story of how I set up the service
+  that sends text message reminders to patients of the Portuguese primary c
+ are health system. I will explain the constraints of working with a distri
+ buted silo legacy application and other proprietary projects in a large co
+ mpany\, and the impact of that and short deadlines on application design. 
+ Python shines through the project for its vast amazing libraries\, ease of
+  design and speed of iteration.
+DTSTAMP:20231211T151344Z
+LOCATION:Auditorium
+SUMMARY:Legacy apps\, deadlines and project pragmatism - Delivering thousan
+ ds of messages every night in primary healthcare - Joao Ferreira
+URL:https://pretalx.evolutio.pt/pycon-pt-2023/talk/T9QPRH/
+END:VEVENT
+END:VCALENDAR
